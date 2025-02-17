@@ -6,9 +6,92 @@
   <b><a href="/CHANGELOG.md">Changelog</a></b>
 </p>
 
+> [!NOTE]
+> The versioning system works the following way:
+> - **Major** version `13.x.x` - **very significant** update of the list, always **NOT SAVE SAFE** :no_entry:
+> - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
+> - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
+
+
+## LICENTIA NEXT 13.5.0 (13.4.0 is skipped for technical reasons)
+
+:no_entry: **NOT SAVE SAFE** with **Licenta NEXT 13.4.1** _(and any older versions of NEXT/BLACK)_
+
+**Added:**
+- Follower Dialogue Expansion suite:
+  - `Follower Dialogue Expansion - Aela the Huntress` - 4.0
+  - `Follower Dialogue Expansion - Brelyna Maryon` - 2.3.4
+  - `Follower Dialogue Expansion - Erik the Slayer` - 2.0.1
+  - `Follower Dialogue Expansion - Jenassa` - 4.0
+  - `Follower Dialogue Expansion - Jordis the Sword-Maiden` - 1.1.3
+  - `Follower Dialogue Expansion - Lydia` - 1.4
+  - `Follower Dialogue Expansion - Mjoll the Lioness` - 1.2
+  - `Follower Dialogue Expansion - Uthgerd the Unbroken` - 2.0
+- `Nemesis Creature Behaivour Compatiblity - Main` - 1.4 (+ `Nemesis Creature Behaivour - WereWolf Addon`)
+- `Precision Creatures` - 2.4
+- `Redesigned Tween Menu - Nordic UI - Custom Skills Menu` - 1.0.2 *(+ disabled gamepad key reminder in Custom Skills Menu MCM)*
+- `NORDIC UI - QuickLoot IE Patch` - 1.1 (for `3.4` of QuickLoot IE)
+- `Inigo Official Patch SE` - 2.0fe (+ patch for it to work with for `Dovahnique's High Poly Inigo`)
+- `Optimised Scripts for OBIS SE` - 1.0.0
+- `Optimised Scripts for Vokrii` - 1.0.0
+- `Andromeda - SSLR Patch` - 1.0 (removes useless experience speed gains from Andromeda's stones)
+- `CritterSpawn Congestion Fix - Script Call Reduction` - 1.3 (overwrites `CritterSpawn Congestion Fix` from `USMP`)
+- `High Poly Head UV Stretch Fix (NECK SEAM FIXED)` - 1.0
+- `Dual Wield Behavior Fixes` - 2.0 (only Main Nemesis file)
+- `Dual Wield Behaviour Fixes - Patches for Perk Mods` - 1.0 (Vokriinator Black Patch)
+- `USSEP Nemesis or Pandora Patch` - 1.0
+- `Precision - Mysticism Bound Weapons Patch` - 1.0
+- `Helgen Reborn Ordinator Patch` - 1.0 (can pass persuasion check now)
+- `Interesting NPCs Infinite Loading Screen Freeze Fix - Snapleg Cave - Rift Watchtower` - 0.1.1
+- `OMEAR Addition - Ordinator Perks of Skyrim` - 1.8.2 (instead of `Ordinator React Script Patch`, new one is better)
+- `Sunrises and Sunsets NAT Addon from dusk till dawn` - 1.0alpha
+- `E.C.D. Every Cloud Different NAT Add On` - 1.0beta
+- From suggestions:
+	- `Wolf attack animations` - 1.0
+	- `Gore - A Companion Mod` - 1.7.5 (+ `Vigilant` addon, `SaSEC`, `Paarthurnax Dilemma` and `RSChildren` patches)
+	- `Cult of the World Eater - Dragon Priests Buff Alduin` - 1.3 + `Defeat the Dragon Cult` - 1.0
+
+**Removed:**
+- `Improved Follower Dialogue Lydia` (+ `SDA IFD Lydia Patch`) - replaced with `Follower Dialogue Expansion - Lydia`, gives 2 free .esp slots. Also gets rid of mismatched voices/bugged IFDL quests; makes Lydia AA work again;
+- `Modern Brawl Bug Fix` - already included in USMP
+- `Triple Triad` - bloat, low quality, non-immersive (it's from FF, not TES), and not really fitting the game
+- `Interdimensional Chambers` - outdated, not used by players
+
+**Updated:**
+- `Dyndolod` (TexGen and Dyndolod) - Alpha-182 -> Alpha-187
+- `Dyndolod Resources SE 3` - Alpha-53.1 -> Alpha-54
+- `QuickLoot IE - A QuickLoot EE Fork` - 3.3.0 -> 3.4.1
+- `Completionist Addons` - 2.0.5 -> 2.0.6
+- `Hunters Not Bandits` - 4.1 -> 4.2
+- `OBody Next Generation` - 4.2.0 -> 4.3.7
+- `OBody Next Generation ORefit JSON Master List` - 2024.04 -> 2025.02
+- `Vokriinator Black` - 6.15.1 -> 6.15.2
+- `Legacy of the Dragonborn Patches (Official)` - 6.7.3 -> 6.8.0
+- `Legacy of the Dragonborn SSE - The Curators Companion` - 7.0.6 -> 7.0.7
+- `The Wheels of Lull SE` - 5.2.0 -> 5.2.1
+- `Skyrim Revamped Rebalanced and Releveled` - 2.60 -> 2.61
+- `kryptopyr's Patch Hub` - 4.1.2 -> 4.2.1
+- `Unofficial Skyrim Special Edition Patch` - 4.3.3 -> 4.3.4
+- `I'm Glad You're Here` - 3.3.2 -> 3.3.3
+- `CBBE 3BA Vanilla Outfits Redone` - 4.1.0 -> 4.1.2
+- `SPID - NFF - Add Ignore Token to CustomAI Followers` - 1.0.41 -> 1.0.43
+- `OStim Standalone - Advanced Adult Animation Framework` - 7.3.4c -> 7.3.4d
+- `Missile's IED Preset` - 3.0.3 -> 3.1.0 (updated LN config as well)
+- `CC Farming - Tweaks Enhancements and Quest Expansion` - 1.4.4 -> 1.4.5 (not a direct update, just adds MCM as a separate mod)
+
+**Fixed/Patched:**
+- Removed unnecessary `BTPS` MCM recording, replaced with proper `FilterStates.json`
+- Hid a few `.dds` from `OBIS Loot` overwriting `Immersive Armors` (to prevent IA from being overwritten by OBIS)
+- Replaced `Ordinator for Spell Perk Item Distributor` with SAFE version (Regular, 50% chance)
+- Fixed the perk trees and magic: adjusted custom patches to work with latest `Vokriinator Black`, removed redundant patches for other major perk overhauls
+- Fixed Gargoyle's stalking issues (thanks to [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/140831), I made the same edit in our Final NPC's patch)
+- Forwarded all new/missed fixes from `USSEP` to our custom patches
+- Freeze/crash near *Snapleg Cave* is finally fixed by [wSkeever](https://www.nexusmods.com/skyrimspecialedition/users/7064860), what a madman! It has plagued us for years
+- Re-run Nemesis
+
 ## LICENTIA NEXT 13.4.1 (13.4.0 is skipped for technical reasons)
 
-:no_entry: **NOT SAVE SAFE** with **Licenta NEXT 13.3.2** _(and any older Licentia BLACK)_
+:no_entry: **NOT SAVE SAFE** with **Licentia NEXT 13.3.2** _(and any older Licentia BLACK)_
 
 **Added:**
 - `Hunters Not Bandits` - 4.1 (because in was removed from USMP and now installed separately)

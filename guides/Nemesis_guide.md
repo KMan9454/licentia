@@ -64,12 +64,15 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
 1. When `Nemesis` window opens, in it's top part tick the boxes for the following patches:
    - Archery Gameplay Overhaul SE
    - Precision
+   - Precision Creatures
    - TUDM Attack Cancel
    - Extra Drawing Animations
    - Combat Gameplay Overhaul SE
+   - Dual Wield Behavior Fixes
    - Skyrim's Paraglider
    - Retimed Hit Frame
    - The Ultimate Dodge Mod
+   - USSEP Behaviour Patch
 
     That's where you should tick them:
 

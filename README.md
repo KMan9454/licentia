@@ -214,7 +214,14 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 > [!IMPORTANT]
 > You **MUST** receive a popup webpage that is **BLANK** with **ZERO ERRORS** or you will have horribly weird bugs and crashes that are impossible to troubleshoot.
 
-5. If you received **ANY** errors you **MUST** reinstall the list with the `Overwrite` checkbox selected. Do not worry, it will not redo everything. _Wabbajack_ can scan itself to see what's wrong and repair only what needs to be repaired.
+5. The good, **BLANK**, **ZERO ERRORS** verification result opens up in your browser automatically and should look like this - **just an empty blank page** with list path on top:
+
+    <img src="images/readme_images/3_1_5_wabbajack_verify_result.png" alt="WJ verify good result" style="width:50%; height:auto;">
+
+
+    If you received **ANY** errors you **MUST** reinstall the list with the `Overwrite` checkbox selected. Do not worry, it will not redo everything. _Wabbajack_ can scan itself to see what's wrong and repair only what needs to be repaired.
+
+6. **If you have received a blank page with no errors, you can now proceed to the next step.**
 
 ### 2. Starting Mod Organizer and launching Licentia NEXT
 
