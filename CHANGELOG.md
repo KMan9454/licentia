@@ -46,6 +46,22 @@
 - `OMEAR Addition - Ordinator Perks of Skyrim` - 1.8.2 (instead of `Ordinator React Script Patch`, new one is better)
 - `Sunrises and Sunsets NAT Addon from dusk till dawn` - 1.0alpha
 - `E.C.D. Every Cloud Different NAT Add On` - 1.0beta
+- `Carriage Ferry Travel Overhaul useless dock removal - Base Object Swapper - CFTO - BOS` - 0.1
+- `Horse Save Load Fix` - 0.2
+- `Auri's Mount Thistlefoot Texture Fix` - 0.1.1
+- `Windhelm Entrance Offset Fix` - 0.1
+- `Unofficial Material Fix` - 1.17
+- `Assorted Mesh Fixes` - 0.126
+- `Static Mesh Improvement Mod Improvement Mod` - 1.12.1
+- `Mesh Improvement Compilation` - 0.5 (+ its patches; removed some mods that are included in this)
+- `Fluffworks - LotD Fafnir Patch` - 2.0 (+ replaced Horses patch with proper modern one)
+- `Mesh patches for Lux and Lux Orbis` - 1.7.1 (for icy things)
+- `Simple Snow Improvements - Skyrim Fixes (BOS)` - 2.2
+- `Stretched Snow Fix - SFF` - 1.0
+- `End Game - No Dragon Spawn` - 1.1
+- `Blended Roads less bumpiness - Base Object Swapper` - 2.0
+- `Landscape and Water Fixes` - 9.2 (+ patches)
+
 - From suggestions:
 	- `Wolf attack animations` - 1.0
 	- `Gore - A Companion Mod` - 1.7.5 (+ `Vigilant` addon, `SaSEC`, `Paarthurnax Dilemma` and `RSChildren` patches)
@@ -56,6 +72,7 @@
 - `Modern Brawl Bug Fix` - already included in USMP
 - `Triple Triad` - bloat, low quality, non-immersive (it's from FF, not TES), and not really fitting the game
 - `Interdimensional Chambers` - outdated, not used by players
+- `Sidequests of Skyrim` - bloat, we've got notice boards *(+ disabled recruiting dialogue in NFF for random NPCS which also bloats dialogue)*
 
 **Updated:**
 - `Dyndolod` (TexGen and Dyndolod) - Alpha-182 -> Alpha-187
@@ -78,14 +95,17 @@
 - `OStim Standalone - Advanced Adult Animation Framework` - 7.3.4c -> 7.3.4d
 - `Missile's IED Preset` - 3.0.3 -> 3.1.0 (updated LN config as well)
 - `CC Farming - Tweaks Enhancements and Quest Expansion` - 1.4.4 -> 1.4.5 (not a direct update, just adds MCM as a separate mod)
+- `Better Third Person Selection - BTPS` - 0.7.1 -> 0.8.0
+- `Skyrim's Paraglider - ZERO(Plus)` - 2.1 -> 3.0
 
 **Fixed/Patched:**
 - Removed unnecessary `BTPS` MCM recording, replaced with proper `FilterStates.json`
+- Fixed NAT ENB shadow around the player in 1st person *(changes forwarded from NAT ENB Bizzare Shadow Fix)*
 - Hid a few `.dds` from `OBIS Loot` overwriting `Immersive Armors` (to prevent IA from being overwritten by OBIS)
 - Replaced `Ordinator for Spell Perk Item Distributor` with SAFE version (Regular, 50% chance)
 - Fixed the perk trees and magic: adjusted custom patches to work with latest `Vokriinator Black`, removed redundant patches for other major perk overhauls
 - Fixed Gargoyle's stalking issues (thanks to [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/140831), I made the same edit in our Final NPC's patch)
-- Forwarded all new/missed fixes from `USSEP` to our custom patches
+- Forwarded new/missed fixes from `USSEP` to our custom patches
 - Freeze/crash near *Snapleg Cave* is finally fixed by [wSkeever](https://www.nexusmods.com/skyrimspecialedition/users/7064860), what a madman! It has plagued us for years
 - Re-run Nemesis
 

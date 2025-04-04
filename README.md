@@ -285,7 +285,7 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 
  - When the auto-configuration is done, you'll see this pop-up message:
 
-     <img src="images/readme_images/3_3_3_greetings_message.png" alt="Finished message from automation script" style="width:50%; height:auto;">
+     <img src="images/readme_images/3_3_3_auto_config_finished.png" alt="Finished message from automation script" style="width:50%; height:auto;">
 
  - Read it for basic start tips, just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
  - The last thing before you go &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
