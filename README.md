@@ -312,4 +312,4 @@ You can just remove your _Licentia NEXT's_ **install folder**.
 
 ## :mailbox_with_mail: Contact
 
-You can contact me (akzar) or anyone from the Licentia Team on [Vermi's Hub discord server](https://discord.gg/hRCYPMpX7J). Don't forget to grab `Licentia` role, we'd be glad to help you :wave:
+You can contact me (akzar) or anyone from the Licentia Team on [Vermi's Hub discord server](https://discord.gg/vermishub). Don't forget to grab `Licentia` role, we'd be glad to help you :wave:
