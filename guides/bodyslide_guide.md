@@ -118,7 +118,7 @@ Tick your Output Mod to enable it, and you will have successfully built Bodyslid
 
 ---
 
-If you have any questions or problems, stop by the **Licentia Next** Category in [Vermi's Hub Discord Server](https://discord.gg/hRCYPMpX7J) and we can help you work them out!
+If you have any questions or problems, stop by the **Licentia Next** Category in [Vermi's Hub Discord Server](https://discord.gg/vermishub) and we can help you work them out!
 
 ## Removing OBody from your Installation
 

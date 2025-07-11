@@ -249,4 +249,4 @@ Skyrim uses a very tiny variable to keep track of these. The maximum number of q
 ## For More Information
 
 Visit our Discord server here:
-[Vermi's Hub](https://discord.gg/hRCYPMpX7J)
+[Vermi's Hub](https://discord.gg/vermishub)

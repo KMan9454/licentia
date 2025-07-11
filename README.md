@@ -134,47 +134,65 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 ### 3. Installing and configuring Wabbajack
 1. **Get the Wabbajack app.** Download latest `Wabbajack.exe` [here](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and save it to Wabbajack folder we created earlier (i.e. `D:\Wabbajack`).
 2. **Start the _Wabbajack_ app.** Start the `Wabbajack.exe` we downloaded earlier, Wabbajack would download its assets and _eventually_ open, just wait for a minute. 
-3.  **Login to _Nexus_ within the _Wabbajack_ app.** On the main screen click the **GEAR** icon in the top right:
+3.  **Login to _Nexus_ within the _Wabbajack_ app.** On the main screen click the **GEAR** icon in the bottom left:
 
     <img src="images/readme_images/2_3_3_wabbajack_main_ui_gear.png" alt="WJ gear" style="width:70%; height:auto;">
 
-    Here, click `Login` near Nexus logo:
+    Here in the top left corner, click `Log in` near *Nexus Mods* logo:
 
-    <img src="images/readme_images/2_3_3_wabbajack_nexus_BEFORE_login.png" alt="WJ before login" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_3_3_wabbajack_nexus_BEFORE_login.png" alt="WJ before login" style="width:60%; height:auto;">
 
-    You'd be directed to Nexus website, login there as usual and click `Allow` when prompted. Login window will close by itself.
-    In Wabbajack UI toggle will go over to `Login` when successful.
+    A new window will open inside *Wabbajack*. You'd be directed to Nexus website, login there as usual and click `Authorize` when prompted. Login window will close by itself.
+    In *Wabbajack* UI button for `Log in` will become light-pink with checkmark, indication successful login.
 
-    <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:60%; height:auto;">
 
 ### 4. Downloading and installing the list from Wabbajack
-1. Go back from `Settings` to main Wabbajack UI and press `Browse Modlists`:
+1. Now after you've successfully logged in, click `Browse lists` in the left menu of _Wabbajack_ UI:
 
     <img src="images/readme_images/2_4_1_wabbajack_main_ui_browse.png" alt="WJ browse" style="width:70%; height:auto;">
 
-2. Select filters in the top row - `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` **(2)** and `Show Unofficial Lists` **(3)**. When you see `Licentia NEXT` - click the download icon **(4)**:
+2. Select filters on the left - `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` and `Show Unofficial Lists` **(2)**, and type `next` in search bar **(3)**. When you see `Licentia NEXT` - click on its card on the right **(4)**:
    
     <img src="images/readme_images/2_4_2_wabbajack_filters_and_download.png" alt="WJ filters and download list" style="width:70%; height:auto;">
     
-    This will download _Licentia's_ **Wabbajack file**, which is basically an installation package.
-3. When the download of the file is complete, the icon will change - hit `Play`:
+3. In the newly opened window for _Licentia NEXT_, press `Download & Install` button on the bottom left:
 
-    <img src="images/readme_images/2_4_3_wabbajack_click_play.png" alt="WJ play button" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_4_3_wabbajack_click_dowload_install.png" alt="WJ press download install" style="width:70%; height:auto;">
     
-4. You'll see this screen. Select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Play` button **(3)**:
+    This will download _Licentia's_ **Wabbajack file** in the background, which is basically an installation package.
+
+4. After the Wabbajack file download is complete, you'll see this screen *(it's going to appear automatically)*.
+
+    Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
+
+    <img src="images/readme_images/2_4_4_wabbajack_initial_blank_installation.png" alt="WJ start install" style="width:70%; height:auto;">
+
+    In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
 
     <img src="images/readme_images/2_4_4_wabbajack_start_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
     **This would begin the actual download and installation of the list.**
+
+    You'll see a progress bar at the top, and some installation stats on the bottom. 
+
 > [!NOTE]  
 > Depending on your system specs, the download and installation process can take a **long time**.
 
 > [!TIP]
-> There are many different scenarios where _Wabbajack_ will produce an **error**.
+> There are many different scenarios where _Wabbajack_ will produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
 > 
-> **General advice** - re-run _Wabbajack_ before seeking assistance. _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
+> <img src="images/readme_images/2_4_4_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
+> 
+> On the **left side** of this window there's an error box that allows you to open full *Wabbajack* log file, which is useful for troubleshooting.
 >
-> You can find most common issues below.
+> On the **right side** you'll see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
+> 
+> **General advice** - hit `Retry` button in the bottom right corner OR **re-run _Wabbajack_ completely** before seeking assistance.
+>
+> _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
+>
+> You can find most common issues below (check Logs t).
 >---
 >| Issue | Solution |
 >| :--- | :--- |
@@ -184,46 +202,15 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 ---
 
-5. If you see this in the bottom right part of Wabbajack - that means your **installation is complete!**
+5. If you see this at the top of *Wabbajack* - that means your **installation is complete!**
 
-    <img src="images/readme_images/2_4_5_wabbajack_installation_complete.png" alt="WJ done install" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_4_5_wabbajack_installation_complete.png" alt="WJ done install" style="width:70%; height:auto;">
 
-    You can close Wabbajack now.
+    You can close *Wabbajack* now.
 
 ## :three: Post-Installation
 
-### 1. Verifying the Modlist
-
-> [!CAUTION]
-> **DO NOT OPEN MOD ORGANIZER 2 AFTER INSTALLATION UNLESS TOLD TO DO SO.**
-> 
-> This will cause the Verification to fail.
-
-_Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION** individual files. Given the likelihood of corrupted files during installation, it is strongly recommended that files be checked after installation.
-
-1. Start _Wabbajack_ app again after installation.
-
-2. Click `Browse Modlists` again, find Licentia NEXT and hit `Play` icon again (as we did above).
-
-3. Ensure that all the same settings are used as during the installation process. You need the **SAME** `.Wabbajack` file and the **SAME** Modlist and Downloads folders. Click the **VERIFY** button in the Lower Right Corner of _Wabbajack_:
-
-    <img src="images/readme_images/3_1_3_wabbajack_verify.png" alt="WJ verify" style="width:50%; height:auto;">
-
-4. Wait for the process to complete. It can take quite some time.
-
-> [!IMPORTANT]
-> You **MUST** receive a popup webpage that is **BLANK** with **ZERO ERRORS** or you will have horribly weird bugs and crashes that are impossible to troubleshoot.
-
-5. The good, **BLANK**, **ZERO ERRORS** verification result opens up in your browser automatically and should look like this - **just an empty blank page** with list path on top:
-
-    <img src="images/readme_images/3_1_5_wabbajack_verify_result.png" alt="WJ verify good result" style="width:50%; height:auto;">
-
-
-    If you received **ANY** errors you **MUST** reinstall the list with the `Overwrite` checkbox selected. Do not worry, it will not redo everything. _Wabbajack_ can scan itself to see what's wrong and repair only what needs to be repaired.
-
-6. **If you have received a blank page with no errors, you can now proceed to the next step.**
-
-### 2. Starting Mod Organizer and launching Licentia NEXT
+### 1. Starting Mod Organizer and launching Licentia NEXT
 
 1. Navigate to your Licentia NEXT directory and **execute ModOrganizer.exe**:
 
@@ -256,7 +243,7 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 
 **When you're in the main Skyrim menu** &mdash; proceed to the next step.
 
-### 3. Starting a save and letting the list configure itself
+### 2. Starting a save and letting the list configure itself
 
 1. **Start the game** &mdash; in main menu as normal by pressing `New Game`
 2. **Create & name your character** &mdash; choose your character’s appearance and name.
@@ -319,4 +306,4 @@ You can just remove your _Licentia NEXT's_ **install folder**.
 
 ## :mailbox_with_mail: Contact
 
-You can contact me (akzar) or anyone from the Licentia Team on [Vermi's Hub discord server](https://discord.gg/hRCYPMpX7J). Don't forget to grab `Licentia` role, we'd be glad to help you :wave:
+You can contact me (akzar) or anyone from the Licentia Team on [Vermi's Hub discord server](https://discord.gg/vermishub). Don't forget to grab `Licentia` role, we'd be glad to help you :wave:
