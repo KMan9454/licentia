@@ -187,6 +187,7 @@
 - Fixed Gargoyle's stalking issues (thanks to [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/140831), I made the same edit in our Final NPC's patch)
 - Forwarded new/missed fixes from `USSEP` to our custom patches
 - Freeze/crash near *Snapleg Cave* is finally fixed by [wSkeever](https://www.nexusmods.com/skyrimspecialedition/users/7064860), what a madman! It has plagued us for years
+- Fixed a bug with Lux in Arcaneum (this one [here](https://discord.com/channels/1201567388248834108/1346392888224907274))
 - Re-run Nemesis, Bodyslide, TexGen, Dyndolod, xLodGen, ACMOS, Grass Cache (everything basically)
 
 ## LICENTIA NEXT 13.4.1 (13.4.0 is skipped for technical reasons)

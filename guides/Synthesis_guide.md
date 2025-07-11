@@ -51,7 +51,7 @@ When `Synthesis` is launched, check out the left pane with patches. They should 
 
 Now, you have to do this:
 
-1. Click `Run` arrow under `Synthesis1` in the left pane;
+1. Click `Run` arrow under `Synthesis0` in the left pane;
 2. When if finishes, **CLOSE SYNTHESIS**!
 3. You will see that `Synthesis0.esp` appeared in the right pane of MO2, enable it;
 4. Run `Synthesis` again in MO2;
