@@ -62,8 +62,9 @@
 - `Landscape and Water Fixes` - 9.7.1 (+ patches)
 - `Next-Gen Decapitations` - 1.3.4
 - `Core Impact Framework (CIF)` - 1.2.1
-- `Fluffworks - Auto Patches` - 2.1
-- `Widescreen Scale Removed` - 1.0.2 (removed old Squish fixes too)
+- `Fluffworks - Auto Patches` - 2.1 (removed old separate patches)
+- `Widescreen Scale Removed` - 1.0.3 (removed old Squish fixes too)
+- `Skyshards Tweaks - ESL Patch` - 1.0 (+ removed beacons, lite mode, 1p1, no book, removed full lod patch)
 
 - From suggestions:
 	- `Wolf attack animations` - 1.0
@@ -78,12 +79,13 @@
 - `Interdimensional Chambers` - outdated, not used by players
 - `Sidequests of Skyrim` - bloat, we've got notice boards *(+ disabled recruiting dialogue in NFF for random NPCS which also bloats dialogue)*
 - `Enchanced Blood Textures` + its retextures - replaced with `Sanguine Symphony`
-- `Wizard Hats` - requested to remove in suggestions by our very own Sentinel
+- `Wizard Hats` - requested to be removed in suggestions by our very own Sentinel
 - `Custom Skills Menu - Custom Icons` - AI generated, was suggested to be removed (replaced with `Custom Skills Menu - Icon Replacers` - 1.1)
 
 **Updated:**
 - ENB - updated to latest (v0.503 from 28-05-2025)
-- `Synthesis` - 0.32.1 -> 0.35.0 (+ added new [Sleeping Outfit Remover patch](https://github.com/ninjawaffle/SleepingOutfitRemover) by @ninjawaffle)
+- `Synthesis` - 0.32.1 -> 0.35.0 (+ added new [Sleeping Outfit Remover patch](https://github.com/ninjawaffle/SleepingOutfitRemover) by @ninjawaffle instead of nuked old one)
+- `xLodGen` - 129 -> 132
 - `Dyndolod` (TexGen and Dyndolod) - Alpha-182 -> Alpha-193
 - `Dyndolod Resources SE 3` - Alpha-53.1 -> Alpha-57
 - `DynDOLOD DLL NG` - Alpha-33 -> Alpha-36
@@ -133,7 +135,7 @@
 - `Base Object Swapper` - 3.3.1 -> 3.4.0
 - `ImGui Icons` - 1.0 -> 1.1
 - `PhotoMode` - 1.8 -> 1.9.1
-- `Navigator - Navmesh Fixes` - 1.5.8 -> 1.6.1
+- `Navigator - Navmesh Fixes` - 1.5.8 -> 1.6.1 (+ enabled Oar Grotto fix)
 - `Combat Music Fix NG Updated 1170` - 1.1 -> 1.2
 - `Comprehensive Attack Speed Patch - SKSE` - 1.1.2.12 -> 1.1.2.14
 - `Modex - A Mod Explorer Menu` - 1.1.3 -> 1.2.3
@@ -155,7 +157,6 @@
 - `SPID - NFF - Add Ignore Token to CustomAI Followers` - 1.0.41 -> 1.0.46
 - `OStim Standalone - Advanced Adult Animation Framework` - 7.3.4c -> 7.3.5b-hotfix2
 - `Missile's IED Preset` - 3.0.3 -> 3.1.2 (updated LN config as well)
-- `CC Farming - Tweaks Enhancements and Quest Expansion` - 1.4.4 -> 1.4.5 (not a direct update, just adds MCM as a separate mod)
 - `Better Third Person Selection - BTPS` - 0.7.1 -> 0.8.9
 - `Clutter Filter for BTPS` - 1.0.2 -> 1.0.4
 - `Skyrim's Paraglider - ZERO(Plus)` - 2.1 -> 3.0
@@ -166,7 +167,7 @@
 - `Lovemaking Compendium for OStim Standalone` - 1.12 -> 1.16
 - `Drago's Love Those Neighbours for OStim Standalone` - 1.8 -> 1.9
 - `Billyy's animations for Ostim Standalone` - 2.2 -> 3.0.1
-- `ORomance Plus SA` - 2.04 -> 2.11 (+ replaced its patches with (`ORomance Plus Official Patch Hub` - 1.04)
+- `ORomance Plus SA` - 2.04 -> 2.11 (+ replaced its patches with `ORomance Plus Official Patch Hub` - 1.04)
 - `powerofthree's Papyrus Extender 1170` - 5.9 -> 6.0.1
 - `Unofficial Skyrim Creation Club Content Patch` - 7.10 -> 8.2.0
 - `Tamrielic Distribution` - 1.4 -> 1.4.1
@@ -183,7 +184,7 @@
 - Fixed NAT ENB shadow around the player in 1st person *(changes forwarded from NAT ENB Bizzare Shadow Fix)*
 - Hid a few `.dds` from `OBIS Loot` overwriting `Immersive Armors` (to prevent IA from being overwritten by OBIS)
 - Replaced `Ordinator for Spell Perk Item Distributor` with SAFE version (Regular, 50% chance)
-- Fixed the perk trees and magic: adjusted custom patches to work with latest `Vokriinator Black` (6.15.3), removed redundant patches for other major perk overhauls
+- Fixed the perk trees and magic (that was lots of work): adjusted custom patches to work with latest `Vokriinator Black` (6.15.3), removed redundant patches for other major perk overhauls
 - Fixed Gargoyle's stalking issues (thanks to [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/140831), I made the same edit in our Final NPC's patch)
 - Forwarded new/missed fixes from `USSEP` to our custom patches
 - Freeze/crash near *Snapleg Cave* is finally fixed by [wSkeever](https://www.nexusmods.com/skyrimspecialedition/users/7064860), what a madman! It has plagued us for years
