@@ -166,6 +166,11 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
 
+> [!NOTE]
+> You can note that *Wabbjack* reports modlist version as `0.0.1.0` - once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood:
+> 
+> But don't worry, the list is actually the correct version!
+
     <img src="images/readme_images/2_4_4_wabbajack_initial_blank_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
     In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
