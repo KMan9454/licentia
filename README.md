@@ -164,18 +164,15 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 4. After the Wabbajack file download is complete, you'll see this screen *(it's going to appear automatically)*.
 
-    Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
-
-    > [!NOTE]
-    > You can note that *Wabbjack* reports modlist version as `0.0.1.0` - once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood:
-    > 
-    > But don't worry, the list is actually the correct version!
-
     <img src="images/readme_images/2_4_4_wabbajack_initial_blank_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
-    In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
+    Two things to note here:
+    - You can note that *Wabbjack* reports modlist version as `0.0.1.0` - once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood: - the list is actually the correct version!
+    - Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
 
-    <img src="images/readme_images/2_4_4_wabbajack_start_installation.png" alt="WJ start install" style="width:70%; height:auto;">
+5. In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
+
+    <img src="images/readme_images/2_4_5_wabbajack_start_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
     **This would begin the actual download and installation of the list.**
 
@@ -187,7 +184,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > [!TIP]
 > There are many different scenarios where _Wabbajack_ will produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
 > 
-> <img src="images/readme_images/2_4_4_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
+> <img src="images/readme_images/2_4_5_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
 > 
 > On the **left side** of this window there's an error box that allows you to open full *Wabbajack* log file, which is useful for troubleshooting.
 >
@@ -207,9 +204,9 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 ---
 
-5. If you see this at the top of *Wabbajack* - that means your **installation is complete!**
+6. If you see this at the top of *Wabbajack* - that means your **installation is complete!**
 
-    <img src="images/readme_images/2_4_5_wabbajack_installation_complete.png" alt="WJ done install" style="width:70%; height:auto;">
+    <img src="images/readme_images/2_4_6_wabbajack_installation_complete.png" alt="WJ done install" style="width:70%; height:auto;">
 
     You can close *Wabbajack* now.
 
