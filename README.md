@@ -212,23 +212,33 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 ### 1. Starting Mod Organizer and launching Licentia NEXT
 
-1. Navigate to your Licentia NEXT directory and **execute ModOrganizer.exe**:
+1. Navigate to your Licentia NEXT directory and **execute** `ModOrganizer.exe`:
 
-    <img src="images/readme_images/3_2_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
+    <img src="images/readme_images/3_1_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
+
+> [!TIP]
+> **IF YOU CAN'T FIND** the `ModOrganizer.exe` despite *Wabbajack* telling you the install finished successfully - for example your folder looks like this:
+> 
+>    <img src="images/readme_images/3_1_1_no_mod_organizer.png" alt="No MO2" style="width:50%; height:auto;">
+> 
+> Go back to [Step 2.4](#3-installing-and-configuring-wabbajack) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
+>
+> THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE since version `4.0`+. We can't do anything about it, sorry.
+
 
 2. If prompted, choose `Yes` to associate Mod Organizer with `.nxm` links. If there’s no prompt, **skip this step**.
 3. In the top-right corner, make sure that `SKSE` is selected from the dropdown **(1)**, and click the Run button **(2)**:
 
-    <img src="images/readme_images/3_2_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
+    <img src="images/readme_images/3_1_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
 
 > [!TIP]
 > Wabbajack auto-detects and sets your **game resolution**, but if you wish to change your game's resolution **manually**, select the `INI Editor` from the `Tools` menu along the icon bar of MO2:
 > 
->    <img src="images/readme_images/3_2_3_mo2_change_resolution.png" alt="MO2 ini editor" style="width:50%; height:auto;">
+>    <img src="images/readme_images/3_1_3_mo2_change_resolution.png" alt="MO2 ini editor" style="width:50%; height:auto;">
 > 
 > Select `SkyrimPrefs.ini` file. Scroll down until you see the `[Display]` header and look for the `iSize` values. Note that the TYPICAL ORDER IS REVERSED, the HEIGHT is listed BEFORE the WIDTH:
 > 
->    <img src="images/readme_images/3_2_3_mo2_change_resolution_skyrimprefs.png" alt="MO2 skyrimperfs" style="width:40%; height:auto;">
+>    <img src="images/readme_images/3_1_3_mo2_change_resolution_skyrimprefs.png" alt="MO2 skyrimperfs" style="width:40%; height:auto;">
 > 
 > Hit `Save` at the bottom, and you're done!
 
@@ -236,7 +246,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > [!NOTE]
 > There's a game of `Flappy Dragon` that opens up while your Skyrim is loading:
 > 
->    <img src="images/readme_images/3_2_4_flappy_dragon.png" alt="Flappy Dragon" style="width:50%; height:auto;">
+>    <img src="images/readme_images/3_1_4_flappy_dragon.png" alt="Flappy Dragon" style="width:50%; height:auto;">
 > 
 > Don't worry, _you didn't just download 500 GB of Flappy Dragon_!
 > It's there just to brighten up the waiting time :dragon_face:
@@ -256,7 +266,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
  - You will be greeted with this pop-up message:
 
-     <img src="images/readme_images/3_3_3_greetings_message.png" alt="Greetings message from automation script" style="width:50%; height:auto;">
+     <img src="images/readme_images/3_2_3_greetings_message.png" alt="Greetings message from automation script" style="width:50%; height:auto;">
 
  - Read it, click `OK` and wait. The list will now **auto-configure itself**!
 > [!WARNING]
@@ -264,20 +274,20 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > 
 > You'll see mods being auto-configured in the **top-left corner** of the screen:
 > 
-> <img src="images/readme_images/3_3_3_mods_config_messages.png" alt="Mod configuration in progress" style="width:50%; height:auto;">
+> <img src="images/readme_images/3_2_3_mods_config_messages.png" alt="Mod configuration in progress" style="width:50%; height:auto;">
 > 
 > And our automatic script will send these notifications **every 15-20 seconds** to let you know that we're still in progress:
 > 
-> <img src="images/readme_images/3_3_3_our_config_messages.png" alt="Auto-configuration progress" style="width:50%; height:auto;">
+> <img src="images/readme_images/3_2_3_our_config_messages.png" alt="Auto-configuration progress" style="width:50%; height:auto;">
 
  - When the auto-configuration is done, you'll see this pop-up message:
 
-     <img src="images/readme_images/3_3_3_auto_config_finished.png" alt="Finished message from automation script" style="width:50%; height:auto;">
+     <img src="images/readme_images/3_2_3_auto_config_finished.png" alt="Finished message from automation script" style="width:50%; height:auto;">
 
  - Read it for basic start tips, just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
  - The last thing before you go &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
 
-    <img src="images/readme_images/3_3_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
+    <img src="images/readme_images/3_2_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
 
 4. Save your game by pressing `F5` or from the menu, exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
 5. That's it! Go play the game already :birthday:
