@@ -59,6 +59,11 @@ The minimally recommended setup for an enjoyable experience **at 1080p** is at l
 > [!TIP]
 > Remember that higher resolutions require more powerful hardware.
 
+> [!NOTE]
+> For those who experience difficulties running *Licentia NEXT* (it's quite a demanding list after all), the previous curator of this modlist — formerly known as *"Licentia"/"Licentia Classic"/"Licentia BLACK"* — now curates a series of NSFW **"Nexus Vortex Collections"** with minimal design and modest system requirements.
+> 
+> You can check them out [here](https://next.nexusmods.com/profile/vexation1977/collections)!
+
 ## :one: Pre-installation
 Read through these tables of requirements and fulfill them to proceed.
 Here's what you'll need:
@@ -134,47 +139,67 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 ### 3. Installing and configuring Wabbajack
 1. **Get the Wabbajack app.** Download latest `Wabbajack.exe` [here](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and save it to Wabbajack folder we created earlier (i.e. `D:\Wabbajack`).
 2. **Start the _Wabbajack_ app.** Start the `Wabbajack.exe` we downloaded earlier, Wabbajack would download its assets and _eventually_ open, just wait for a minute. 
-3.  **Login to _Nexus_ within the _Wabbajack_ app.** On the main screen click the **GEAR** icon in the top right:
+3.  **Login to _Nexus_ within the _Wabbajack_ app.** On the main screen click the **GEAR** icon in the bottom left:
 
     <img src="images/readme_images/2_3_3_wabbajack_main_ui_gear.png" alt="WJ gear" style="width:70%; height:auto;">
 
-    Here, click `Login` near Nexus logo:
+    Here in the top left corner, click `Log in` near *Nexus Mods* logo:
 
-    <img src="images/readme_images/2_3_3_wabbajack_nexus_BEFORE_login.png" alt="WJ before login" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_3_3_wabbajack_nexus_BEFORE_login.png" alt="WJ before login" style="width:60%; height:auto;">
 
-    You'd be directed to Nexus website, login there as usual and click `Allow` when prompted. Login window will close by itself.
-    In Wabbajack UI toggle will go over to `Login` when successful.
+    A new window will open inside *Wabbajack*. You'd be directed to Nexus website, login there as usual and click `Authorize` when prompted. Login window will close by itself.
+    In *Wabbajack* UI button for `Log in` will become light-pink with checkmark, indication successful login.
 
-    <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:60%; height:auto;">
 
 ### 4. Downloading and installing the list from Wabbajack
-1. Go back from `Settings` to main Wabbajack UI and press `Browse Modlists`:
+1. Now after you've successfully logged in, click `Browse lists` in the left menu of _Wabbajack_ UI:
 
     <img src="images/readme_images/2_4_1_wabbajack_main_ui_browse.png" alt="WJ browse" style="width:70%; height:auto;">
 
-2. Select filters in the top row - `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` **(2)** and `Show Unofficial Lists` **(3)**. When you see `Licentia NEXT` - click the download icon **(4)**:
+2. Select filters on the left - `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` and `Show Unofficial Lists` **(2)**, and type `next` in search bar **(3)**. When you see `Licentia NEXT` - click on its card on the right **(4)**:
    
     <img src="images/readme_images/2_4_2_wabbajack_filters_and_download.png" alt="WJ filters and download list" style="width:70%; height:auto;">
     
-    This will download _Licentia's_ **Wabbajack file**, which is basically an installation package.
-3. When the download of the file is complete, the icon will change - hit `Play`:
+3. In the newly opened window for _Licentia NEXT_, press `Download & Install` button on the bottom left:
 
-    <img src="images/readme_images/2_4_3_wabbajack_click_play.png" alt="WJ play button" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_4_3_wabbajack_click_dowload_install.png" alt="WJ press download install" style="width:70%; height:auto;">
     
-4. You'll see this screen. Select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Play` button **(3)**:
+    This will download _Licentia's_ **Wabbajack file** in the background, which is basically an installation package.
 
-    <img src="images/readme_images/2_4_4_wabbajack_start_installation.png" alt="WJ start install" style="width:70%; height:auto;">
+4. After the Wabbajack file download is complete, you'll see this screen *(it's going to appear automatically)*.
+
+    <img src="images/readme_images/2_4_4_wabbajack_initial_blank_installation.png" alt="WJ start install" style="width:70%; height:auto;">
+
+    Two things to note here:
+    - You can note that *Wabbjack* reports modlist version as `0.0.1.0` - once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood: - the list is actually the correct version!
+    - Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
+
+5. In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
+
+    <img src="images/readme_images/2_4_5_wabbajack_start_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
     **This would begin the actual download and installation of the list.**
+
+    You'll see a progress bar at the top, and some installation stats on the bottom. 
+
 > [!NOTE]  
 > Depending on your system specs, the download and installation process can take a **long time**.
 
 > [!TIP]
-> There are many different scenarios where _Wabbajack_ will produce an **error**.
+> There are many different scenarios where _Wabbajack_ will produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
 > 
-> **General advice** - re-run _Wabbajack_ before seeking assistance. _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
+> <img src="images/readme_images/2_4_5_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
+> 
+> On the **left side** of this window there's an error box that allows you to open full *Wabbajack* log file, which is useful for troubleshooting.
 >
-> You can find most common issues below.
+> On the **right side** you'll see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
+> 
+> **General advice** - hit `Retry` button in the bottom right corner OR **re-run _Wabbajack_ completely** before seeking assistance.
+>
+> _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
+>
+> You can find most common issues below (check Logs t).
 >---
 >| Issue | Solution |
 >| :--- | :--- |
@@ -184,57 +209,43 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 ---
 
-5. If you see this in the bottom right part of Wabbajack - that means your **installation is complete!**
+6. If you see this at the top of *Wabbajack* - that means your **installation is complete!**
 
-    <img src="images/readme_images/2_4_5_wabbajack_installation_complete.png" alt="WJ done install" style="width:50%; height:auto;">
+    <img src="images/readme_images/2_4_6_wabbajack_installation_complete.png" alt="WJ done install" style="width:70%; height:auto;">
 
-    You can close Wabbajack now.
+    You can close *Wabbajack* now.
 
 ## :three: Post-Installation
 
-### 1. Verifying the Modlist
+### 1. Starting Mod Organizer and launching Licentia NEXT
 
-> [!CAUTION]
-> **DO NOT OPEN MOD ORGANIZER 2 AFTER INSTALLATION UNLESS TOLD TO DO SO.**
+1. Navigate to your Licentia NEXT directory and **execute** `ModOrganizer.exe`:
+
+    <img src="images/readme_images/3_1_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
+
+> [!TIP]
+> **IF YOU CAN'T FIND** the `ModOrganizer.exe` despite *Wabbajack* telling you the install finished successfully - for example your folder looks like this:
 > 
-> This will cause the Verification to fail.
+>    <img src="images/readme_images/3_1_1_no_mod_organizer.png" alt="No MO2" style="width:50%; height:auto;">
+> 
+> Go back to [Step 2.4](#3-installing-and-configuring-wabbajack) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
+>
+> THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE since version `4.0`+. We can't do anything about it, sorry.
 
-_Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION** individual files. Given the likelihood of corrupted files during installation, it is strongly recommended that files be checked after installation.
-
-1. Start _Wabbajack_ app again after installation.
-
-2. Click `Browse Modlists` again, find Licentia NEXT and hit `Play` icon again (as we did above).
-
-3. Ensure that all the same settings are used as during the installation process. You need the **SAME** `.Wabbajack` file and the **SAME** Modlist and Downloads folders. Click the **VERIFY** button in the Lower Right Corner of _Wabbajack_:
-
-    <img src="images/readme_images/3_1_3_wabbajack_verify.png" alt="WJ verify" style="width:50%; height:auto;">
-
-4. Wait for the process to complete. It can take quite some time.
-
-> [!IMPORTANT]
-> You **MUST** receive a popup webpage that is **BLANK** with **ZERO ERRORS** or you will have horribly weird bugs and crashes that are impossible to troubleshoot.
-
-5. If you received **ANY** errors you **MUST** reinstall the list with the `Overwrite` checkbox selected. Do not worry, it will not redo everything. _Wabbajack_ can scan itself to see what's wrong and repair only what needs to be repaired.
-
-### 2. Starting Mod Organizer and launching Licentia NEXT
-
-1. Navigate to your Licentia NEXT directory and **execute ModOrganizer.exe**:
-
-    <img src="images/readme_images/3_2_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
 
 2. If prompted, choose `Yes` to associate Mod Organizer with `.nxm` links. If there’s no prompt, **skip this step**.
 3. In the top-right corner, make sure that `SKSE` is selected from the dropdown **(1)**, and click the Run button **(2)**:
 
-    <img src="images/readme_images/3_2_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
+    <img src="images/readme_images/3_1_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
 
 > [!TIP]
 > Wabbajack auto-detects and sets your **game resolution**, but if you wish to change your game's resolution **manually**, select the `INI Editor` from the `Tools` menu along the icon bar of MO2:
 > 
->    <img src="images/readme_images/3_2_3_mo2_change_resolution.png" alt="MO2 ini editor" style="width:50%; height:auto;">
+>    <img src="images/readme_images/3_1_3_mo2_change_resolution.png" alt="MO2 ini editor" style="width:50%; height:auto;">
 > 
 > Select `SkyrimPrefs.ini` file. Scroll down until you see the `[Display]` header and look for the `iSize` values. Note that the TYPICAL ORDER IS REVERSED, the HEIGHT is listed BEFORE the WIDTH:
 > 
->    <img src="images/readme_images/3_2_3_mo2_change_resolution_skyrimprefs.png" alt="MO2 skyrimperfs" style="width:40%; height:auto;">
+>    <img src="images/readme_images/3_1_3_mo2_change_resolution_skyrimprefs.png" alt="MO2 skyrimperfs" style="width:40%; height:auto;">
 > 
 > Hit `Save` at the bottom, and you're done!
 
@@ -242,14 +253,14 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 > [!NOTE]
 > There's a game of `Flappy Dragon` that opens up while your Skyrim is loading:
 > 
->    <img src="images/readme_images/3_2_4_flappy_dragon.png" alt="Flappy Dragon" style="width:50%; height:auto;">
+>    <img src="images/readme_images/3_1_4_flappy_dragon.png" alt="Flappy Dragon" style="width:50%; height:auto;">
 > 
 > Don't worry, _you didn't just download 500 GB of Flappy Dragon_!
 > It's there just to brighten up the waiting time :dragon_face:
 
 **When you're in the main Skyrim menu** &mdash; proceed to the next step.
 
-### 3. Starting a save and letting the list configure itself
+### 2. Starting a save and letting the list configure itself
 
 1. **Start the game** &mdash; in main menu as normal by pressing `New Game`
 2. **Create & name your character** &mdash; choose your character’s appearance and name.
@@ -262,7 +273,7 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 
  - You will be greeted with this pop-up message:
 
-     <img src="images/readme_images/3_3_3_greetings_message.png" alt="Greetings message from automation script" style="width:50%; height:auto;">
+     <img src="images/readme_images/3_2_3_greetings_message.png" alt="Greetings message from automation script" style="width:50%; height:auto;">
 
  - Read it, click `OK` and wait. The list will now **auto-configure itself**!
 > [!WARNING]
@@ -270,20 +281,20 @@ _Licentia NEXT_ is over **HALF A TERABYTE** in size with almost **HALF A MILLION
 > 
 > You'll see mods being auto-configured in the **top-left corner** of the screen:
 > 
-> <img src="images/readme_images/3_3_3_mods_config_messages.png" alt="Mod configuration in progress" style="width:50%; height:auto;">
+> <img src="images/readme_images/3_2_3_mods_config_messages.png" alt="Mod configuration in progress" style="width:50%; height:auto;">
 > 
 > And our automatic script will send these notifications **every 15-20 seconds** to let you know that we're still in progress:
 > 
-> <img src="images/readme_images/3_3_3_our_config_messages.png" alt="Auto-configuration progress" style="width:50%; height:auto;">
+> <img src="images/readme_images/3_2_3_our_config_messages.png" alt="Auto-configuration progress" style="width:50%; height:auto;">
 
  - When the auto-configuration is done, you'll see this pop-up message:
 
-     <img src="images/readme_images/3_3_3_greetings_message.png" alt="Finished message from automation script" style="width:50%; height:auto;">
+     <img src="images/readme_images/3_2_3_auto_config_finished.png" alt="Finished message from automation script" style="width:50%; height:auto;">
 
  - Read it for basic start tips, just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
  - The last thing before you go &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
 
-    <img src="images/readme_images/3_3_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
+    <img src="images/readme_images/3_2_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
 
 4. Save your game by pressing `F5` or from the menu, exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
 5. That's it! Go play the game already :birthday:

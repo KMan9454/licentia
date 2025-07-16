@@ -20,10 +20,10 @@ These are the general steps to run **Bodyslide** for **Licentia NEXT**:
 
 ## Step :one: &mdash; Create an Empty Mod
 
-Scroll to the bottom of the _Mod Organizer 2_ Window, and right click in the blank space under `Overwrite`.
+At the top of the _Mod Organizer 2_ Window on the icon row next to Profile there is a button with a Wrench and Screwdriver icon, click it.
 There will be a list of options available, select `Create Empty Mod`.
 
-<img src="/images/guides_images/bodyslide_guide/1_empty_mod.png" alt="Create Empty Mods" style="width:20%; height:20%;">
+<img src="/images/guides_images/bodyslide_guide/1_empty_mod.png" alt="Create Empty Mods" style="width:30%; height:30%;">
 
 You will now be prompted to name your custom mod, this can be named however you want.
 
@@ -79,12 +79,10 @@ A list will open with various groups to choose outfits for. For **Female** selec
 >   <img src="/images/guides_images/bodyslide_guide/4c_unassigned.png" alt="Unassigned Example" style="width:30%;height:auto;">
 > </details>
 
-
 <details>
     <summary>Note for building Himbo Groups</summary>
     Building Himbo will open the conflict resolution window for IA Asdafa Tweaks, if you batch build with only Himbo selected ignoring conflicts then once that is finished build with only the Asdafa Overrides group selected you can build the overrides without needing to resolve conflicts.
 </details>
-
 
 Once you have your Outfits selected for the body you wish to build, you will need to select a Preset from the dropdown at the top of the interface to build your outfits with. Due to the list containing OBody you will need to use the following presets respsectively for Female or Male. `- Zeroed Sliders -` for Female characters, or `Himbo Zero for OBody` for Male characters.
 You can use any preset in the list or one you have downloaded, make sure you build all respective outfits to the same preset.
