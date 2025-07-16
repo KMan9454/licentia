@@ -195,8 +195,12 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 >
 > On the **right side** you'll see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
 > 
-> **General advice** - hit `Retry` button in the bottom right corner OR **re-run _Wabbajack_ completely** before seeking assistance.
->
+> **General advice** - **re-run _Wabbajack_ completely** before seeking assistance.
+
+> [!CAUTION]
+> **DON'T USE** `Retry` button in the bottom right corner!!!
+
+> [!TIP]
 > _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
 >
 > You can find most common issues below (check Logs t).
