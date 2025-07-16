@@ -62,7 +62,7 @@
 - `Landscape and Water Fixes` - 9.7.1 (+ patches)
 - `Next-Gen Decapitations` - 1.3.4
 - `Core Impact Framework (CIF)` - 1.2.1
-- `Fluffworks - Auto Patches` - 2.1 (removed old separate patches)
+- `Fluffworks - Auto Patches` - 2.2 (removed old separate patches)
 - `Widescreen Scale Removed` - 1.0.3 (removed old Squish fixes too)
 - `Skyshards Tweaks - ESL Patch` - 1.0 (+ removed beacons, lite mode, 1p1, no book, removed full lod patch)
 
@@ -132,7 +132,7 @@
 - `kryptopyr's Patch Hub` - 4.1.2 -> 4.2.3
 - `Unofficial Skyrim Special Edition Patch` - 4.3.3 -> 4.3.5
 - `Unofficial Skyrim Modder's Patch` - 2.6.5 -> 2.6.6
-- `Base Object Swapper` - 3.3.1 -> 3.4.0
+- `Base Object Swapper` - 3.3.1 -> 3.4.1
 - `ImGui Icons` - 1.0 -> 1.1
 - `PhotoMode` - 1.8 -> 1.9.1
 - `Navigator - Navmesh Fixes` - 1.5.8 -> 1.6.1 (+ enabled Oar Grotto fix)
@@ -153,7 +153,7 @@
 - `Wolf Armor and Weapons Retexture SE` - 1.1 -> 1.2
 - `Growl - Werebeasts of Skyrim` - 3.0 -> 3.2.1
 - `Denji - A Custom Skills Menu Update` - 1.3 -> 1.4.1
-- `Experience NG` - 3.5 -> 3.6
+- `Experience NG` - 3.5 -> 3.6.1
 - `SPID - NFF - Add Ignore Token to CustomAI Followers` - 1.0.41 -> 1.0.46
 - `OStim Standalone - Advanced Adult Animation Framework` - 7.3.4c -> 7.3.5b-hotfix2
 - `Missile's IED Preset` - 3.0.3 -> 3.1.2 (updated LN config as well)

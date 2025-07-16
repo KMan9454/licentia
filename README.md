@@ -59,6 +59,11 @@ The minimally recommended setup for an enjoyable experience **at 1080p** is at l
 > [!TIP]
 > Remember that higher resolutions require more powerful hardware.
 
+> [!NOTE]
+> For those who experience difficulties running *Licentia NEXT* (it's quite a demanding list after all), the previous curator of this modlist — formerly known as *"Licentia"/"Licentia Classic"/"Licentia BLACK"* — now curates a series of NSFW **"Nexus Vortex Collections"** with minimal design and modest system requirements.
+> 
+> You can check them out [here](https://next.nexusmods.com/profile/vexation1977/collections)!
+
 ## :one: Pre-installation
 Read through these tables of requirements and fulfill them to proceed.
 Here's what you'll need:
