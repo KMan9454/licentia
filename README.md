@@ -328,9 +328,9 @@ Download the modlist's `.wabbajack` file again and specify the same directories 
 3. Click `Install` and wait for the installation to finish.
 
 > [!NOTE]
-> _Wabbajack_ will only update what has changed, it will not repeat the entire installation - so this will be muchfaster than the initial installation.
+> _Wabbajack_ will only update what has changed, it will not repeat the entire installation - so this will be *much* faster than the initial installation.
 >
->It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)
+>It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)!
 
 > [!TIP]
 > If you want to keep your manually added mods, don't forget to prefix them with `[NoDelete]` in MO2, so _Wabbajack_ won't delete them during the update.
