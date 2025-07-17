@@ -2,8 +2,8 @@
 <p align="center">
   <a href="/README.md">Readme</a></b> |
   <a href="/TROUBLESHOOTING.md">Troubleshooting</a> |
-  <a href="/guides/">Guides</a> |
-  <b><a href="/CHANGELOG.md">Changelog</a></b>
+  <a href="/guides/README.md">Guides</a> |
+  <b>[[<a href="/CHANGELOG.md">Changelog</a>]]</b>
 </p>
 
 > [!NOTE]
@@ -12,6 +12,32 @@
 > - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
 > - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
 
+## LICENTIA NEXT 13.5.1
+
+:white_check_mark: **SAVE SAFE** with **Licenta NEXT 13.5.0** _(not save safe with older versions)_
+
+**Added:**
+- `Security Overhaul SKSE - Extra Locks` - 1.0
+- `CC Farming - TnE - SLAWF Farming Patch` - 1.5.3
+- `Ignoble Beds - BOS Color Variance` - 1.0.7
+- `Ignoble Beds - BOS Use Those Blankets patch`- 1.0.7
+- `Ignoble Beds - Legacy of the Dragonborn patch` - 1.0.1
+
+**Removed:**
+- `Ignoble Beds - Use Those Blankets patch` - 1.0.7 (replaced with BOS suite above + fixed child beds)
+- `Snazzy HD Noble Beds` - 1.2 (Oldrim mod, took an .esp slot, was not compatible with `Use Those Blankets`. Also removed `CACO'S BEDS` patch, not needed anymore. Fully replaced with `Ignoble Beds`)
+
+**Updated:**
+- `Growl - Werebeasts of Skyrim` - 3.2.1 -> 3.3.1
+- `Lovemaking Compendium for OStim Standalone` - 1.16 -> 1.17
+- Re-ran Nemesis
+
+**Fixed/Patched:**
+- Fixed crash when opening display cases from `Rally's Display Cases` (by adding `Security Overhaul SKSE - Extra Locks` and overwriting Rally's mesh)
+- Fixed `Ignoble Beds - BOS Use Those Blankets patch` (it was not working for child beds, now it does. Reported a bug about missing formlists to the author)
+- Fixed incorrect cubemap for `shinedull_e.dds`, also reviewed all other cubemaps for consistency
+- Added Cache folder for xEdit *properly*
+- Some minor terrain and Lux fixes
 
 ## LICENTIA NEXT 13.5.0
 

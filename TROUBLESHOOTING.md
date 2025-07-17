@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="/README.md">Readme</a></b> |
-  <b><a href="/TROUBLESHOOTING.md">Troubleshooting</a></b> |
-  <a href="/guides/">Guides</a> |
+  <b>[[<a href="/TROUBLESHOOTING.md">Troubleshooting</a>]]</b> |
+  <a href="/guides/README.md">Guides</a> |
   <a href="/CHANGELOG.md">Changelog</a>
 </p>
 

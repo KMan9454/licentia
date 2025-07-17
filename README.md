@@ -1,9 +1,9 @@
 ![Licentia Next Logo](images/Licentia_Next_logo_v1_4k_transparent.png)
 
 <p align="center">
-  <b><a href="/README.md">Readme</a></b> |
+  <b>[[<a href="/README.md">Readme</a>]]</b> |
   <a href="/TROUBLESHOOTING.md">Troubleshooting</a> |
-  <a href="/guides/">Guides</a> |
+  <a href="/guides/README.md">Guides</a> |
   <a href="/CHANGELOG.md">Changelog</a>
 </p>
 
@@ -13,6 +13,9 @@
 
 > [!CAUTION]
 > This Modlist contains mods with sexual content, and you must be of legal age in your country to play it (most Western countries: 18+, some Eastern ones: 21+)
+
+> [!TIP]
+> If you are ONLY **updating** the list - go straight [here](#repeat_one-updating-the-modlist)!
 
 ## :book: Preamble
 
@@ -319,7 +322,18 @@ Refer to [Troubleshooting](TROUBLESHOOTING.md) for answers to common problems wi
 
 ## :repeat_one: Updating the Modlist
 
-Download the modlist's `.wabbajack` file again and specify the same directories. _Wabbajack_ will only update what has changed, it will not repeat the entire installation. It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)
+Download the modlist's `.wabbajack` file again and specify the same directories (basically the same as in the [installation step](#4-downloading-and-installing-the-list-from-wabbajack)):
+1. Go to Wabbajack UI, Browse Modlists, find _Licentia NEXT_ and click on it.
+2. Click `Download & Install` button (it will download the updated `.wabbajack` file), and select the same directories as before.
+3. Click `Install` and wait for the installation to finish.
+
+> [!NOTE]
+> _Wabbajack_ will only update what has changed, it will not repeat the entire installation - so this will be *much* faster than the initial installation.
+>
+>It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)!
+
+> [!TIP]
+> If you want to keep your manually added mods, don't forget to prefix them with `[NoDelete]` in MO2, so _Wabbajack_ won't delete them during the update.
 
 ## :skull: Removing the Modlist
 
