@@ -3,7 +3,7 @@
 <p align="center">
   <a href="/README.md">Readme</a></b> |
   <a href="/TROUBLESHOOTING.md">Troubleshooting</a> |
-  <b><a href="/guides/">Guides</a></b> |
+  <b>[[<a href="/guides/README.md">Guides</a>]]</b> |
   <a href="/CHANGELOG.md">Changelog</a>
 </p>
 
