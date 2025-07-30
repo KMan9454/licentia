@@ -12,6 +12,33 @@
 > - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
 > - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
 
+## LICENTIA NEXT 13.6.0
+
+:no_entry: **NOT SAVE SAFE** with **Licenta NEXT 13.5.1** _(and any older versions of NEXT/BLACK)_
+
+**Added:**
+- `Rally's SMIM Chests` - 1.0 (+ LotD patch) - previously we've had a mismatch of regular and SMIM chests textures causing snow textures to look like ass on them, now it's fixed and looks better
+- `GKB Waves For Various Mods` - 1.0
+
+**Removed:**
+- Custom patch for Ignoble Beds, author of the mod included my patch in the main mod, so no need for it anymore
+- `TT - Rustic Brown Board` - 1.1 (part of Triple Triad leftovers, not needed anymore)
+- ?????????????????? `LOD Mesh Fixes for DynDOLOD` - not needed anymore
+- ?????????????????? `Bright Waterfall Fix for ENB` - not needed anymore
+- `eeekie's Karliah` - reverted to Bijin's AIO version, this one is odd looking and bugged
+
+**Updated:**
+- `MIC - Major Cities Mesh Overhaul Patch` - 0.5 -> 0.6.1
+- `Ignoble Beds - BOS Use Those Blankets patch` - 1.0.7 -> 1.0.9
+- `Water for ENB` - 2.10 -> 2.11
+
+**Fixed/Patched:**
+- Fixed terrain incompatibilities between `Helgen Reborn` and `Alternate Perspective` in Helgen. THERE ARE STILL SEAMS THERE, but they are not as noticeable now. I will try to fix them in the future properly if CK stops crashing on me
+- Added `The New Gentleman` 4.2.3 fixed .dll and .pdb files to help with disappearing coke can issue
+- Fixed map markers from small locations (like Soul Cairn) appearing over the world map
+- Fixed chests and snow mask on them clipping
+- Fixed Karliah face/skin issues (reverted to Bijin's AIO version, eeekie's one is odd looking and bugged)
+
 ## LICENTIA NEXT 13.5.1
 
 :white_check_mark: **SAVE SAFE** with **Licenta NEXT 13.5.0** _(not save safe with older versions)_
