@@ -12,32 +12,61 @@
 > - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
 > - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
 
-## LICENTIA NEXT 13.6.0
+## LICENTIA NEXT 13.5.2
 
-:no_entry: **NOT SAVE SAFE** with **Licenta NEXT 13.5.1** _(and any older versions of NEXT/BLACK)_
+:white_check_mark: **SAVE SAFE** with **Licenta NEXT 13.5.1/13.5.0** _(not save safe with older versions)_
 
 **Added:**
 - `Rally's SMIM Chests` - 1.0 (+ LotD patch) - previously we've had a mismatch of regular and SMIM chests textures causing snow textures to look like ass on them, now it's fixed and looks better
 - `GKB Waves For Various Mods` - 1.0
+- `Natrual Waterfalls` - 3.2
+- `Natural Waterfalls - Majestic Mountains Patch` - 1.3
+- `Cathedral - 3D Mountain Flowers Hearthfire Patch` - 2.1
+- `Sufficiently Optimized Snowberries 3D` - 0.6
 
 **Removed:**
+- `BakaFactory's Animations for Ostim Standalone` - replaced with Patreon version with permission from BakaFactory
 - Custom patch for Ignoble Beds, author of the mod included my patch in the main mod, so no need for it anymore
 - `TT - Rustic Brown Board` - 1.1 (part of Triple Triad leftovers, not needed anymore)
-- ?????????????????? `LOD Mesh Fixes for DynDOLOD` - not needed anymore
-- ?????????????????? `Bright Waterfall Fix for ENB` - not needed anymore
+- `LOD Mesh Fixes for DynDOLOD` - not needed anymore (was used for `Bright Waterfall Fix for ENB`)
+- `Bright Waterfall Fix for ENB` - not needed anymore (replaced with `Natural Waterfalls`)
 - `eeekie's Karliah` - reverted to Bijin's AIO version, this one is odd looking and bugged
+- `MIC Fluffworks Medium Patch` - caused horses to bug out
 
 **Updated:**
+- `ENB` - updated (technically the same version, silent update from Boris
+- `BodySlide and Outfit Studio` - 5.7 -> 5.7.1
+- `Mesh Improvement Compilation` - 0.6.1 -> 0.6.2
+- `Skyrim Landscape and Water Fixes` - 9.7.1 -> 9.8.0
 - `MIC - Major Cities Mesh Overhaul Patch` - 0.5 -> 0.6.1
 - `Ignoble Beds - BOS Use Those Blankets patch` - 1.0.7 -> 1.0.9
-- `Water for ENB` - 2.10 -> 2.11
+- `Water for ENB` - 2.10 -> 2.12
+- `Unofficial Skyrim Special Edition Patch` - 4.3.5 -> 4.3.6
+- `More Adventures For OStim` - 1.1 -> 1.2
+- `powerofthree's Tweaks` - 1.13.1 -> 1.14.1
+- `powerofthree's Papyrus Extender` - 6.0.3 -> 6.1.1
+- `Experience NG` - 3.6.1 -> 3.6.2
+- `KR2's Kaidan NPC Overhaul` - 1.2.4 -> 1.2.5 (also now its 1 mod instead of 2)
+- `Apocalypse - Magic of Skyrim` - 10.1.3 -> 10.2.1
+- `Just Blood - Dirt and Blood Lite` - 1.2 -> 1.3
+- `Lovemaking Compendium for OStim Standalone` - 1.17 -> 1.17.1
+- `No Grass In Objects` - 1.4 -> 1.5.1
+- `GrassControl.ini` - 1.4 -> 1.5 (updated our config as well)
 
 **Fixed/Patched:**
-- Fixed terrain incompatibilities between `Helgen Reborn` and `Alternate Perspective` in Helgen. THERE ARE STILL SEAMS THERE, but they are not as noticeable now. I will try to fix them in the future properly if CK stops crashing on me
+- Fixed terrain incompatibilities between `Helgen Reborn` and `Alternate Perspective` in Helgen. THERE ARE STILL SEAMS THERE, but at least all objects are visible. I will try to fix them in the future properly if CK stops crashing on me
 - Added `The New Gentleman` 4.2.3 fixed .dll and .pdb files to help with disappearing coke can issue
-- Fixed map markers from small locations (like Soul Cairn) appearing over the world map
+- Fixed map markers from small locations (like Soul Cairn) appearing over the world map (again) (https://discord.com/channels/1201567388248834108/1397398843947089940)
 - Fixed chests and snow mask on them clipping
-- Fixed Karliah face/skin issues (reverted to Bijin's AIO version, eeekie's one is odd looking and bugged)
+- Fixed Karliah face/skin issues (reverted to Bijin's AIO version, eeekie's one is odd looking and bugged) (https://discord.com/channels/1201567388248834108/1397150457138516018)
+- Fixed CC Horses being messed up (https://discord.com/channels/1201567388248834108/1398201945369612288)
+- Fixed some of the Hearthfire plants not showing (https://discord.com/channels/1201567388248834108/1399057062624759889)
+- Possibly fixed Arcanaeum lighting issues (https://discord.com/channels/1201567388248834108/1396919767658401892)
+- Fixed Vokriinator skills (https://discord.com/channels/1201567388248834108/1400974740734218301)
+- Fixed Fallowstone cave freeze (and other potential caves too) by adding Lux - No grass in caves patch (https://discord.com/channels/1201567388248834108/1399518820439298070)
+- Sort of fixed terrain here (https://discord.com/channels/1201567388248834108/1399907273895313569). Again, when CK would be willing to work - I'll fix it properly
+- Re-ran Nemesis
+- Re-ran xLodGen and ACMOS, Grass Cache, TexGen, Dyndolod (due to terrain fixes and new waterfalls mod)
 
 ## LICENTIA NEXT 13.5.1
 
