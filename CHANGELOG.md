@@ -70,7 +70,7 @@
 
 ## LICENTIA NEXT 13.5.1
 
-:white_check_mark: **SAVE SAFE** with **Licenta NEXT 13.5.0** _(not save safe with older versions)_
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.0** _(not save safe with older versions)_
 
 **Added:**
 - `Security Overhaul SKSE - Extra Locks` - 1.0
@@ -97,7 +97,7 @@
 
 ## LICENTIA NEXT 13.5.0
 
-:no_entry: **NOT SAVE SAFE** with **Licenta NEXT 13.4.1** _(and any older versions of NEXT/BLACK)_
+:no_entry: **NOT SAVE SAFE** with **Licentia NEXT 13.4.1** _(and any older versions of NEXT/BLACK)_
 
 **Added:**
 - Follower Dialogue Expansion suite:
@@ -1018,7 +1018,7 @@ Not save safe!
 - Corrected tree fade values
 - Edited the futa schlongs to be more compatible
 
-## LICENTA 12.21.2
+## LICENTIA 12.21.2
 
 - Hid the _Bijin Standalone_ ESPs
 - Fixed the level up menu incorrectly displaying "Security" and "Hand to Hand"
