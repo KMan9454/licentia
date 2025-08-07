@@ -15,7 +15,7 @@
 > This Modlist contains mods with sexual content, and you must be of legal age in your country to play it (most Western countries: 18+, some Eastern ones: 21+)
 
 > [!TIP]
-> If you are ONLY **updating** the list - go straight [here](#repeat_one-updating-the-modlist)!
+> If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
 
 ## :book: Preamble
 
@@ -34,12 +34,12 @@ Before you embark on your exciting _Wabbajack_ NSFW journey, let's get a few imp
 
 1. Please keep in mind that _Licentia NEXT_ is constant works in progress, an absolute amateur effort to harmonize the work of dozens if not hundreds of amateur mod authors who have little interest in verifying that their creations work in every possible setup. You should **NEVER** expect a 100% polished, well-balanced and "perfect" experience.
 
-2. As a Modlist User, we expect some small efforts into fixing your own issues, mostly by searching the documentation provided here and by the Discord channels. It's very likely any issue you encounter has already been solved - please, do your research! 
+2. As a Modlist User, we expect some small efforts into fixing your own issues, mostly by searching the documentation provided here and by the Discord channels. It's very likely any issue you encounter has already been solved &mdash; please, do your research! 
 
    **HOWEVER** if your issue is a rock slightly out of place, a particle of dust that looks weird or a patch of an _asscheek_ showing through some clothing &mdash; please don't expect it to be fixed ASAP (or maybe ever). We're all modding a nearly 10 year old game here which already had a legendary reputation for _bugginess_, please temper your expectations. 
    > It just works :shipit:
 
-3. Support shouldn't assumed to be instant or obligatory, I work 2 jobs IRL and most of our Team Members have real lives as well (shocker, I know). It's a volunteer effort, so please, understand that support should not be expected or demanded &mdash; sometimes you could figure it out yourself with just a little reading,  and sometimes we might not have an answer for you. That being said, you're more than welcome to ask for it in a civil way, we'd try our best to help you :open_hands:
+3. Support shouldn't assumed to be instant or obligatory, I work a full-time job IRL and most of our Team Members have real lives as well (shocker, I know). It's a volunteer effort, so please, understand that support should not be expected or demanded &mdash; sometimes you could figure it out yourself with just a little reading,  and sometimes we might not have an answer for you. That being said, you're more than welcome to ask for it in a civil way, we'd try our best to help you :open_hands:
 
 4. Finally, the **MOST IMPORTANT THING YOU CAN DO &mdash; ABSOLUTELY** with **ANY** NSFW Wabbajack modlist is to **TAKE CARE OF YOUR SAVE.**
 
@@ -57,7 +57,7 @@ The minimally recommended setup for an enjoyable experience **at 1080p** is at l
 - **40 GB PAGEFILE, NO EXCEPTIONS** _(would be specified below in pre-installation)_
 
 > [!CAUTION]
-> **IF YOU DO NOT AT LEAST MEET THESE TARGETS, THE MODLIST WILL PLAY LIKE A HARD FREEZING CRASH-PRONE PIECE OF CRAP**
+> **IF YOU DO NOT MEET AT LEAST THESE TARGETS, THE MODLIST WILL PLAY LIKE A HARD FREEZING CRASH-PRONE PIECE OF CRAP!**
 
 > [!TIP]
 > Remember that higher resolutions require more powerful hardware.
@@ -69,48 +69,48 @@ The minimally recommended setup for an enjoyable experience **at 1080p** is at l
 
 ## :one: Pre-installation
 Read through these tables of requirements and fulfill them to proceed.
-Here's what you'll need:
+Here's what you'd need:
 
 ### Skyrim and AE upgrade
 | Requirement | Mandatory? | Comment |
 | :--- | :---: | :--- |
-| **Clean** Skyrim in **ENGLISH** language installed in non-protected folder | :white_check_mark: | <ul><li>Before you do anything with _Wabbajack,_ ensure that _Skyrim_ is installed in a non-protected folder (such as the root of your drive, like `C:\`). It **cannot** be located in _Program Files_ or the list will not function. Relocate the game as necessary. [Here's the Steam guide](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327) on moving games to another folder/drive.</li><li>[Here's a Bethesda's guide](https://help.bethesda.net/#en/answer/31431) on how to set the game to English.</li></ul> |
-| [Skyrim AE paid `20$` upgrade](https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/) | :white_check_mark: | This is required for modlist to work, no exceptions. Regular `Special Edition` or free `CC` content won't do |
+| **Clean** Skyrim in **ENGLISH** language installed in non-protected folder | :white_check_mark: | <ul><li>Before you do anything with _Wabbajack,_ ensure that _Skyrim_ is installed in a non-protected folder (for examle, the root of your drive is a good non-protected folder, like `D:\`). It **cannot** be located in `Program Files` _(that's a protected folder!)_ or the list would not function. Relocate the game if necessary. [Here's the Steam guide](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327) on moving games to another folder/drive.</li> <li>[Here's a Bethesda's guide](https://help.bethesda.net/#en/answer/31431) on how to set the game to English.</li></ul> |
+| [Skyrim AE paid `20$` upgrade](https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/) | :white_check_mark: | This is required for the modlist to work, no exceptions. Regular `Special Edition` or free `CC` content won't do. |
 
 ### Accounts
 | Requirement | Mandatory? | Comment |
 | :--- | :---: | :--- |
 | [Nexus Account](https://users.nexusmods.com/register) | :white_check_mark: | Basic Nexus account is **mandatory**; it **must** be created before continuing. |
-| [Nexus Premium](https://next.nexusmods.com/premium) | :x: | Nexus Premium is **strongly** recommended or the installation will take many more hours _(possibly days)_. |
+| [Nexus Premium](https://next.nexusmods.com/premium) | :x: | Nexus Premium is **strongly** recommended or the installation would take many more hours _(possibly days)_. |
 
 ### General PC adjustments and requirements
 | Requirement | Mandatory? | Comment |
 | :--- | :---: | :--- |
 | [Visual Studio 2015, 2017, 2019 and 2022](https://aka.ms/vs/17/release/vc_redist.x64.exe) | :white_check_mark: | **Required** for Mod Organizer 2 and a few mods. |
 | `600 GB` of free space on SSD | :white_check_mark: | After the installation our list + downloads would take up around `450 GB` (downloads folder can be deleted or relocated after installation, it would free you around `150 GB`), but the whole installation process would require up to `600 GB` to store its temp files and caches. |
-| Disabled/removed **OneDrive** | :white_check_mark: | Ensure that _OneDrive_ is **uninstalled** or **completely disabled.** This program locks some of _Skyrim_'s configuration files when in use and will cause the modlist to experience errors. |
-| **Pagefile** set to `40 GB` | :white_check_mark: | You must set your Advanced Memory Pagefile to at least 40GB or the modlist will constantly crash. On _Windows 11_ you can find this setting in the About page for your PC. [Here](https://www.windowscentral.com/software-apps/windows-11/how-to-manage-virtual-memory-on-windows-11) is a document to find the specific option; other versions of Windows are similar. Setting the minimum and maximum pagefile size to `40,960` on one Solid State Drive is recommended. |
+| Disabled/removed **OneDrive** | :white_check_mark: | Ensure that _OneDrive_ is **uninstalled** or **completely disabled.** This program locks some of _Skyrim_'s configuration files when in use and would cause the modlist to experience errors. |
+| **Pagefile** set to `40 GB` | :white_check_mark: | You must set your Advanced Memory Pagefile to at least 40GB or the modlist would constantly crash. On _Windows 11_ you can find this setting in the `About` page for your PC. [Here](https://www.windowscentral.com/software-apps/windows-11/how-to-manage-virtual-memory-on-windows-11) is an instruction manual to find this specific option; other versions of Windows are mostly similar. Setting the minimum and maximum pagefile size to `40,960` on one Solid State Drive is recommended. |
 
 ## :two: Installation
 Assuming you've **completed** the [Pre-installation](#one-pre-installation) part, let's get on with the actual install!
 ### 1. Starting clean Skyrim once and downloading CC content
-1. **Make sure your Skyrim installation is clean**. If you're not sure that it is clean - that's how to make it one (or just watch [this video](https://www.youtube.com/watch?v=zQ5uNCKOKmI)).
+1. **Make sure your Skyrim installation is clean**. If you're not sure that it is clean &mdash; that's how to make it one (or just watch [this video](https://www.youtube.com/watch?v=zQ5uNCKOKmI)).
 > [!TIP]
 > Clean Skyrim install
 > 1. **DELETE SKYRIM**:
 >    - Find your game folder and delete everything;
 >    - Go to Steam and delete the game there.
-> 2. Press `Win + R`, paste `%localappdata%` there, and in newly opened Explorer window delete the folder named `Skyrim Special Edition`
-> 3. Go to `'Documents\My Games\'` and delete Skyrim Special Edition there.
+> 2. Press `Win + R`, paste `%localappdata%` in the small window that just opened, hit `Enter`, and in the newly opened Explorer window delete the folder named `Skyrim Special Edition`
+> 3. Go to `'Documents\My Games\'` and delete `Skyrim Special Edition` folder there.
 > 4. Install the game via Steam as usual.
 
-2. **Start the game once**. You'd need to do it through the Skyrim Launcher (settings there don't matter, we just need to get the game registred properly). When the Launcher starts, you'll see a popup like this:
+2. **Start the game once**. You'd need to do it through the Skyrim Launcher (settings there don't matter, we just need to get the game registred properly). When the Launcher starts, you'd see a popup like this:
 
    <img src="images/readme_images/2_1_2_launcher_popup.png" alt="Launcher popup" style="width:50%; height:auto;">
 
    Click `OK` and then `PLAY` in Skyrim Launcher.
 
-3. **Download AE content.** When you get to the main menu - the game would suggest you to download the AE content - click `DOWNLOAD`:
+3. **Download AE content.** When you get to the main menu &mdash; the game would suggest you to download the AE content &mdash; click `DOWNLOAD`:
 
    <img src="images/readme_images/2_1_3_ae_content_ingame_popup.png" alt="AE popup" style="width:50%; height:auto;">
 
@@ -118,15 +118,15 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > DON'T MINIMIZE THE GAME! Wait till everything is downloaded and popups stop appearing.
 
 > [!TIP]
-> If you're not sure that everything downloaded properly _(i.e. you accedentally closed the game while AE content was downloading)_ - do this:
+> If you're not sure that everything downloaded properly _(i.e. you accedentally closed the game while AE content was downloading)_ &mdash; do this:
 >- Close the game and launch Skyrim from Steam again
 >- Click `Creations`
 >- Click `[O] Options` (at the bottom)
 >- Click `Download all owned Creation Club Creations`
 ### 2. Creating directories and setting AV exceptions
 
-1. **Create a directory for Wabbajack.** Create a directory on the root of one of your Solid State drives (such as `D:\Wabbajack`) where you'd like to install _Wabbajack_ later on.
-2. **Create a directory for Licentia NEXT.** Now, do the same for Licentia - i.e. `D:\Licentia NEXT`.
+1. **Create a directory for Wabbajack.** Create a directory at the root of one of your Solid State drives (such as `D:\Wabbajack`) where you'd like to install _Wabbajack_ later on.
+2. **Create a directory for Licentia NEXT.** Now, do the same for Licentia &mdash; i.e. `D:\Licentia NEXT`.
 
 3. **Make AV exceptions.**
 > [!WARNING]  
@@ -135,9 +135,9 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > - _Skyrim_ vanilla game folder (i.e. `D:\Games\Steam\steamapps\common\Skyrim Special Edition`)
 > - _Wabbajack_ folder (i.e. `D:\Wabbajack`)
 > 
-> Otherwise, the installation will fail. 
+> Otherwise, the installation **WILL** fail. 
 > 
-> Certain antivirus packages do not properly respect exceptions and cannot be fully disabled (_Webroot_ and _Bitdefender_ are examples of these). These tools **must be uninstalled** from your system.
+> Certain antivirus packages do not properly respect exceptions and cannot be fully disabled (_Webroot_ and _Bitdefender_ are prime examples of such behaviour). These tools **must be uninstalled** from your system.
 
 ### 3. Installing and configuring Wabbajack
 1. **Get the Wabbajack app.** Download latest `Wabbajack.exe` [here](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and save it to Wabbajack folder we created earlier (i.e. `D:\Wabbajack`).
@@ -150,8 +150,8 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     <img src="images/readme_images/2_3_3_wabbajack_nexus_BEFORE_login.png" alt="WJ before login" style="width:60%; height:auto;">
 
-    A new window will open inside *Wabbajack*. You'd be directed to Nexus website, login there as usual and click `Authorize` when prompted. Login window will close by itself.
-    In *Wabbajack* UI button for `Log in` will become light-pink with checkmark, indication successful login.
+    A new window will open inside *Wabbajack*. You'd be directed to Nexus website, login there as usual and click `Authorize` when prompted. Login window will close by itself after authorization.
+    In *Wabbajack* UI button for `Log in` will become light-pink with checkmark, indicating successful login.
 
     <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:60%; height:auto;">
 
@@ -160,11 +160,11 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     <img src="images/readme_images/2_4_1_wabbajack_main_ui_browse.png" alt="WJ browse" style="width:70%; height:auto;">
 
-2. Select filters on the left - `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` and `Show Unofficial Lists` **(2)**, and type `next` in search bar **(3)**. When you see `Licentia NEXT` - click on its card on the right **(4)**:
+2. Select filters on the left &mdash; `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` and `Show Unofficial Lists` **(2)**, and type `next` in search bar **(3)**. When you see `Licentia NEXT` &mdash; click on its card on the right **(4)**:
    
     <img src="images/readme_images/2_4_2_wabbajack_filters_and_download.png" alt="WJ filters and download list" style="width:70%; height:auto;">
     
-3. In the newly opened window for _Licentia NEXT_, press `Download & Install` button on the bottom left:
+3. In the newly opened window for _Licentia NEXT_, press `Download & Install` button in the bottom left:
 
     <img src="images/readme_images/2_4_3_wabbajack_click_dowload_install.png" alt="WJ press download install" style="width:70%; height:auto;">
     
@@ -174,8 +174,8 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     <img src="images/readme_images/2_4_4_wabbajack_initial_blank_installation.png" alt="WJ start install" style="width:70%; height:auto;">
 
-    Two things to note here:
-    - You can note that *Wabbjack* reports modlist version as `0.0.1.0` - once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood: - the list is actually the correct version!
+    Two things to be aware of here:
+    - You can note that *Wabbjack* reports modlist version as `0.0.1.0` &mdash; once again, it's a bug in _Wabbajack_ version `4.0`+ and we can't do anything about it :feelsgood: &mdash; the list is actually the correct version!
     - Don't worry about the error at the bottom, it is normal and will be fixed in the next step.
 
 5. In this window, select the directory we created for Licentia **(1)**, downloads folder would be populated automatically **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
@@ -184,21 +184,21 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     **This would begin the actual download and installation of the list.**
 
-    You'll see a progress bar at the top, and some installation stats on the bottom. 
+    You'll see a progress bar at the top, and some installation stats at the bottom. 
 
-> [!NOTE]  
+> [!NOTE]
 > Depending on your system specs, the download and installation process can take a **long time**.
 
 > [!TIP]
-> There are many different scenarios where _Wabbajack_ will produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
+> There are many different scenarios where _Wabbajack_ would produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
 > 
 > <img src="images/readme_images/2_4_5_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
 > 
 > On the **left side** of this window there's an error box that allows you to open full *Wabbajack* log file, which is useful for troubleshooting.
 >
-> On the **right side** you'll see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
+> On the **right side** you'd see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
 > 
-> **General advice** - **re-run _Wabbajack_ completely** before seeking assistance.
+> **General advice** &mdash; **re-run _Wabbajack_ completely** before seeking assistance.
 
 > [!CAUTION]
 > **DON'T USE** `Retry` button in the bottom right corner!!!
@@ -212,11 +212,11 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 >| :--- | :--- |
 >| **Various files beginning with `cc` and ending with `esl` or `esm` failed to download** | You did not purchase the [$20 upgrade to Skyrim](https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/), and this is not negotiable. Purchase it, verify it, delete it and re-download it if necessary, and try again. | 
 >| **Could not download X** | Some Internet providers have difficulty accessing the servers hosting the list's files. Use a VPN (Virtual Private Network) with a terminus set to the United States. Free options include _ProtonVPN_ and _Cloudflare WARP._ If a download gets interrupted, delete all corrupt local copies before trying again. |
->| **Wabbajack could not find my game folder** | _Licentia NEXT_ will not work with a GOG or pirated game version. If you own the game on _Steam,_ return to the Installation step. If this still doesn't work, ensure you are not running Wabbajack as an Administrator. **Asking for help with pirated copies of the game will get you banned from Discord Support.** |
+>| **Wabbajack could not find my game folder** | _Licentia NEXT_ will not work with a GOG or pirated game version. If you own the game on _Steam_ &mdash; ensure you are not running Wabbajack as an Administrator. **Asking for help with pirated copies of the game will get you banned from Discord Support.** |
 
 ---
 
-6. If you see this at the top of *Wabbajack* - that means your **installation is complete!**
+6. When you'd see this at the top of *Wabbajack* &mdash; it means your **installation is complete!**
 
     <img src="images/readme_images/2_4_6_wabbajack_installation_complete.png" alt="WJ done install" style="width:70%; height:auto;">
 
@@ -231,13 +231,13 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
     <img src="images/readme_images/3_1_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
 
 > [!TIP]
-> **IF YOU CAN'T FIND** the `ModOrganizer.exe` despite *Wabbajack* telling you the install finished successfully - for example your folder looks like this:
+> **IF YOU CAN'T FIND** the `ModOrganizer.exe` despite *Wabbajack* telling you the install finished successfully &mdash; for example your folder looks like this:
 > 
 >    <img src="images/readme_images/3_1_1_no_mod_organizer.png" alt="No MO2" style="width:50%; height:auto;">
 > 
 > Go back to [Step 2.4](#3-installing-and-configuring-wabbajack) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
 >
-> THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE since version `4.0`+. We can't do anything about it, sorry.
+> **THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE** since version `4.0`+. We can't do anything about it, sorry.
 
 
 2. If prompted, choose `Yes` to associate Mod Organizer with `.nxm` links. If there’s no prompt, **skip this step**.
@@ -246,7 +246,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
     <img src="images/readme_images/3_1_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
 
 > [!TIP]
-> Wabbajack auto-detects and sets your **game resolution**, but if you wish to change your game's resolution **manually**, select the `INI Editor` from the `Tools` menu along the icon bar of MO2:
+> Wabbajack auto-detects and sets your **game resolution**, but if you wish to change it **manually** &mdash; select the `INI Editor` from the `Tools` menu along the icon bar of MO2:
 > 
 >    <img src="images/readme_images/3_1_3_mo2_change_resolution.png" alt="MO2 ini editor" style="width:50%; height:auto;">
 > 
@@ -273,7 +273,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 2. **Create & name your character** &mdash; choose your character’s appearance and name.
 3. **Wait for mod initialization and list auto-configuration**
 > [!NOTE]  
-> Since `13.4.1` Licentia NEXT has a **fully automated** list configuration process thanks to our own amazing [@ninjawaffle](https://next.nexusmods.com/profile/ninjawaffle1?gameId=1704)! It will still take some time to complete, but you won't have to do anything manually.
+> Since `13.4.1` Licentia NEXT has a **fully automated** list configuration process thanks to our own amazing [@ninjawaffle](https://next.nexusmods.com/profile/ninjawaffle1?gameId=1704)! It would still take some time to complete, but you won't have to do anything manually.
 
 > [!CAUTION]
 > When you spawn in after character creation, **YOU WON'T BE ABLE TO CONTROL YOUR CHARACTER UNTILL THE LIST HAS FINISHED IT'S AUTO-CONFIGURATION!**
@@ -286,7 +286,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > [!WARNING]
 > **This may take a while**, depending on your PC _(from 5 minutes on fast PCs to 20 on slow ones)_. Don't worry, it's normal, just wait.
 > 
-> You'll see mods being auto-configured in the **top-left corner** of the screen:
+> You'll see various mods being auto-configured in the **top-left corner** of the screen:
 > 
 > <img src="images/readme_images/3_2_3_mods_config_messages.png" alt="Mod configuration in progress" style="width:50%; height:auto;">
 > 
@@ -298,12 +298,12 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
      <img src="images/readme_images/3_2_3_auto_config_finished.png" alt="Finished message from automation script" style="width:50%; height:auto;">
 
- - Read it for basic start tips, just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
- - The last thing before you go &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
+ - Read it for basic start tips, then just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
+ - The last thing before you embark on your Skyrim adventure &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
 
     <img src="images/readme_images/3_2_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
 
-4. Save your game by pressing `F5` or from the menu, exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
+4. Save your game by pressing `F5` (or from the main menu), exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
 5. That's it! Go play the game already :birthday:
 
 ## :hearts: Final Notes
@@ -314,7 +314,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 - :computer: **Controls map** with nice graphics can be viewed by pressing `F11` in-game _(suggested and mapped by our amazing team member [CatastrophicApathy](https://github.com/KMan9454))_
 
-- :video_game: **Want to play with a controller?** - read [this amazing Controller guide](/guides/Controller_guide.md) also written by [CatastrophicApathy](https://github.com/KMan9454)
+- :video_game: **Want to play with a controller?** &mdash; read [this amazing Controller guide](/guides/Controller_guide.md) also written by [CatastrophicApathy](https://github.com/KMan9454)
 
 ## :wrench: Troubleshooting
 
@@ -328,7 +328,7 @@ Download the modlist's `.wabbajack` file again and specify the same directories 
 3. Click `Install` and wait for the installation to finish.
 
 > [!NOTE]
-> _Wabbajack_ will only update what has changed, it will not repeat the entire installation - so this will be *much* faster than the initial installation.
+> _Wabbajack_ will only update what has changed, it will not repeat the entire installation &mdash; so this will be *much* faster than the initial installation.
 >
 >It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)!
 
