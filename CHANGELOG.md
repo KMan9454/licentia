@@ -14,7 +14,7 @@
 
 ## LICENTIA NEXT 13.5.2
 
-:white_check_mark: **SAVE SAFE** with **Licenta NEXT 13.5.1/13.5.0** _(not save safe with older versions)_
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.1/13.5.0** _(not save safe with older versions)_
 
 **Added:**
 - `Rally's SMIM Chests` - 1.0 (+ LotD patch) - previously we've had a mismatch of regular and SMIM chests textures causing snow textures to look like ass on them, now it's fixed and looks better
