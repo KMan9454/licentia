@@ -18,15 +18,22 @@
 
 **Added:**
 - `Natural Waterfalls - AOS - Patch` - 1.0 (makes AOS Waterfall and Rapids volume sliders work with Natural Waterfalls)
-- `Object Impact Framework (OIF)` - 1.6.6 (now you can add any OIF based mod easily)
+- `Dxvk Async ENB Injector l Vulkan for Skyrim` - 1.10.3
+- `Sprint Swim Redux SKSE` - 1.0
 - `Use Telekinesis on Traps - po3's Papyrus Extender Version` - 0.2.3
-- `Hit to Switch - OIF` - 1.2
+- From suggestions:
+	- `Object Impact Framework (OIF)` - 1.6.6 (now you can add any OIF based mod easily)(https://discord.com/channels/1201567388248834108/1393622441036611585), also added `Hit to Switch - OIF`
 
 **Removed:**
-- 
+- None
 
 **Updated:**
-- 
+- None
+
+**Fixed/Patched:**
+- Fixed Ashfall Cave entrance terrain in Solstheim (https://discord.com/channels/1201567388248834108/1402720433467560107)
+- Moved `IED`, `Sanguine Symphony`, `Dismemberment Framework` and `TNG 5` ini's from `Overwrite` to `Licentia NEXT - SKSE Settings & Various Configs` mod
+- Re-ran Nemesis
 
 ## LICENTIA NEXT 13.5.2
 
