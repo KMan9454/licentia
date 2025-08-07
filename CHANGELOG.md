@@ -12,6 +12,22 @@
 > - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
 > - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
 
+## LICENTIA NEXT 13.5.3
+
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.2/13.5.1/13.5.0** _(not save safe with older versions)_
+
+**Added:**
+- `Natural Waterfalls - AOS - Patch` - 1.0 (makes AOS Waterfall and Rapids volume sliders work with Natural Waterfalls)
+- `Object Impact Framework (OIF)` - 1.6.6 (now you can add any OIF based mod easily)
+- `Use Telekinesis on Traps - po3's Papyrus Extender Version` - 0.2.3
+- `Hit to Switch - OIF` - 1.2
+
+**Removed:**
+- 
+
+**Updated:**
+- 
+
 ## LICENTIA NEXT 13.5.2
 
 :white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.1/13.5.0** _(not save safe with older versions)_
