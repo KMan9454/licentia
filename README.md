@@ -12,8 +12,7 @@
 
 # :arrows_clockwise: UPDATING THE MODLIST :arrows_clockwise:
 
-> [!TIP]
-> If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
+If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
 
 </div>
 
