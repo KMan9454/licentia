@@ -27,16 +27,21 @@
 - None
 
 **Updated:**
+- `Unofficial Skyrim Special Edition Patch` - 4.3.6 -> 4.3.6a
 - `Mfg Fix NG` - replaced deleted version with 1.0.4
 - `Embers XD` - 3.1.5 -> 3.1.7
 - `Lux` - 6.9 -> 7.0
 - `Lux (patch hub)` - 6.9 -> 7.0 (also added missing `Redcap` patch)
+- `Imperial Armors and Weapons Retexture SE` - 1.2 -> 2.0.2
+- `kryptopyr's Patch Hub` - 4.2.3 -> 4.2.4 (+ Added `Wintersun - TCIY` patch and hidden scripts overwriting `There is No Umbra` DA03 changes)
+- `No Grass In Objects` - 1.5.1 -> 1.5.2
 
 **Fixed/Patched:**
 - Fixed Ashfall Cave entrance terrain in Solstheim (https://discord.com/channels/1201567388248834108/1402720433467560107)
 - Moved `IED`, `Sanguine Symphony`, `Dismemberment Framework` and `TNG 5` ini's from `Overwrite` to `Licentia NEXT - SKSE Settings & Various Configs` mod
 - Fixed DUMMY THICC flame atronach being overwritten by EmbersXD
-- Added `Black Cubemaps` to `Water for ENB`
+- Added `Black Cubemaps` to `Water for ENB` (used with ENB Dynamic Cubemaps)
+- Fixed DA02 (Boethia's quest) not working (https://discord.com/channels/1201567388248834108/1402323284611305472)
 - **KNOWN ISSUE** - Arkngthamz - water is black/grey with no texture when ENB is on. It's the `Water for ENB` issue, I've reported it to the author. He confirmed, waiting for the patch.
 - Re-ran Nemesis
 
