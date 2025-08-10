@@ -18,7 +18,6 @@
 
 **Added:**
 - `Natural Waterfalls - AOS - Patch` - 1.0 (makes AOS Waterfall and Rapids volume sliders work with Natural Waterfalls)
-- `Dxvk Async ENB Injector l Vulkan for Skyrim` - 1.10.3
 - `Sprint Swim Redux SKSE` - 1.0
 - `Use Telekinesis on Traps - po3's Papyrus Extender Version` - 0.2.3
 - From suggestions:
@@ -28,11 +27,17 @@
 - None
 
 **Updated:**
-- None
+- `Mfg Fix NG` - replaced deleted version with 1.0.4
+- `Embers XD` - 3.1.5 -> 3.1.7
+- `Lux` - 6.9 -> 7.0
+- `Lux (patch hub)` - 6.9 -> 7.0 (also added missing `Redcap` patch)
 
 **Fixed/Patched:**
 - Fixed Ashfall Cave entrance terrain in Solstheim (https://discord.com/channels/1201567388248834108/1402720433467560107)
 - Moved `IED`, `Sanguine Symphony`, `Dismemberment Framework` and `TNG 5` ini's from `Overwrite` to `Licentia NEXT - SKSE Settings & Various Configs` mod
+- Fixed DUMMY THICC flame atronach being overwritten by EmbersXD
+- Added `Black Cubemaps` to `Water for ENB`
+- **KNOWN ISSUE** - Arkngthamz - water is black/grey with no texture when ENB is on. It's the `Water for ENB` issue, I've reported it to the author. He confirmed, waiting for the patch.
 - Re-ran Nemesis
 
 ## LICENTIA NEXT 13.5.2
