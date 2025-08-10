@@ -24,23 +24,23 @@
     "links": {
       "image": "https://raw.githubusercontent.com/akzar-dev/licentia/main/images/Licentia_Next_logo_v1_4k_transparent.png",
       "readme": "https://github.com/akzar-dev/licentia/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/Licentia NEXT.wabbajack_6e44813c-d40f-4459-9dec-7c190a0c464f",
+      "download": "https://authored-files.wabbajack.org/Licentia NEXT.wabbajack_e9b6a967-2ab2-4802-a4d5-f4c56936aab4",
       "machineURL": "licentia_next",
       "discordURL": "https://discord.gg/vermishub",
       "websiteURL": ""
     },
     "download_metadata": {
-      "Hash": "2K87YPJ6S2w=",
-      "Size": 669756760,
-      "NumberOfArchives": 1724,
-      "SizeOfArchives": 193963266906,
-      "NumberOfInstalledFiles": 420140,
-      "SizeOfInstalledFiles": 314998219962,
-      "TotalSize": 508961486868
+      "Hash": "ZU2QR+jy0bk=",
+      "Size": 669785238,
+      "NumberOfArchives": 1729,
+      "SizeOfArchives": 194007269012,
+      "NumberOfInstalledFiles": 420242,
+      "SizeOfInstalledFiles": 314928223688,
+      "TotalSize": 508935492700
     },
-    "version": "13.5.2",
+    "version": "13.5.3",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2025-08-06T20:17:35.1635572Z",
+    "dateUpdated": "2025-08-10T15:01:31.16521Z",
     "repositoryName": ""
   }
 ]
