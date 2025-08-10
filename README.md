@@ -7,15 +7,18 @@
   <a href="/CHANGELOG.md">Changelog</a>
 </p>
 
+<p align="center">
+<h1>:arrows_clockwise: UPDATING THE MODLIST :arrows_clockwise:</h1>
+> [!TIP]
+> If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
+</p>
+
 # Licentia NEXT
 
 ## _"Unleash Power, Indulge Desire, Leave Heads Rolling."_
 
 > [!CAUTION]
 > This Modlist contains mods with sexual content, and you must be of legal age in your country to play it (most Western countries: 18+, some Eastern ones: 21+)
-
-> [!TIP]
-> If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
 
 ## :book: Preamble
 
