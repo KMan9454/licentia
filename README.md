@@ -332,8 +332,9 @@ Refer to [Troubleshooting](TROUBLESHOOTING.md) for answers to common problems wi
 
 Download the modlist's `.wabbajack` file again and specify the same directories (basically the same as in the [installation step](#4-downloading-and-installing-the-list-from-wabbajack)):
 1. Go to Wabbajack UI, Browse Modlists, find _Licentia NEXT_ and click on it.
-2. Click `Download & Install` button (it will download the updated `.wabbajack` file), and select the same directories as before.
+2. Click `Download & Install` button (it will download the updated `.wabbajack` file), and select the same directories as before if asked (usually *Wabbajack* correctly auto-detects your previous install).
 3. Click `Install` and wait for the installation to finish.
+4. Once you've opened the *Mod Organizer 2* (MO2) after the update, make sure your mods and plugins count matches the ones stated in the announcement.
 
 > [!NOTE]
 > _Wabbajack_ will only update what has changed, it will not repeat the entire installation &mdash; so this will be *much* faster than the initial installation.
