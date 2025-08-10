@@ -7,9 +7,10 @@
   <a href="/CHANGELOG.md">Changelog</a>
 </p>
 
-<p align="center">
-<h1>:arrows_clockwise: UPDATING THE MODLIST :arrows_clockwise:</h1>
-</p>
+---
+
+# :arrows_clockwise: UPDATING THE MODLIST :arrows_clockwise:
+
 > [!TIP]
 > If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-updating-the-modlist)!
 
