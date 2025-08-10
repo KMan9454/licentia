@@ -70,6 +70,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
    - Combat Gameplay Overhaul SE
    - Dual Wield Behavior Fixes
    - Skyrim's Paraglider
+   - Sprint Swimming Redux
    - Retimed Hit Frame
    - The Ultimate Dodge Mod
    - USSEP Behaviour Patch
