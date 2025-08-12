@@ -17,23 +17,35 @@ If you are ONLY **updating** the list &mdash; go straight [here](#repeat_one-upd
 </div>
 
 ---
+<div align="center">
 
-# Licentia NEXT
-
+<h1>Licentia NEXT</h1>
+  
 ## _"Unleash Power, Indulge Desire, Leave Heads Rolling."_
+
+</div>
 
 > [!CAUTION]
 > This Modlist contains mods with sexual content, and you must be of legal age in your country to play it (most Western countries: 18+, some Eastern ones: 21+)
 
+<div align="center">
+
 ## :book: Preamble
 
-**_Licentia NEXT_** is a descendant to one of _Wabbajack's_ oldest and most well-regarded adult modlists &mdash; *Licentia BLACK*.
+</div>
+
+**_Licentia NEXT_** is an official descendant to one of _Wabbajack's_ oldest and most well-regarded adult modlists &mdash; *Licentia BLACK*.
 It features optional non-fetish content with a series of _OStim-based_ mods/quests and an emphasis on build variety, backed up by an accessible Power Fantasy design philosophy.
 
 > [!TIP]
 > If you want to examine the complete list of mods in _Licentia NEXT_, [go here to Load Order Library.](https://loadorderlibrary.com/lists/licentia-next)
 
+<div align="center">
+
 ## :memo: The Most Important Things To Know For Not Having A Really Bad Time With Wabbajack
+
+</div>
+
 This is some sort of an agreement of the parties, them being us (Licentia Team) and you (the user). **Please read it** to understand _what_ you're getting into :feelsgood:
 <details>
   <summary>Click me</summary>
@@ -55,7 +67,11 @@ Before you embark on your exciting _Wabbajack_ NSFW journey, let's get a few imp
 
 </details>
 
+<div align="center">
+
 ## :computer: System Specifications Requirements
+
+</div>
 
 The minimally recommended setup for an enjoyable experience **at 1080p** is at least:
 
@@ -75,7 +91,12 @@ The minimally recommended setup for an enjoyable experience **at 1080p** is at l
 > 
 > You can check them out [here](https://next.nexusmods.com/profile/vexation1977/collections)!
 
+<div align="center">
+
 ## :one: Pre-installation
+
+</div>
+
 Read through these tables of requirements and fulfill them to proceed.
 Here's what you'd need:
 
@@ -99,9 +120,15 @@ Here's what you'd need:
 | Disabled/removed **OneDrive** | :white_check_mark: | Ensure that _OneDrive_ is **uninstalled** or **completely disabled.** This program locks some of _Skyrim_'s configuration files when in use and would cause the modlist to experience errors. |
 | **Pagefile** set to `40 GB` | :white_check_mark: | You must set your Advanced Memory Pagefile to at least 40GB or the modlist would constantly crash. On _Windows 11_ you can find this setting in the `About` page for your PC. [Here](https://www.windowscentral.com/software-apps/windows-11/how-to-manage-virtual-memory-on-windows-11) is an instruction manual to find this specific option; other versions of Windows are mostly similar. Setting the minimum and maximum pagefile size to `40,960` on one Solid State Drive is recommended. |
 
+<div align="center">
+
 ## :two: Installation
+
+</div>
+
 Assuming you've **completed** the [Pre-installation](#one-pre-installation) part, let's get on with the actual install!
 ### 1. Starting clean Skyrim once and downloading CC content
+---
 1. **Make sure your Skyrim installation is clean**. If you're not sure that it is clean &mdash; that's how to make it one (or just watch [this video](https://www.youtube.com/watch?v=zQ5uNCKOKmI)).
 > [!TIP]
 > Clean Skyrim install
@@ -131,9 +158,12 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 >- Click `Creations`
 >- Click `[O] Options` (at the bottom)
 >- Click `Download all owned Creation Club Creations`
-### 2. Creating directories and setting AV exceptions
 
+
+### 2. Creating directories and setting AV exceptions
+---
 1. **Create a directory for Wabbajack.** Create a directory at the root of one of your Solid State drives (such as `D:\Wabbajack`) where you'd like to install _Wabbajack_ later on.
+
 2. **Create a directory for Licentia NEXT.** Now, do the same for Licentia &mdash; i.e. `D:\Licentia NEXT`.
 
 3. **Make AV exceptions.**
@@ -148,8 +178,11 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > Certain antivirus packages do not properly respect exceptions and cannot be fully disabled (_Webroot_ and _Bitdefender_ are prime examples of such behaviour). These tools **must be uninstalled** from your system.
 
 ### 3. Installing and configuring Wabbajack
+---
 1. **Get the Wabbajack app.** Download latest `Wabbajack.exe` [here](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and save it to Wabbajack folder we created earlier (i.e. `D:\Wabbajack`).
-2. **Start the _Wabbajack_ app.** Start the `Wabbajack.exe` we downloaded earlier, Wabbajack would download its assets and _eventually_ open, just wait for a minute. 
+
+2. **Start the _Wabbajack_ app.** Start the `Wabbajack.exe` we downloaded earlier, Wabbajack would download its assets and _eventually_ open, just wait for a minute.
+
 3.  **Login to _Nexus_ within the _Wabbajack_ app.** On the main screen click the **GEAR** icon in the bottom left:
 
     <img src="images/readme_images/2_3_3_wabbajack_main_ui_gear.png" alt="WJ gear" style="width:70%; height:auto;">
@@ -164,6 +197,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
     <img src="images/readme_images/2_3_3_wabbajack_nexus_AFTER_login.png" alt="WJ after login" style="width:60%; height:auto;">
 
 ### 4. Downloading and installing the list from Wabbajack
+---
 1. Now after you've successfully logged in, click `Browse lists` in the left menu of _Wabbajack_ UI:
 
     <img src="images/readme_images/2_4_1_wabbajack_main_ui_browse.png" alt="WJ browse" style="width:70%; height:auto;">
@@ -171,7 +205,7 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 2. Select filters on the left &mdash; `Skyrim Special Edition` as a game **(1)**, tick `Show NSFW` and `Show Unofficial Lists` **(2)**, and type `next` in search bar **(3)**. When you see `Licentia NEXT` &mdash; click on its card on the right **(4)**:
    
     <img src="images/readme_images/2_4_2_wabbajack_filters_and_download.png" alt="WJ filters and download list" style="width:70%; height:auto;">
-    
+ 
 3. In the newly opened window for _Licentia NEXT_, press `Download & Install` button in the bottom left:
 
     <img src="images/readme_images/2_4_3_wabbajack_click_dowload_install.png" alt="WJ press download install" style="width:70%; height:auto;">
@@ -192,12 +226,12 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     **This would begin the actual download and installation of the list.**
 
-    You'll see a progress bar at the top, and some installation stats at the bottom. 
+    You'd see a progress bar at the top, and some installation stats at the bottom. 
 
 > [!NOTE]
-> Depending on your system specs, the download and installation process can take a **long time**.
+> Depending on your system specs, the download and installation processes can take a **long time**.
 
-> [!TIP]
+> [!WARNING]
 > There are many different scenarios where _Wabbajack_ would produce an **error**, that's going to look something like this *(this example is for another list for another game, but you get the idea)*:
 > 
 > <img src="images/readme_images/2_4_5_wabbajack_error_example.png" alt="WJ start install" style="width:70%; height:auto;">
@@ -205,24 +239,21 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > On the **left side** of this window there's an error box that allows you to open full *Wabbajack* log file, which is useful for troubleshooting.
 >
 > On the **right side** you'd see a `Log Viewer` that *usually* says something like `Failed to download X` or `Failed to install X`.
-> 
-> **General advice** &mdash; **re-run _Wabbajack_ completely** before seeking assistance.
 
 > [!CAUTION]
 > **DON'T USE** `Retry` button in the bottom right corner!!!
 
 > [!TIP]
+> **General advice** &mdash; **re-run _Wabbajack_ completely** before seeking assistance.
 > _Wabbajack_ will only download and reinstall the minimum necessary to get the modlist working.
+> 
+> You can find most common *Wabbajack* issues below *(check Logs tab)*:
 >
-> You can find most common issues below (check Logs t).
->---
->| Issue | Solution |
->| :--- | :--- |
->| **Various files beginning with `cc` and ending with `esl` or `esm` failed to download** | You did not purchase the [$20 upgrade to Skyrim](https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/), and this is not negotiable. Purchase it, verify it, delete it and re-download it if necessary, and try again. | 
->| **Could not download X** | Some Internet providers have difficulty accessing the servers hosting the list's files. Use a VPN (Virtual Private Network) with a terminus set to the United States. Free options include _ProtonVPN_ and _Cloudflare WARP._ If a download gets interrupted, delete all corrupt local copies before trying again. |
->| **Wabbajack could not find my game folder** | _Licentia NEXT_ will not work with a GOG or pirated game version. If you own the game on _Steam_ &mdash; ensure you are not running Wabbajack as an Administrator. **Asking for help with pirated copies of the game will get you banned from Discord Support.** |
-
----
+> | Issue | Solution |
+> | :--- | :--- |
+> | **Various files beginning with `cc` and ending with `esl` or `esm` failed to download** | You did not purchase the [$20 upgrade to Skyrim](https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/), and this is not negotiable. Purchase it, verify it, delete it and re-download it if necessary, and try again. | 
+> | **Could not download X** | Some Internet providers have difficulty accessing the servers hosting the list's files. Use a VPN (Virtual Private Network) with a terminus set to the United States. Free options include _ProtonVPN_ and _Cloudflare WARP._ If a download gets interrupted, delete all corrupt local copies before trying again. |
+> | **Wabbajack could not find my game folder** | _Licentia NEXT_ will not work with a GOG or pirated game version. If you own the game on _Steam_ &mdash; ensure you are not running Wabbajack as an Administrator. **Asking for help with pirated copies of the game will get you banned from Discord Support.** |
 
 6. When you'd see this at the top of *Wabbajack* &mdash; it means your **installation is complete!**
 
@@ -230,10 +261,14 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
     You can close *Wabbajack* now.
 
+<div align="center">
+
 ## :three: Post-Installation
 
-### 1. Starting Mod Organizer and launching Licentia NEXT
+</div>
 
+### 1. Starting Mod Organizer and launching Licentia NEXT
+---
 1. Navigate to your Licentia NEXT directory and **execute** `ModOrganizer.exe`:
 
     <img src="images/readme_images/3_1_1_mo2_start.png" alt="MO2 start" style="width:40%; height:auto;">
@@ -247,8 +282,8 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 >
 > **THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE** since version `4.0`+. We can't do anything about it, sorry.
 
-
 2. If prompted, choose `Yes` to associate Mod Organizer with `.nxm` links. If there’s no prompt, **skip this step**.
+
 3. In the top-right corner, make sure that `SKSE` is selected from the dropdown **(1)**, and click the Run button **(2)**:
 
     <img src="images/readme_images/3_1_3_mo2_run_the_game.png" alt="MO2 run" style="width:50%; height:auto;">
@@ -273,12 +308,14 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 > Don't worry, _you didn't just download 500 GB of Flappy Dragon_!
 > It's there just to brighten up the waiting time :dragon_face:
 
-**When you're in the main Skyrim menu** &mdash; proceed to the next step.
+5. When you're in the **main Skyrim menu** &mdash; proceed to the next step.
 
 ### 2. Starting a save and letting the list configure itself
-
+---
 1. **Start the game** &mdash; in main menu as normal by pressing `New Game`
+
 2. **Create & name your character** &mdash; choose your character’s appearance and name.
+
 3. **Wait for mod initialization and list auto-configuration**
 > [!NOTE]  
 > Since `13.4.1` Licentia NEXT has a **fully automated** list configuration process thanks to our own amazing [@ninjawaffle](https://next.nexusmods.com/profile/ninjawaffle1?gameId=1704)! It would still take some time to complete, but you won't have to do anything manually.
@@ -312,9 +349,14 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
     <img src="images/readme_images/3_2_3_final_gift.png" alt="Divine blessing" style="width:50%; height:auto;">
 
 4. Save your game by pressing `F5` (or from the main menu), exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
+
 5. That's it! Go play the game already :birthday:
 
+<div align="center">
+
 ## :hearts: Final Notes
+
+</div>
 
 - :tiger2: When you reach your first exterior world location, you will be prompted to enable `Survival Mode`. This mod **disables fast travel** and **requires eating, sleeping, and staying warm to survive**. The option can be changed later in the default `Gameplay` settings of Skyrim.
 
@@ -324,16 +366,28 @@ Assuming you've **completed** the [Pre-installation](#one-pre-installation) part
 
 - :video_game: **Want to play with a controller?** &mdash; read [this amazing Controller guide](/guides/Controller_guide.md) also written by [CatastrophicApathy](https://github.com/KMan9454)
 
+<div align="center">
+
 ## :wrench: Troubleshooting
+
+</div>
 
 Refer to [Troubleshooting](TROUBLESHOOTING.md) for answers to common problems with the modlist.
 
+<div align="center">
+
 ## :repeat_one: Updating the Modlist
 
+</div>
+
 Download the modlist's `.wabbajack` file again and specify the same directories (basically the same as in the [installation step](#4-downloading-and-installing-the-list-from-wabbajack)):
+
 1. Go to Wabbajack UI, Browse Modlists, find _Licentia NEXT_ and click on it.
+
 2. Click `Download & Install` button (it will download the updated `.wabbajack` file), and select the same directories as before if asked (usually *Wabbajack* correctly auto-detects your previous install).
+
 3. Click `Install` and wait for the installation to finish.
+
 4. Once you've opened the *Mod Organizer 2* (MO2) after the update, make sure your mods and plugins count matches the ones stated in the announcement.
 
 > [!NOTE]
@@ -344,10 +398,18 @@ Download the modlist's `.wabbajack` file again and specify the same directories 
 > [!TIP]
 > If you want to keep your manually added mods, don't forget to prefix them with `[NoDelete]` in MO2, so _Wabbajack_ won't delete them during the update.
 
+<div align="center">
+
 ## :skull: Removing the Modlist
+
+</div>
 
 You can just remove your _Licentia NEXT's_ **install folder**.
 
+<div align="center">
+
 ## :mailbox_with_mail: Contact
+
+</div>
 
 You can contact me (akzar) or anyone from the Licentia Team on [Vermi's Hub discord server](https://discord.gg/vermishub). Don't forget to grab `Licentia` role, we'd be glad to help you :wave:
