@@ -14,10 +14,7 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
   url: 'https://licentia.quest',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -43,10 +40,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: '/',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/akzar-dev/licentia/edit/main/website/',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -60,7 +57,8 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      style: 'dark',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -68,9 +66,33 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'installationAndSetupSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Installation & Setup',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'updatingSidebar',
+          position: 'left',
+          label: 'Updating',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'changelogsSidebar',
+          position: 'left',
+          label: 'Changelogs',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'faqSidebar',
+          position: 'left',
+          label: 'FAQ',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'guidesSidebar',
+          position: 'left',
+          label: 'Guides',
         },
       ],
     },
@@ -78,28 +100,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://discord.gg/vermishub',
             },
           ],
         },
@@ -108,12 +113,20 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/akzar-dev/licentia',
+            },
+            {
+              label: 'Nexus Mods',
+              href: 'https://www.nexusmods.com/skyrimspecialedition/mods/132744',
+            },
+            {
+              label: 'Load Order Library',
+              href: 'https://loadorderlibrary.com/lists/licentia-next',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} akzar and Licentia NEXT team.`,
     },
     prism: {
       theme: prismThemes.github,

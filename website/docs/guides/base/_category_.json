@@ -1,0 +1,11 @@
+{
+  "label": "Guides",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Guides",
+    "description": "A collection of guides to help you with various aspects of Licentia NEXT.",
+    "slug": "/guides",
+    "image": "img/ADD LATER.jpg"
+  }
+}

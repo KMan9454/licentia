@@ -1,0 +1,11 @@
+{
+  "label": "FAQ",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "FAQ",
+    "description": "Licentia NEXT various FAQs and troubleshooting steps",
+    "slug": "/faq",
+    "image": "img/ADD LATER.jpg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Installation",
+    "description": "Assuming you've completed the Pre-installation part, let's get on with the actual install!",
+    "slug": "/installation-and-setup/installation",
+    "image": "img/ADD LATER.jpg"
+  }
+}
