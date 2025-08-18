@@ -80,7 +80,7 @@ function FeatureIcons() {
   return (
     <section className={styles.iconsSection}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>Features</h2>
+        <h2 className={styles.sectionTitle}><img src="/img/index-features.png" alt="Features" className={styles.headingImg} /></h2>
         <div className={styles.iconRow}>
           <div className={styles.iconCard}>
             <span className={styles.iconGlyph} aria-hidden>⚔️</span>
@@ -143,13 +143,13 @@ function Showcase() {
   return (
     <section className={styles.showcase}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>Showcase</h2>
+        <h2 className={styles.sectionTitle}><img src="/img/index-showcase.png" alt="Showcase" className={styles.headingImg} /></h2>
       </div>
 
       <div
         className={styles.marqueeOuter}
         onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setTimeout(() => setPaused(false), 1200)}
+        onMouseLeave={() => setTimeout(() => setPaused(false), 100)}
       >
         <button
           type="button"

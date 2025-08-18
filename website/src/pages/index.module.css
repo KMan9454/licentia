@@ -5,7 +5,7 @@
   display: grid;
   place-items: center;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 0;
 }
 
 .heroBg {
@@ -32,6 +32,13 @@
   background:
     radial-gradient(60% 60% at 50% 40%, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%),
     linear-gradient(180deg, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%);
+}
+
+/* Light theme: lighter/whitish veil instead of dark */
+html[data-theme='light'] .heroOverlay {
+  background:
+    radial-gradient(60% 60% at 50% 40%, rgba(255, 255, 255, .35) 0%, rgba(255, 255, 255, .15) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, .05) 100%);
 }
 
 .heroInner {
@@ -180,6 +187,10 @@
 
 /* images */
 .marqueeTrack img {
+  aspect-ratio: 16 / 9;
+  /* width derived from height */
+  object-fit: fill;
+  /* fill 16:9 */
   height: 180px;
   width: auto;
   border-radius: 10px;
@@ -191,11 +202,11 @@
 /* arrow buttons (only visible on hover) */
 .navBtn {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 46px;
-  height: 100px;
-  border: none;
+  top: 0;
+  bottom: 0;
+  /* full height */
+  width: 64px;
+  border: 0;
   background: linear-gradient(to right, rgba(0, 0, 0, .35), transparent);
   opacity: 0;
   transition: opacity .2s ease;
@@ -203,10 +214,13 @@
   cursor: pointer;
 }
 
+.navLeft {
+  left: 0;
+}
+
 .navRight {
   right: 0;
-  transform: translateY(-50%) scaleX(-1);
-  /* mirror gradient arrow area */
+  transform: scaleX(-1);
 }
 
 .marqueeOuter:hover .navBtn {
