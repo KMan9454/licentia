@@ -35,7 +35,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
             style={{ width:'auto', height:300 }}
             className="zoomable"
         />
-    Go back to [Installation](installation/installing-and-configuring-wabbajack) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
+    Go back to [Installation](installation#download-and-install-the-list) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
 
     **THIS IS NOT A LICENTIA NEXT ISSUE, IT'S A WABBAJACK ISSUE** since version `4.0`+. We can't do anything about it, sorry.
     :::
@@ -79,7 +79,8 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         style={{ width:'auto', height:250 }}
         className="zoomable"
     />
-    Don't worry, _you didn't just download 500 GB of Flappy Dragon_!
+    Don't worry, _you didn't just download half a terabyte of Flappy Dragon_!
+
     It's there just to brighten up the waiting time :dragon_face:
     :::
 
@@ -89,17 +90,19 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
 
 ## ![Start the new game](./img/6-post-installation/6-2-start-the-new-game.png)
 
-1. **Start the game** &mdash; in main menu as normal by pressing `New Game`
+1. **Start the new game** &mdash; in main menu as normal by pressing `New Game`
 
 2. **Create & name your character** &mdash; choose your character’s appearance and name.
 
 3. **Wait for mod initialization and list auto-configuration**
     :::note
-    Since `13.4.1` Licentia NEXT has a **fully automated** list configuration process thanks to our own amazing [@ninjawaffle](https://next.nexusmods.com/profile/ninjawaffle1?gameId=1704)! It would still take some time to complete, but you won't have to do anything manually.
+    Since `13.4.1` Licentia NEXT has a **fully automated** list configuration process thanks to our own amazing [@ninjawaffle](https://next.nexusmods.com/profile/ninjawaffle1?gameId=1704)! 
+
+    It would take some time to complete, but you won't have to do anything manually.
     :::
 
     :::caution
-    When you spawn in after character creation, **YOU WON'T BE ABLE TO CONTROL YOUR CHARACTER UNTILL THE LIST HAS FINISHED IT'S AUTO-CONFIGURATION!**
+    When you spawn in after character creation, **YOU WON'T BE ABLE TO CONTROL YOUR CHARACTER UNTILL THE LIST HAS FINISHED ITS AUTO-CONFIGURATION!**
 
     - You will be greeted with this pop-up message:
         <img 
@@ -140,7 +143,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
             className="zoomable"
         />
 
-    - Read it for basic start tips, then just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!**
+    - Read it for basic start tips, then just click `OK` and you're good to go &mdash; **THE LIST IS COMPLETELY CONFIGURED NOW!** 🎉
 
     - The last thing before you embark on your Skyrim adventure &mdash; you'll be offered a **divine blessing** with **LVL 5** and/or **1000 gold**. Choose according to your preference:
         <img 
@@ -152,4 +155,4 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
 
 4. Save your game by pressing `F5` (or from the main menu), exit the game **COMPLETELY TO THE DESKTOP**, start it again via MO2 as described above in step 3, and load that save.
 
-5. That's it! Go play the game already :birthday:
+5. **That's it!** Go play the game already :birthday: *(and read the [Final Notes](/final-notes) for more beginner tips and tricks)*.

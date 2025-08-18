@@ -11,7 +11,7 @@ image: ./img/bodyslide-guide.png
 
 ---
 
-## <p align="center">:womans_clothes: How to build Outfits in Bodyslide for Licentia NEXT</p>
+# :womans_clothes: How to build Outfits in Bodyslide for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -44,7 +44,7 @@ If you want to remove OBody from your installation, there is a [small tutorial](
 :::
 ---
 
-### <p align="center">Step :one: &mdash; Create an Empty Mod</p>
+## Step :one: &mdash; Create an Empty Mod
 
 At the top of the _Mod Organizer 2_ Window on the icon row next to Profile there is a button with a Wrench and Screwdriver icon, click it.
 There will be a list of options available, select `Create Empty Mod`.
@@ -75,7 +75,7 @@ The new empty mod you made will be created under the `Bodyslide Outputs` Separat
 
 ---
 
-### <p align="center">Step :two: &mdash; Run Bodyslide</p>
+## Step :two: &mdash; Run Bodyslide
 
 Once you have created your Output mod head over to the Top Right of MO2 to the launch section. Open the dropdown and select `BodySlide x64`, then run the program.
 
@@ -99,7 +99,7 @@ Paste your Installation Path in the Game Data path for Skyrim SE, then hit `OK` 
 
 ---
 
-### <p align="center">Step :three: &mdash; Select your respective Outfits and Preset</p>
+## Step :three: &mdash; Select your respective Outfits and Preset
 
 On the top right of the interface there will be two search bars for Filter Groups and Filter Outfits, select the search icon for Filter Groups and select Choose Groups.
 
@@ -171,7 +171,7 @@ For example here are the default Female Presets available in Licentia NEXT, with
 
 ---
 
-### <p align="center">Step :four: &mdash; Batch Build Outfits to the Output Mod</p>
+## Step :four: &mdash; Batch Build Outfits to the Output Mod
 
 Once you have chosen your desired outfits to build for your selected body and preset, it is time to Batch Build the outfits to your output.
 
@@ -203,7 +203,7 @@ Tick your Output Mod to enable it, and you will have successfully built Bodyslid
 If you have any further questions or problems, stop by the **Licentia Next** Category in [Vermi's Hub Discord Server](https://discord.gg/vermishub) and we can help you work them out!
 :::
 
-## <p align="center">:recycle: Removing OBody from your Installation</p>
+## :recycle: Removing OBody from your Installation
 
 If you want to **remove OBody** from your installation for whatever reason you will need to follow the subsequent steps for "building out" OBody.
 1. Disable OBody in MO2. Open the `BODIES` Separator or search for `OBody` at the bottom and untick `OBody Next Generation` and `- ORefit JSON Master List`. Additionally under the `Body Meshes (and physics)` separator there is two patch files `3BA with OBody Collision Physics Fix` and it's OSmp patch, disable both of these.

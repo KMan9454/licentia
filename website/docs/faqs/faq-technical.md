@@ -60,7 +60,7 @@ Bugs such as this are common to many lists, and `moveto player` consile command 
 <details>
   <summary>Expand</summary>
 
-These are all caused by the extremely janky customization that makes first person POV sex under OStim a possibility. 
+These are all caused by the extremely janky customization that makes first person POV intercourse under OStim a possibility. 
 
 You are probably better off disabling these mods in the left pane of MO2:
 - `Improved Camera SE`
@@ -76,8 +76,12 @@ For a compromise, you can switch _to_ third person with the `F` key, and _back_ 
 <details>
   <summary>Expand</summary>
 
-Refer to the primary readme and ensure you meet all the system specification requirements!
-You can try [VRAMr](https://www.nexusmods.com/skyrimspecialedition/mods/90557), some DLSS mods or switch to Community Shaders.
+Refer to the primary installation guide and ensure you meet all the [system specification requirements](/system-requirements)!
+
+You can try:
+- [VRAMr](https://www.nexusmods.com/skyrimspecialedition/mods/90557)
+- some Frame Generation mods and tools (like [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/))
+- switching to Community Shaders (not easy and not supported by us, but can be done)
 </details>
 
 ### I can't start an OStim scene or receive errors when attempting to do so!
@@ -86,9 +90,9 @@ You can try [VRAMr](https://www.nexusmods.com/skyrimspecialedition/mods/90557), 
 
 The first thing you can try is navigating to the _OStim_ MCM and selecting the `Update All` option near the bottom left. Close all menus and wait about 60 seconds, then attempt your adult interaction again.
 
-If this doesn't work, perhaps one of the _OStim_ plugins did not install properly via _Wabbajack._ Try right-clicking on the _OStim NG_ mod in _Mod Organizer 2_ and selecting `Reinstall`. There shouldn't be any options to choose, so just click through. Launch the game and attempt your adult interaction again.
+If this doesn't work, perhaps one of the _OStim_ plugins did not install properly via _Wabbajack._ Try right-clicking on the _OStim Standalone_ mod in _Mod Organizer 2_ and selecting `Reinstall`. There shouldn't be any options to choose, so just click through. Launch the game and attempt your adult interaction again.
 
-If this *STILL* doesn't work, refer to the [Installation guide](../installation-and-setup/5-installation.md) and keep reinstalling the list until the error messages go away.
+If this *STILL* doesn't work, refer to the [Installation guide](/installation#download-and-install-the-list) and keep reinstalling the list until the error messages go away.
 </details>
 
 ### I can no longer end an OStim scene!
@@ -102,41 +106,68 @@ Ensure that you **do not have** `Freecam At Start` enabled in _OStim_ MCM. Somet
 <details>
   <summary>Expand</summary>
 
-I'm afraid you're going to have to brave the Realm of the Discord Mods. I know. It's a bit like visiting the Swamp of Sadness in _Neverending Story_ which has also just been invaded by an infestation of Rodents of Unusual Size.
+First of all, do the research by yourself first. Read the mod pages, check the comments, search the internet. 
+
+If you still can't find a solution, then drop by our [Discord](https://discord.gg/vermishub) and ask for help in the modded support channels, but **don't expect that someone will fix it for you**.
 </details>
 
 ### I added a mod (or mods) and something weird happened.
 <details>
   <summary>Expand</summary>
 
-Feed free to stop by our server and **talk about it in the modded support channel**. We're usually willing to help unless you did something crazy like add seven huge quest mods, all available patches for those mods, and all available LOTD patches for those mods and their patches. Then you're on your own! You can always browse _[Lively's Learn To Mod Series](https://github.com/LivelyDismay/Learn-To-Mod)_ to get info on how to change any modlist you want, good luck.
+Feel free to stop by our server and **talk about it in the modded support channel**. 
 
+We're usually willing to help unless you did something crazy like add seven huge quest mods, all available patches for those mods, and all available LOTD patches for those mods and their patches. Then you're on your own! 
+
+You can always browse _[Lively's Learn To Mod Series](https://github.com/LivelyDismay/Learn-To-Mod)_ to get info on how to change any modlist you want properly. Good luck!
 </details>
 
 ### There's more than 255 ESPs! Will this thing even launch?
 <details>
   <summary>Expand</summary>
 
-Yes. ESPs flagged as ESL don't count. Double click the little number to see how many real ESPs there are.
+Yes!`ESP`s flagged as `ESL` don't count. 
+
+If you're curious - hover over the little number of active plugins in top right in MO2 to see how many real ESPs there are.
 </details>
 
 ### My load order got messed up!
 <details>
   <summary>Expand</summary>
+You should always keep a backup of your load order and install order, especially before you start adding or removing mods.
 
-I have included backups. Click the swirly arrows. There's one for the load order (right pane) and one for the install order (left pane). Be sure to get the most recent one!
+I have included default backups for both mods and plugins just in case you need them:
+- Click the swirly arrows icon in MO2
+- There's one for the load order (right pane) and one for the install order (left pane)
+- Be sure to get the most recent ones if there's multiple (usually only one)!
 </details>
 
 ### I crash in Project AHO when I complete a certain quest!
 <details>
   <summary>Expand</summary>
 
-Try this. Load before you start the quest's conclusion. Complete a step. Save. Reload. Complete the next step. Continue until you finish the quest without crashing. I have confirmation that this does work.
+Try this:
+- Load before you start the quest's conclusion
+- Complete a step
+- Save
+- Reload
+- Complete the next step
+- Continue until you finish the quest without crashing. 
+
+I have a confirmation that this does work.
 </details>
 
 ### My quests have started to disappear from my Quest Log.
 <details>
   <summary>Expand</summary>
 
-Skyrim uses a very tiny variable to keep track of these. The maximum number of quests you can have, both active **AND COMPLETED,** cannot exceed 255. When this happens, the older quests will start to vanish. _There is no way around this limitation, it is hard-coded into the game._ If you somehow find yourself playing the hundreds of hours required to do this many quests, read and follow the directions in this mod when you first notice the problem: https://www.nexusmods.com/skyrimspecialedition/mods/56130  You can also find a Synthesis / Mutagen version of this Quest Recovery tool if you are more advanced. There is also a Quest Recover MCM you can run to get the missing quests back.
+Skyrim uses a very tiny variable to keep track of these. The maximum number of quests you can have, both active **AND COMPLETED,** cannot exceed 255:
+
+- When this happens, the older quests will start to vanish. _There is no way around this limitation, it is hard-coded into the game._ 
+
+- If you somehow find yourself playing the hundreds of hours required to do this many quests, read and follow the directions in [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/56130) when you first notice the problem
+
+- You can also find a Synthesis / Mutagen version of this *Quest Recovery tool* if you are more advanced.
+
+- There is also a Quest Recover MCM you can run to get the missing quests back.
 </details>

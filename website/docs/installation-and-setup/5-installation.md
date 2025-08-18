@@ -221,4 +221,4 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
         className="zoomable"
     />
 
-    You can close *Wabbajack* now.
+    You can close *Wabbajack* now and proceed to the next step.

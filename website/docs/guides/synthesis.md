@@ -11,7 +11,7 @@ image: ./img/synthesis-guide.png
 
 ---
 
-## <p align="center">:recycle: How to re-run Synthesis for Licentia NEXT</p>
+# :recycle: How to re-run Synthesis for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -35,7 +35,7 @@ These are the general steps to **re-running Synthesis** for **Licentia NEXT**:
 
 ---
 
-### <p align="center">Step :one: &mdash; Disable old `Synthesis` outputs</p>
+## Step :one: &mdash; Disable old `Synthesis` outputs
 
 1. Open your `MO2`, in left pane find mod called `Licentia NEXT - Synthesis Output` and disable it:
     <img 
@@ -55,7 +55,7 @@ These are the general steps to **re-running Synthesis** for **Licentia NEXT**:
 
 ---
 
-### <p align="center">Step :two: &mdash; Launch `Synthesis` from MO2</p>
+## Step :two: &mdash; Launch `Synthesis` from MO2
 
 :::tip
 Ensure that **all antivirus and antimalware applications are temporarily disabled**. They can prevent _Synthesis_ from running correctly.
@@ -71,7 +71,7 @@ In `MO2`, in top right corner of the window, click on the dropdown menu and sele
 
 ---
 
-### <p align="center">Step :three: &mdash; Check the patches list</p>
+## Step :three: &mdash; Check the patches list
 
 When `Synthesis` is launched, check out the left pane with patches. They should match this:
 
@@ -94,7 +94,7 @@ When `Synthesis` is launched, check out the left pane with patches. They should 
 
 ---
 
-### <p align="center">Step :four: &mdash; Run `Synthesis` 3 times</p>
+## Step :four: &mdash; Run `Synthesis` 3 times
 
 Now, you have to do this:
 
@@ -113,7 +113,7 @@ Failing to do that will break consistency of the patches!
 
 ---
 
-### <p align="center">Step :five: &mdash; Move your new generated Synthesis outputs to a separate mod</p>
+## Step :five: &mdash; Move your new generated Synthesis outputs to a separate mod
 
 1. In `MO2`, scroll to the bottom in the left pane, and right click on the `ADDED MODS - Make your additions below this line` separator. In the submenu, click `All Mods`, then select `Create Empty Mod Inside`.
     <img 
@@ -149,7 +149,7 @@ Failing to do that will break consistency of the patches!
 
 ---
 
-### <p align="center">Step :six: &mdash; Enable plugins disabled in Step :one:</p>
+## Step :six: &mdash; Enable plugins disabled in Step :one:
 
 In right part of `MO2` just enable the plugins you disabled in Step :one:'s [second part](#step-one--disable-old-synthesis-outputs), and you're done!
 

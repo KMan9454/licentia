@@ -11,7 +11,7 @@ image: ./img/nemesis-guide.png
 
 ---
 
-## <p align="center">👯‍♀️ How to re-run Nemesis for Licentia NEXT</p>
+# 👯‍♀️ How to re-run Nemesis for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -34,7 +34,7 @@ These are the general steps to **re-running Nemesis** for **Licentia NEXT**:
 
 ---
 
-### <p align="center">Step :one: &mdash; _(optional)_ Make sure `Nemesis Unlimited Behavior Engine.exe` is LAA patched</p>
+## Step :one: &mdash; _(optional)_ Make sure `Nemesis Unlimited Behavior Engine.exe` is LAA patched
 
 :::note
 Unfortunately, Nemesis is old and 32-bit.
@@ -91,7 +91,7 @@ It can be run without it, but it's **highly recommended** to patch it.
 
 ---
 
-### <p align="center">Step :two: &mdash; Launch `Nemesis Unlimited Behavior Engine` from MO2</p>
+## Step :two: &mdash; Launch `Nemesis Unlimited Behavior Engine` from MO2
 
 :::tip
 Ensure that **all antivirus and antimalware applications are temporarily disabled**. They often prevent _Nemesis_ from completing correctly.
@@ -108,7 +108,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
 
 ---
 
-### <p align="center">Step :three: &mdash; Setup behavior patches and click `Update Engine`</p>
+## Step :three: &mdash; Setup behavior patches and click `Update Engine`
 
 1. When `Nemesis` window opens, in it's top part tick the boxes for the following patches:
    - Archery Gameplay Overhaul SE
@@ -161,7 +161,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
 
 ---
 
-### <p align="center">Step :four: &mdash; Click `Launch Nemesis Engine`</p>
+## Step :four: &mdash; Click `Launch Nemesis Engine`
 
 1. Click `Launch Nemesis Behavior Engine`. 
     <img 
@@ -220,7 +220,7 @@ There are still options to fix this however!
 
 ---
 
-### <p align="center">Step :five: &mdash; Close the tool, remove `FNIS.esp`, done!</p>
+## Step :five: &mdash; Close the tool, remove `FNIS.esp`, done!
 1. As the tool is now closed, in right MO2 pane in `Plugins` section you'll see that a wild `FNIS.esp` appeared at the end!
     <img 
         src={require('./img/nemesis_guide/5_1_fnis_in_plugins.png').default}

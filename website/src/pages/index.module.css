@@ -1,23 +1,185 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+/* -------- HERO -------- */
+.hero {
   position: relative;
+  min-height: 62vh;
+  display: grid;
+  place-items: center;
   overflow: hidden;
+  border-radius: 12px;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background: url('/img/licentia-social-card-bg.png') center/cover no-repeat;
+  filter: blur(4px);
+  transform: scale(1.06);
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 60% at 50% 40%, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%);
+}
+
+.heroInner {
+  position: relative;
+  text-align: center;
+  padding: 3.25rem 1rem 2.5rem;
+  z-index: 1;
+}
+
+.heroLogo {
+  max-width: min(90%, 560px);
+  height: auto;
+  margin-inline: auto;
+  display: block;
+
+  /* GOLD GLOW */
+  filter:
+    drop-shadow(0 0 18px rgba(250, 203, 53, .55)) drop-shadow(0 0 36px rgba(250, 203, 53, .35)) drop-shadow(0 6px 24px rgba(0, 0, 0, .35));
+}
+
+.tagline {
+  font-size: 1.05rem;
+  opacity: .9;
+  margin: 0.75rem 0 1rem;
+}
+
+/* badges under the tagline */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem .6rem;
+  margin-bottom: 1.1rem;
+}
+
+.badge {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+}
+
+/* CTA buttons */
+.ctaRow {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta,
+.ctaOutline,
+.ctaLink {
+  min-width: 180px;
+}
+
+/* subtle gold glow on hover */
+.cta:hover,
+.ctaOutline:hover {
+  box-shadow:
+    0 0 12px rgba(250, 203, 53, .35),
+    0 0 24px rgba(250, 203, 53, .25);
+  transform: translateY(-1px);
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+/* -------- ICON FEATURES STRIP -------- */
+.iconsSection {
+  padding: 2.25rem 0 1.5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.iconRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.iconCard {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1rem .75rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+.iconGlyph {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: .25rem;
+}
+
+.iconTitle {
+  font-weight: 700;
+}
+
+.iconText {
+  opacity: .85;
+  font-size: .95rem;
+}
+
+@media (max-width: 996px) {
+  .iconRow {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.buttons {
+/* -------- SHOWCASE (Marquee) -------- */
+.showcase {
+  padding: 2.25rem 0 3rem;
+}
+
+.marqueeOuter {
+  overflow: hidden;
+  position: relative;
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.marqueeTrack {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 12px;
+  padding: 8px 0;
+  width: max-content;
+  animation: marquee 45s linear infinite;
+}
+
+.marqueeImg {
+  height: 180px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .25);
+  object-fit: cover;
+}
+
+@media (max-width: 996px) {
+  .marqueeImg {
+    height: 140px;
+  }
+
+  .hero {
+    min-height: 56vh;
+  }
+}
+
+/* slow, continuous scroll */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }

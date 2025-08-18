@@ -11,7 +11,7 @@ image: ./img/controller-guide.png
 
 ---
 
-## <p align="center">:video_game: How to set up a controller for Licentia NEXT</p>
+# :video_game: How to set up a controller for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -33,7 +33,7 @@ These are the general steps to set up a **controller** for **Licentia NEXT**:
 
 ---
 
-### <p align="center">Step :one: &mdash; Enable all mods in the Controller section of MO2</p>
+## Step :one: &mdash; Enable all mods in the Controller section of MO2
 
 <img 
     src={require('./img/controller_guide/1_enable_controller_mods.png').default}
@@ -59,7 +59,7 @@ Here's a **brief description** of these mods:
 
 ---
 
-### <p align="center">Step :two: &mdash; Enable Controller in Skyrim</p>
+## Step :two: &mdash; Enable Controller in Skyrim
 
 In standard Skyrim's **settings menu**, enable controller like this:
 
@@ -71,7 +71,7 @@ In standard Skyrim's **settings menu**, enable controller like this:
 />
 
 ---
-### <p align="center">Step :three: &mdash; Verify the controls</p>
+## Step :three: &mdash; Verify the controls
 
 Verify that **Sneak** is set to `B` *(it should be, but just in case)*. This is necessary for `The Ultimate Dodge Mod`.
 
@@ -83,7 +83,7 @@ Verify that **Sneak** is set to `B` *(it should be, but just in case)*. This is 
 />
 
 ---
-### <p align="center">Step :four: &mdash; Setup CGO</p>
+## Step :four: &mdash; Setup CGO
 
 Open `Mod Configuration` (MCM) menu, find `CGO`, it's settings should look like this:
 
@@ -100,7 +100,7 @@ Here set:
 
 ---
 
-### <p align="center">Step :five: &mdash; Setup The Ultimate Dodge Mod</p>
+## Step :five: &mdash; Setup The Ultimate Dodge Mod
 
 Again, in `Mod Configuration` (MCM) menu find `The Ultimate Dodge Mod`.
 
@@ -110,7 +110,7 @@ This is a little counter intuitive, so read carefully!
 
 Make these changes:
 - Set the **Sneak Key** to `Left Arrow`. _We use Left arrow for Sneak because we use QuickLoot. Navigating that screen with the DPAD up and down causes sneaking hilarity._
-- Your **Dodge Key** will now be `B` because that is what you've set in `Controls` ([Step 3](#step-3-changeverify-the-controls)). That's just the way things work.
+- Your **Dodge Key** will now be `B` because that is what you've set in `Controls` ([Step 3](#step-three--verify-the-controls)). That's just the way things work.
 - **DO NOT SET** `Gamepad/Controller Compatibility`, leave it _unticked_. Enabling it makes things incompatible, i.e. sprinting doesn't work. Why? Ask Todd :suspect:
 
 Anyway, your settings **should look like this**:
@@ -123,7 +123,7 @@ Anyway, your settings **should look like this**:
 />
 
 ---
-### <p align="center">Step :six: &mdash; Setup Serio's Cycle Hotkeys and True Directional Movement</p>
+## Step :six: &mdash; Setup Serio's Cycle Hotkeys and True Directional Movement
 
 Let's setup `Serio's Cycle Hotkeys` mod:
 - Open the mod's `MCM` and configure _setter_ hotkey as `Home` _(you can also tick `Use vanilla keys`, but we really don't see much of a difference one way or the other)_:
@@ -151,7 +151,7 @@ A note about **Target Lock** - that setting is located inside `True Directional 
 
 ---
 
-### <p align="center">:pushpin: Final configuration</p>
+## :pushpin: Final configuration
 
 Your control map now looks like this:
 | Button | Action |

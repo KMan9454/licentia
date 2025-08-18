@@ -17,7 +17,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.5.3`</p>
+## LICENTIA NEXT `13.5.3`
 
 :white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.2/13.5.1/13.5.0`** _(not save safe with older versions)_
 
@@ -52,7 +52,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.5.2`</p>
+## LICENTIA NEXT `13.5.2`
 
 :white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.1/13.5.0`** _(not save safe with older versions)_
 
@@ -110,7 +110,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.5.1`</p>
+## LICENTIA NEXT `13.5.1`
 
 :white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.0`** _(not save safe with older versions)_
 
@@ -139,7 +139,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.5.0`</p>
+## LICENTIA NEXT `13.5.0`
 
 :no_entry: **NOT SAVE SAFE** with **Licentia NEXT `13.4.1`** _(and any older versions of NEXT/BLACK)_
 
@@ -319,7 +319,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.4.1`</p>
+## LICENTIA NEXT `13.4.1`
 :::note
 `13.4.0` is skipped for technical reasons
 :::
@@ -564,7 +564,7 @@ The versioning system works the following way:
 
 ---
 
-## <p align="center">LICENTIA NEXT `13.3.2`</p>
+## LICENTIA NEXT `13.3.2`
 
 :white_check_mark: **SAVE SAFE** with **Licentia BLACK `13.3.0/13.3.1`**
 (_you'd get missing plugins notification, but it's safe to ignore cause that's just texture mods.)_

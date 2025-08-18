@@ -39,12 +39,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          sidebarCollapsible: true,
           breadcrumbs: false,
           routeBasePath: '/',
-          editUrl:
-            'https://github.com/akzar-dev/licentia/edit/main/website/',
-          showLastUpdateTime: true,
+          // editUrl:
+          //   'https://github.com/akzar-dev/licentia/edit/main/website/',
+          // showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -58,8 +57,8 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/licentia-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark',
-      respectPrefersColorScheme: false,
+      // defaultMode: 'dark',
+      respectPrefersColorScheme: true,
     },
     docs: {
       sidebar: {

@@ -10,13 +10,19 @@ image: /img/how-to-update.png
 
 ---
 
-:::tip
+:::note
 **TL;DR**
 
-Download the modlist's `.wabbajack` file again and specify the same directories (basically the same as in the [installation step](#4-downloading-and-installing-the-list-from-wabbajack))
+Download the modlist's `.wabbajack` file again and specify the same directories (basically the same as in the [installation step](/installation#download-and-install-the-list))
 :::
 
-## Detailed instructions
+:::warning
+**Your custom added mods may be deleted during the update!**
+
+If you want to keep your manually added mods, don't forget to prefix them with `[NoDelete]` in MO2, so _Wabbajack_ won't delete them during the update.
+:::
+
+# 🔄 Detailed update instructions 🔄
 
 1. Go to Wabbajack UI, Browse Modlists, find _Licentia NEXT_ and click on it.
 
@@ -28,10 +34,10 @@ Download the modlist's `.wabbajack` file again and specify the same directories 
 
 :::note
 _Wabbajack_ will only update what has changed, it will not repeat the entire installation &mdash; so this will be *much* faster than the initial installation.
-
-It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)!
 :::
 
-:::tip
-If you want to keep your manually added mods, don't forget to prefix them with `[NoDelete]` in MO2, so _Wabbajack_ won't delete them during the update.
+:::danger
+It is rarely recommended to continue a save when you update a modlist (unless an update is labeled `Save Safe` in the changelog/announcement)!
+
+Check the [Changelog](/changelog) for more information on the update you are installing, and if it is save safe or not.
 :::
