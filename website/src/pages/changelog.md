@@ -1,32 +1,37 @@
-# LICENTIA NEXT CHANGELOG
-<p align="center">
-  <a href="/README.md">Readme</a></b> |
-  <a href="/TROUBLESHOOTING.md">Troubleshooting</a> |
-  <a href="/guides/README.md">Guides</a> |
-  <b>[[<a href="/CHANGELOG.md">Changelog</a>]]</b>
-</p>
+---
+title: "Changelog"
+hide_title: true
+description: "Licentia NEXT - Changelog"
+image: /img/changelog.png
+---
 
-> [!NOTE]
-> The versioning system works the following way:
-> - **Major** version `13.x.x` - **very significant** update of the list, always **NOT SAVE SAFE** :no_entry:
-> - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
-> - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
+# ![Changelod](/img/changelog.png)
 
-## LICENTIA NEXT 13.5.3
+---
+:::info
+The versioning system works the following way:
+  - **Major** version `13.x.x` - **very significant** update of the list, always **NOT SAVE SAFE** :no_entry:
+  - **Patch** version `x.4.x` - also **big updates** usually including scripted mods changes, **NOT SAVE SAFE** :no_entry:
+  - **Minor** version `x.x.1` - **small patches/fixes** or save-safe additions/removals, usually **SAVE SAFE** :white_check_mark:
+:::
 
-:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.2/13.5.1/13.5.0** _(not save safe with older versions)_
+---
 
-**Added:**
+## <p align="center">LICENTIA NEXT `13.5.3`</p>
+
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.2/13.5.1/13.5.0`** _(not save safe with older versions)_
+
+### Added
 - `Natural Waterfalls - AOS - Patch` - 1.0 (makes AOS Waterfall and Rapids volume sliders work with Natural Waterfalls)
 - `Sprint Swim Redux SKSE` - 1.0
 - `Use Telekinesis on Traps - po3's Papyrus Extender Version` - 0.2.3
 - From suggestions:
 	- `Object Impact Framework (OIF)` - 1.6.6 (now you can add any OIF based mod easily)(https://discord.com/channels/1201567388248834108/1393622441036611585), also added `Hit to Switch - OIF`
 
-**Removed:**
+### Removed
 - None
 
-**Updated:**
+### Updated
 - `Unofficial Skyrim Special Edition Patch` - 4.3.6 -> 4.3.6a
 - `Mfg Fix NG` - replaced deleted version with 1.0.4
 - `Embers XD` - 3.1.5 -> 3.1.7
@@ -36,7 +41,7 @@
 - `kryptopyr's Patch Hub` - 4.2.3 -> 4.2.4 (+ Added `Wintersun - TCIY` patch and hidden scripts overwriting `There is No Umbra` DA03 changes)
 - `No Grass In Objects` - 1.5.1 -> 1.5.2
 
-**Fixed/Patched:**
+### Fixed/Patched
 - Fixed Ashfall Cave entrance terrain in Solstheim (https://discord.com/channels/1201567388248834108/1402720433467560107)
 - Moved `IED`, `Sanguine Symphony`, `Dismemberment Framework` and `TNG 5` ini's from `Overwrite` to `Licentia NEXT - SKSE Settings & Various Configs` mod
 - Fixed DUMMY THICC flame atronach being overwritten by EmbersXD
@@ -45,11 +50,13 @@
 - **KNOWN ISSUE** - Arkngthamz - water is black/grey with no texture when ENB is on. It's the `Water for ENB` issue, I've reported it to the author. He confirmed, waiting for the patch.
 - Re-ran Nemesis
 
-## LICENTIA NEXT 13.5.2
+---
 
-:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.1/13.5.0** _(not save safe with older versions)_
+## <p align="center">LICENTIA NEXT `13.5.2`</p>
 
-**Added:**
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.1/13.5.0`** _(not save safe with older versions)_
+
+### Added
 - `Rally's SMIM Chests` - 1.0 (+ LotD patch) - previously we've had a mismatch of regular and SMIM chests textures causing snow textures to look like ass on them, now it's fixed and looks better
 - `GKB Waves For Various Mods` - 1.0
 - `Natrual Waterfalls` - 3.2
@@ -57,7 +64,7 @@
 - `Cathedral - 3D Mountain Flowers Hearthfire Patch` - 2.1
 - `Sufficiently Optimized Snowberries 3D` - 0.6
 
-**Removed:**
+### Removed
 - `BakaFactory's Animations for Ostim Standalone` - replaced with Patreon version with permission from BakaFactory
 - Custom patch for Ignoble Beds, author of the mod included my patch in the main mod, so no need for it anymore
 - `TT - Rustic Brown Board` - 1.1 (part of Triple Triad leftovers, not needed anymore)
@@ -66,7 +73,7 @@
 - `eeekie's Karliah` - reverted to Bijin's AIO version, this one is odd looking and bugged
 - `MIC Fluffworks Medium Patch` - caused horses to bug out
 
-**Updated:**
+### Updated
 - `ENB` - updated (technically the same version, silent update from Boris
 - `BodySlide and Outfit Studio` - 5.7 -> 5.7.1
 - `Mesh Improvement Compilation` - 0.6.1 -> 0.6.2
@@ -86,7 +93,7 @@
 - `No Grass In Objects` - 1.4 -> 1.5.1
 - `GrassControl.ini` - 1.4 -> 1.5 (updated our config as well)
 
-**Fixed/Patched:**
+### Fixed/Patched
 - Fixed terrain incompatibilities between `Helgen Reborn` and `Alternate Perspective` in Helgen. THERE ARE STILL SEAMS THERE, but at least all objects are visible. I will try to fix them in the future properly if CK stops crashing on me
 - Added `The New Gentleman` 4.2.3 fixed .dll and .pdb files to help with disappearing coke can issue
 - Fixed map markers from small locations (like Soul Cairn) appearing over the world map (again) (https://discord.com/channels/1201567388248834108/1397398843947089940)
@@ -101,38 +108,42 @@
 - Re-ran Nemesis
 - Re-ran xLodGen and ACMOS, Grass Cache, TexGen, Dyndolod (due to terrain fixes and new waterfalls mod)
 
-## LICENTIA NEXT 13.5.1
+---
 
-:white_check_mark: **SAVE SAFE** with **Licentia NEXT 13.5.0** _(not save safe with older versions)_
+## <p align="center">LICENTIA NEXT `13.5.1`</p>
 
-**Added:**
+:white_check_mark: **SAVE SAFE** with **Licentia NEXT `13.5.0`** _(not save safe with older versions)_
+
+### Added
 - `Security Overhaul SKSE - Extra Locks` - 1.0
 - `CC Farming - TnE - SLAWF Farming Patch` - 1.5.3
 - `Ignoble Beds - BOS Color Variance` - 1.0.7
 - `Ignoble Beds - BOS Use Those Blankets patch`- 1.0.7
 - `Ignoble Beds - Legacy of the Dragonborn patch` - 1.0.1
 
-**Removed:**
+### Removed
 - `Ignoble Beds - Use Those Blankets patch` - 1.0.7 (replaced with BOS suite above + fixed child beds)
 - `Snazzy HD Noble Beds` - 1.2 (Oldrim mod, took an .esp slot, was not compatible with `Use Those Blankets`. Also removed `CACO'S BEDS` patch, not needed anymore. Fully replaced with `Ignoble Beds`)
 
-**Updated:**
+### Updated
 - `Growl - Werebeasts of Skyrim` - 3.2.1 -> 3.3.1
 - `Lovemaking Compendium for OStim Standalone` - 1.16 -> 1.17
 - Re-ran Nemesis
 
-**Fixed/Patched:**
+### Fixed/Patched
 - Fixed crash when opening display cases from `Rally's Display Cases` (by adding `Security Overhaul SKSE - Extra Locks` and overwriting Rally's mesh)
 - Fixed `Ignoble Beds - BOS Use Those Blankets patch` (it was not working for child beds, now it does. Reported a bug about missing formlists to the author)
 - Fixed incorrect cubemap for `shinedull_e.dds`, also reviewed all other cubemaps for consistency
 - Added Cache folder for xEdit *properly*
 - Some minor terrain and Lux fixes
 
-## LICENTIA NEXT 13.5.0
+---
 
-:no_entry: **NOT SAVE SAFE** with **Licentia NEXT 13.4.1** _(and any older versions of NEXT/BLACK)_
+## <p align="center">LICENTIA NEXT `13.5.0`</p>
 
-**Added:**
+:no_entry: **NOT SAVE SAFE** with **Licentia NEXT `13.4.1`** _(and any older versions of NEXT/BLACK)_
+
+### Added
 - Follower Dialogue Expansion suite:
   - `Follower Dialogue Expansion - Aela the Huntress` - 6.0.2
   - `Follower Dialogue Expansion - Brelyna Maryon` - 3.0.0
@@ -187,7 +198,7 @@
 	- `Cult of the World Eater - Dragon Priests Buff Alduin` - 1.3 + `Defeat the Dragon Cult` - 1.0
 	- `Sanguine Symphony` - 1.1 (+ added MCM recording to disable visual/sound effects that overlap with DF)
 
-**Removed:**
+### Removed
 - `Improved Follower Dialogue Lydia` (+ `SDA IFD Lydia Patch`) - replaced with `Follower Dialogue Expansion - Lydia`, gives 2 free .esp slots. Also gets rid of mismatched voices/bugged IFDL quests; makes Lydia AA work again;
 - `Modern Brawl Bug Fix` - already included in USMP
 - `Triple Triad` - bloat, low quality, non-immersive (it's from FF, not TES), and not really fitting the game
@@ -197,7 +208,7 @@
 - `Wizard Hats` - requested to be removed in suggestions by our very own Sentinel
 - `Custom Skills Menu - Custom Icons` - AI generated, was suggested to be removed (replaced with `Custom Skills Menu - Icon Replacers` - 1.1)
 
-**Updated:**
+### Updated
 - ENB - updated to latest (v0.503 from 28-05-2025)
 - `Synthesis` - 0.32.1 -> 0.35.0 (+ added new [Sleeping Outfit Remover patch](https://github.com/ninjawaffle/SleepingOutfitRemover) by @ninjawaffle instead of nuked old one)
 - `xLodGen` - 129 -> 132
@@ -294,7 +305,7 @@
 - `CC Farming - Tweaks and Enhancements` - 1.4.4 - 1.5.1 (+ added 1.5 CC Fishing patch)
 - `No Grass In Objects` - 1.3 -> 1.4 (+ updated MO2 script to 3.2 and GrassControl.ini to 1.4)
 
-**Fixed/Patched:**
+### Fixed/Patched
 - Removed unnecessary `BTPS` MCM recording, replaced with proper `FilterStates.json`
 - Fixed NAT ENB shadow around the player in 1st person *(changes forwarded from NAT ENB Bizzare Shadow Fix)*
 - Hid a few `.dds` from `OBIS Loot` overwriting `Immersive Armors` (to prevent IA from being overwritten by OBIS)
@@ -306,11 +317,16 @@
 - Fixed a bug with Lux in Arcaneum (this one [here](https://discord.com/channels/1201567388248834108/1346392888224907274))
 - Re-run Nemesis, Bodyslide, TexGen, Dyndolod, xLodGen, ACMOS, Grass Cache (everything basically)
 
-## LICENTIA NEXT 13.4.1 (13.4.0 is skipped for technical reasons)
+---
+
+## <p align="center">LICENTIA NEXT `13.4.1`</p>
+:::note
+`13.4.0` is skipped for technical reasons
+:::
 
 :no_entry: **NOT SAVE SAFE** with **Licentia NEXT 13.3.2** _(and any older Licentia BLACK)_
 
-**Added:**
+### Added
 - `Hunters Not Bandits` - 4.1 (because in was removed from USMP and now installed separately)
 - Bunch of wSkeever mods removed from USMP and added separately:
 	- `No More Blinding Fog - SSE Port` - 0.1
@@ -403,7 +419,7 @@
 	- `Murder of Songbirds` - 1.2
 	- Replaced `Positive Undressed Reactions` 1.0 with `Naked Comments Overhaul` 1.01
 
-**Removed:**
+### Removed
 - `Script Optimization and Fixes Compilation` - 1.3.3 (not needed as of USMP 2.6.4+)
 - `ISC Creation Club Armor Patches` - 2.01 (not needed with addition of ISC SRDified)
 - `Bipolar mesh fix` - own patch, fixed with LotD 6.7.0+
@@ -430,7 +446,7 @@
 	- `Gladys the Corgi` and `Merlin the Corgi` + their silent patches
 
 
-**Updated:**
+### Updated
 - ENB - updated to latest (v0.503 from 09-02-2025)
 - `Unofficial Skyrim Special Edition Patch` - 4.3.2 -> 4.3.3
 - `Unofficial Skyrim Modder's Patch` - 2.6.3 -> 2.6.5 (2.6.4 + 2.6.5 merged over 2.6.4 per instructions)
@@ -525,7 +541,7 @@
 - `Hand Placed Enemies` -> same version, changed to `no ambushes`
 - `The New Gentleman` - 3.0.2 -> 4.0.4
 
-**Fixed/Patched:**
+### Fixed/Patched
 - Added `Auri - Wintersun + Inigo banter fixed script patch`, which should (hopefully) fix that long standing issue. Please report if it doesn't work!
 - `AllNewQuestLines.esp` (the one from [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/72003)) had a deleted navmesh issue, restored it
 - Fixed lots of errors and incosistencies in xEdit for custom patches;
@@ -546,12 +562,14 @@
 - Created `Grass Cache`
 - Re-run `xLodGen`, `ACMOS`, `TexGen` and `Dyndolod`
 
-## LICENTIA NEXT 13.3.2
+---
 
-:white_check_mark: **SAVE SAFE** with **Licentia BLACK 13.3.0/13.3.1**
+## <p align="center">LICENTIA NEXT `13.3.2`</p>
+
+:white_check_mark: **SAVE SAFE** with **Licentia BLACK `13.3.0/13.3.1`**
 (_you'd get missing plugins notification, but it's safe to ignore cause that's just texture mods.)_
 
-**Added:**
+### Added
 - `Optimised Scripts for Ordinator` - 1.0
 - `Optimised Scripts for Apocalypse-Ordinator Patch` - 1.0
 - `ENB Anti-Aliasing - AMD FSR 3.1 - NVIDIA DLAA` - 1.2.3 (now TAA is enabled and FXAA is disabled in skyrimperfs.ini) (thanks @CatastrophicApathy)
@@ -560,13 +578,13 @@
 - `Hotkey Reminder` - 1.0.2 (+ custom Licentia NEXT config by @CatastrophicApathy)
 - New main menu and loading wallpaper (hid `logo.nif` in Nordic UI , replaced with `Licentia NEXT Main Menu`)
 
-**Removed:**
+### Removed
 - `Weather of World` (superseded by `Unique Map Weather`)
 - `The Last Mainmenu Replacer` (replaced with NEXT main menu)
 - `Mega Main Menu` (aka `BLACK Main Menu`) (also replaced with NEXT main menu)
 - Deorder plugins unnecessary download
 
-**Updated:**
+### Updated
 - `ENB v502` - latest (19 october 2024)
 - `Blood of the Ancients - Permanent` - 2.0 -> 2.1
 - `Lae'zel A Githyanki Preset (Custom Overlays Included) by Swagmeister` - 1.1 -> 1.2 (and resources too)
@@ -603,7 +621,7 @@
     - `xLodGen` 116 -> 127
     - `Bodyslide` 5.6.3 -> 5.7.0
 
-**Fixed/Patched:**
+### Fixed/Patched
 - `MCM Saved Settings: TUDM` - Target lock to only hostiles by default, Mouse button 4 for target lock
 - `MCM Recording: QuickLight` - Holding interact key doesn't lite up the lantern anymore (it messed up the lantern)
 - `MCM Recording: I'm Glad You're Here` - Disabled horse interaction (to make mounting quicker)
@@ -621,51 +639,53 @@
 - Re-ran Nemesis
 
 ---
-> [!IMPORTANT]  
-> This point in the log marks a shift from **Licentia BLACK** to **Licentia NEXT**. 
-> 
-> `Cacophony` stepped down from the project, and `akzar` (me) took over the development.
->
-> **NEXT** will keep **BLACK**'s versioning system. Old logs would be stored inside the collapsible section below for historical purposes.
+# ![Old Changelod](/img/old-changelog.png)
+---
+
+:::info
+This point in the log marks a shift from **Licentia BLACK** to **Licentia NEXT**. 
+
+`Cacophony` stepped down from the project, and `akzar` (me) took over the development.
+
+**NEXT** will keep **BLACK**'s versioning system. Old logs would be stored inside the collapsible section below for historical purposes.
+:::
 ---
 
 <details>
   <summary>Old logs</summary>
 
-# LICENTIA BLACK CHANGELOG
-
-## LICENTIA BLACK 13.3.1 (compiled by @akzar)
+#### LICENTIA BLACK 13.3.1 (compiled by @akzar)
 
 Save safe (small update/fix).
 
-**Updated:**
+**Updated**
 - `wd - Barrels - 2K` (1.0 -> 1.1)
 - `Silver Armor and Weapons Retexture` (1.0 -> 2.0.1)
 - `Daedric Armors and Weapons Retexture SE` (1.2 -> 2.0) + daedric hand texture name fix (was `daedricJand01_n.dds` instead of `daedricHand01_n.dds`, J instead of H)
 - `Tamrielic Distribution` (1.3.6 -> 1.3.7)
 - `Open Animations 3P Plus for OStim Standalone` (1.11-Nex -> 1.12-Nex)
 
-**Fixed/Patched:**
+**Fixed/Patched**
 - Bug report: Falkreath cart duplication (https://discord.com/channels/719714673431150627/1285440650182922240) - fixed by un-hiding `Unofficial Moonpath to Elsweyr Patch` scripts
 - Bodyslide/Outfit studio custom override fix (now you can edit executables without warnings)
 - Re-ran Nemesis
   
-## LICENTIA BLACK 13.3.0 (compiled by @akzar)
+#### LICENTIA BLACK 13.3.0 (compiled by @akzar)
 
 Not save safe!
 
-**Added:**
+**Added**
 - `IED preset by Missile` + made a mod that auto-loads that preset (with `WABBAJACK_INCLUDE` flag)
 - `Lotd Perk Tree` 2.0
 - `Dragons Fall Down` 1.0.3 (suggested by Xelphos)
 - `Dragon Ragdoll Sounds (ESP flagged as ESL)` 1.1 (also suggested by Xelphos)
 
-**Removed:**
+**Removed**
 - `iAmMe preset for IED` (replaced with `IED preset by Missile`)
 - `3_HearthfireKidsMovingFix` (Vilja specific mod, she's not in the list anymore)
-- `Frostfall Nordic UI Patch` (unused)
+- `Frostfall Nordic UI Patch` (unused)`
 
-**Updated:**
+**Updated**
 - ENB `.502` binaries to latest (14 aug 2024)
 - `Legacy of the Dragonborn SSE` (6.4.0 -> 6.6.0)
 - `Legacy of the Dragonborn Patches (Official)` (6.3.1 -> 6.6.1)
@@ -723,7 +743,7 @@ Not save safe!
 - `Absolutely play death animation` (1.0 -> 1.1)
 - `DynDOLOD Resources SE 3.00` (Alpha 51 -> Alpha 52)
 
-**Fixed/Patched:**
+**Fixed/Patched**
 - Cleaned up `SKSE Settings` mod of unused stuff
 - Removed some redundant downloads
 - Bug report: messed up beast legs (https://discord.com/channels/719714673431150627/1279208797990293597) - fixed the meshes 
@@ -739,10 +759,10 @@ Not save safe!
 - Re-ran Nemesis
 - Re-ran Bodyslide (added physcis to some clothing that was missing it)
 
-## LICENTIA BLACK 13.2.2.1
+#### LICENTIA BLACK 13.2.2.1
 - Updated DynDOLOD 3.00 tool to Alpha-180
 
-## LICENTIA BLACK 13.2.2 (compiled by @akzar)
+#### LICENTIA BLACK 13.2.2 (compiled by @akzar)
 
 **LOTD updates**
 
@@ -761,13 +781,13 @@ Not save safe!
 - Created _MCM_ recording to enable said clutter filter
 - _Skyrim Extended Cut Saints and Seducers - Quest Patch_ - 1.0 -> 2.0
 
-## LICENTIA BLACK 13.2.1
+#### LICENTIA BLACK 13.2.1
 
 - Returned _DynDOLOD_ to the Papyrus Implementation, _DynDOLOD NG DLL_ removed
 - Added a few patches by @Xelphos for the _Interdimensional Chambers_
 - Added a patch to make the _Blood of the Ancients_ Vampiric ability Permanent
 
-## LICENTIA BLACK 13.1
+#### LICENTIA BLACK 13.1
 
 - Various small patches and updates 
 - Added Remiel bodyslide files + no-SMP patch
@@ -775,21 +795,21 @@ Not save safe!
 - Added _Faster Horses + Horses Simply turn better_ patch
 - Added _CGO debug message removal_ patch
 
-## LICENTIA TEST is now known as LICENTIA BLACK (version 13.0)
+#### LICENTIA TEST is now known as LICENTIA BLACK (version 13.0)
 
 - It will be the only supported list until the New Year.
 - All other modlists, including previous versions, are on MEGA.
 - Too much to go into for one segment. Read below if you are interested in all the Summer Changes.
 - Minor fixes and improvements for the UI Version.
   
-## SERVITIUM 4.25.5
+#### SERVITIUM 4.25.5
 
 - Updated _Billyy's SLAL Animations_ to 8.1SE
 - Updated _Laura's Bondage Shop_
 - Updated _Deviously Enchanted Chests_
 - Fixed _Paraglider_ load order
   
-## LICENTIA BLACK 12.27.1, also others
+#### LICENTIA BLACK 12.27.1, also others
 
 - Updated _enbseries_ to 5.0.2
 - Updated _Rudy ENB for NAT 3_ to 2.01
@@ -799,11 +819,11 @@ Not save safe!
 - Updated _Photo Mode_ to 1.6.0
 - Updated _Papryus Extender_ to 5.8.0
   
-## LICENTIA QUESTS UPDATED
+#### LICENTIA QUESTS UPDATED
 
 - Created a Variant with lower Performance Requirements.
   
-## LICENTIA BLACK 12.27
+#### LICENTIA BLACK 12.27
 
 - Added _Auri - OStim Patch_
 - Updated _Open Animations RE for OStim Standalone_ to 1.51
@@ -823,15 +843,15 @@ Not save safe!
 - Updated _WIDeadBodyCleanupScript Crash Fix_ to 0.4
 - Re-Ran _Nemesis_
   
-## LICENTIA QUESTS UPDATED
+#### LICENTIA QUESTS UPDATED
 
 - Created a _NON-SLOOT_ Version
 
-## LICENTIA TEST UPDATED
+#### LICENTIA TEST UPDATED
 
 - Brought over changes from _QUESTS_
   
-## LICENTIA QUESTS UPDATED
+#### LICENTIA QUESTS UPDATED
 
 - Updated _OStim Standalone_ to 7.3.1a
 - Updated _OStim Community Resource_ to 1.7.5
@@ -842,30 +862,30 @@ Not save safe!
 - Made the cap for all Skills 199
 - Re-Ran _Nemesis_
   
-## LICENTIA BLACK 12.25
+#### LICENTIA BLACK 12.25
 
 - Made tongues in animations invisible
 - Fixed melee-only Atronachs
 - Relocated some misplaced `ESP`s.
   
-## LICENTIA TEST UPDATED
+#### LICENTIA TEST UPDATED
 
 - Added all changes from _QUESTS_
 - Apparently _LUX x ICOW_ is broken now. Nothing I can do.
 
-## LICENTIA QUESTS UPDATED
+#### LICENTIA QUESTS UPDATED
 
 - Added all changes from _SERVITIUM_
 - Verified Dog Followers are working
 - 
-## SERVITIUM 4.23
+#### SERVITIUM 4.23
 
 - Made slooty gear in boss chests less common.
 - Removed _Go To Bed_
 - Reconfigured _Improved Camera_ a little
 - Reconfigured some MCMs
   
-## SERVITIUM 4.22
+#### SERVITIUM 4.22
 
 - Added _Wintersun - SexLab Integration_
 - Updated _Submissive Lola: The Resubmission_ to 2.1.5a
@@ -874,27 +894,27 @@ Not save safe!
 - Updated _Faster HDT-SMP_ to 2.5.0
 - Updated _DynDOLOD DLL NG and Scripts_ to Alpha-30
   
-## LICENTIA TEST UPDATED
+#### LICENTIA TEST UPDATED
 
 - Updated _Lux Patch Hub_ for FULL LOTD 6 compatibility
 - Reintalled _Immersive Weapons_ to fix missing textures
 
-## LICENTIA BLACK 12.24.0.1
+#### LICENTIA BLACK 12.24.0.1
 
 - Previous fixes described, release to UI
   
-## ALL VERSIONS
+#### ALL VERSIONS
 
 - Removed _Yes Im Sure Completionist Patch_
   
-## LICENTIA QUESTS UPDATED
+#### LICENTIA QUESTS UPDATED
 
 - Updated _There Is No Umbra_
 - Removed _TK Dodge_ and added back _Ultimate Dodge_
 - Reworked the _Defeat_ Configuration a little
 - Added changes from _TEST_ and _SERVITIUM_ that were appropriate
   
-## LICENTIA TEST UPDATED
+#### LICENTIA TEST UPDATED
 
 - Added back _Legacy of the Dragonborn Visual Overhaul_
 - Added back _Legacy of the Dragonborn - NPC Overhaul_
@@ -912,14 +932,14 @@ Not save safe!
 - Updated _Keyword Item Distributor_ to 3.4.0
 - Re-ran _Nemesis_
   
-## SERVITIUM 4.21.2
+#### SERVITIUM 4.21.2
 
 - Updated _Billyy's SLAL Animations_ to 8.0SE
 - Updated _Yamete Kudasai_ to 2.2.1.1
 - Replaced _SLUTS Resume 3.3_ with the _Lover's Lab_ Version
 - Re-ran _FNIS_ and _Nemesis_
   
-## LICENTIA TEST UPDATED
+#### LICENTIA TEST UPDATED
 
 - Updated _Legacy of the Dragonborn_ to 6.1.2
 - Updated _Legacy of the Dragonborn Patches (Official)_ to 6.0.1
@@ -933,13 +953,13 @@ Not save safe!
 - Removed several other bugfix and tweak mods included elsewhere
 - Hid some meshes from _Lux_ and _Lux Orbis_ for better compatibility with LOTD 6
   
-## SERVITIUM 4.21.1.1
+#### SERVITIUM 4.21.1.1
 
 - Set _Spank That Ass_ volume to 100%
 - Reduced assaults out of combat (when nude, vulnerable etc) to a max of 1 in a row
 - Reduced Master's available gold with _Lola_ from 20K to 3K
   
-## SERVITIUM 4.21.1
+#### SERVITIUM 4.21.1
 
 - Revamp of _Defeat_ Mods based on functionality and user feedback.
 - All strip on hit events Disabled.
@@ -960,7 +980,7 @@ Not save safe!
 - Enabled Full Screen Borderless
 - Relocated Disabled Mods to reduce confusion
 
-## SERVITIUM 4.21
+#### SERVITIUM 4.21
 
 - Added the complete _Sun Jeong Ninirim_ Suite of sexy outfits.
 - Removed the _Sun Jeong_ Museum in the middle of Lake Ilinata.
@@ -968,7 +988,7 @@ Not save safe!
 - Each Boss Chest has 1 piece of _Ninirim_ Gear.
 - Regenerated _BodySlides_
   
-## SERVITIUM 4.20
+#### SERVITIUM 4.20
 
 - Added the complete _[COCO]_ Suite of sexy outfits.
 - Crafting books can be found at Belethor's.
@@ -976,18 +996,18 @@ Not save safe!
 - Each Boss Chest has 1 piece of _[COCO] Gear.
 - Regenerated _BodySlides_
 
-## LICENTIA TEST Created.
+#### LICENTIA TEST Created.
 
 - Switches _Legacy of the Dragonborn_ to Version 6.X
 - Removes redundant mods now included with _Legacy of the Dragonborn_
 - Removes _LOTD_ related mods now outdated
 
-## LICENTIA QUESTS Created.
+#### LICENTIA QUESTS Created.
 
 - Same mods as 2023's _Quests_
 - Hid a script that conflicted with _Fancy Fishing
 - 
-## LICENTIA 12.24
+#### LICENTIA 12.24
 
 - Updated _Drago's Love Those Neighbours for OStim Standalone_ to 1.5
 - Updated _Lovemaking Compendium for OStim Standalone_ to 1.7.5
@@ -1010,7 +1030,7 @@ Not save safe!
 - Reinstalled _Additional Clockwork_ without the Courier Fix
 - Re-ran _Nemesis_
   
-## LICENTIA 12.22 - TRASHY ROMANCE LICENTIA
+#### LICENTIA 12.22 - TRASHY ROMANCE LICENTIA
 
 - Added _GORE - A Companion Mod_
 - Added _Another Gore Replacer_
@@ -1032,7 +1052,7 @@ Not save safe!
 - Added _Himbo NordwarUA - Vanilla Replacers_
 - Added _CBBE NordWar UI - Vanilla Replacers_
   
-## LICENTIA 12.21.4
+#### LICENTIA 12.21.4
 
 - Added back _Better Third Person Selection_
 - Added back _Detection Meter_
@@ -1046,30 +1066,30 @@ Not save safe!
 - Disabled headshots against the player
 - Corrected _BethINI Pie_ link
 
-## LICENTIA 12.21.3
+#### LICENTIA 12.21.3
 
 - Corrected tree fade values
 - Edited the futa schlongs to be more compatible
 
-## LICENTIA 12.21.2
+#### LICENTIA 12.21.2
 
 - Hid the _Bijin Standalone_ ESPs
 - Fixed the level up menu incorrectly displaying "Security" and "Hand to Hand"
 - Fixed the "squished" crafting menus.
 
-## LICENTIA 12.21.1
+#### LICENTIA 12.21.1
 
 - Fixed a Missing Masters issue for EZSLOOT.
 - Added a beta fix for LOTD crashes with _QuickLoot_
 
-## LICENTIA 12.20
+#### LICENTIA 12.20
 
 - Updated _ORomance_ to 1.61
 - Updated _Improved Follower Dialogue - Lydia_ to 4.1.4
 - Updated _Honed Metal_ to 1.26.1
 - Updated _NL-MCM_
   
-## LICENTIA 12.19
+#### LICENTIA 12.19
 
 - Added _Quickloot EE - NG Fork_
 - Added _Interesting NPCs Quest Requirements Tweak_
@@ -1101,7 +1121,7 @@ Not save safe!
 - Re-ran _Nemesis_
 - Fixed a few script overwrites
   
-## LICENTIA 12.18
+#### LICENTIA 12.18
 
 **A Bit of a Note About This Update**
 
@@ -1131,7 +1151,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Re-ran _Nemesis_
 - Fixed darkfaces on Vilja and a couple Bruma guards
 
-## LICENTIA 12.17
+#### LICENTIA 12.17
 
 - Replaced _Kaidan Extended_ with _Nexus_ Version and patched appropriately
 - Added back Kaidan's buttslaps.
@@ -1139,15 +1159,15 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Re-ran _Nemesis_
 - Regenerated _Synthesis_ patches
 
-## LICENTIA 12.16
+#### LICENTIA 12.16
 
 - Updated _Kaidan Extended Edition AIO_ to 2.1.3
 
-## LICENTIA 12.15.6
+#### LICENTIA 12.15.6
 
 - Added _Take a Nap - Sleep on Chairs_
 
-## LICENTIA 12.15.5
+#### LICENTIA 12.15.5
 
 - Updated _Improved Follower Dialogue - Lydia_ to 4.0.7
 - Updated _The Wheels of Lull SE_ to 5.1.13.2
@@ -1156,7 +1176,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _SPID - NFF - Add Ignore Token to CustomAI Follower_ to 1.0.24
 - A user further fixed growables for my list so I added their patch, apologies for the delay.
   
-## LICENTIA 12.15.3
+#### LICENTIA 12.15.3
 
 - Updated _Vanilla hair remake_ to 0.38
 - Updated _Underwear.dll_ to 1.1.1 
@@ -1167,14 +1187,14 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _DynDOLOD DLL NG 1.6.11xx and Scripts_ to Alpha 23
 - Fixed the problem where _Triple Triad_ would teleport you to some house
 
-## LICENTIA 12.15.1
+#### LICENTIA 12.15.1
 
 - Fixed sexy outfits.
 - Sexy outfit male dongs while clothed were invisible. Fixed.
 - Female clothes missing textures. Fixed.
 - Some females dressed modestly on the immodest profiles. Fixed.
   
-## LICENTIA 12.15
+#### LICENTIA 12.15
 
 - **CHANGE OF PLANS. OBODY WILL NOT RETURN TO THIS VERSION. STILL CAUSING CRASHES**
 - Added _Open Animations 3P Plus_
@@ -1206,7 +1226,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Regenerated _BodySlides_ with a bit more variance between 0 weight and 100 weight
 - Re-ran _Nemesis_
 
-## SERVITIUM 4.15 
+#### SERVITIUM 4.15 
 
 - Updated _Unofficial Skyrim Special Edition Patch_ to 4.31
 - Updated _Pandorables Males 3_ to 1.04
@@ -1214,14 +1234,14 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Re-Enabled the _OSL Aroused_ plugin (list was playable without it, but crippled)
 - Applied `ESL` flag to _Sunstarved Tanlines_
 
-## SERVITIUM 4.14.2
+#### SERVITIUM 4.14.2
 
 - Adjusted game settings so _Spank That Ass_ will work as intended
 - Adjusted SKSE settings so defeat sequences will work better
 - Patched _Choose Your Sign_ so the book will properly show up in the starting endtable
 - Fixed _Compass Navigation Overhaul_ to display undiscovered markers
   
-## SERVITIUM 4.14
+#### SERVITIUM 4.14
 
 - **ADDED BACK OBODY NEXT GENERATION**
 - Added a collection of male and female _BodySlide_ Presets for _OBody_
@@ -1242,7 +1262,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Regenerated _LODs_
 - Attempted a fix for load times that didn't work
 
-## SERVITIUM 4.13.2
+#### SERVITIUM 4.13.2
 
 - Reverted _SexLab Utility Plus_ v20240407 to v20231230
 - Added _Choose Your Sign_
@@ -1255,7 +1275,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Increased size of text in some areas
 - Deleted a shit-ton of leftover downloads from QUESTS (long overdue)
 
-## SERVITIUM 4.13
+#### SERVITIUM 4.13
 
 - Updated _Billyy's SLAL Animations SE_ to 7.7
 - Added the changes from _Licentia_ 12.12
@@ -1266,17 +1286,17 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Fixed download for _BethINI Pie_
 - Re-ran _FNIS_ & _Nemesis_
 
-## LICENTIA 12.13.1
+#### LICENTIA 12.13.1
 
 - Added an optional Note to give 1,000 XP at Game Start
 
-## LICENTIA 12.13
+#### LICENTIA 12.13
 
 - Emphasized the NSFW art of _ArdisFoxx_ in the list's Media
 - Packaged many of the larger textures into BSA Archives
 - Fixed download for _BethINI Pie_
 
-## LICENTIA 12.12.2
+#### LICENTIA 12.12.2
 
 - Added _Choose Your Sign_
 - Added _Alternate Perspective - Choose Your Sign Add-On_
@@ -1289,13 +1309,13 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Configured books and notes to zoom in further
 - Increased the size of text in some areas
   
-## LICENTIA 12.12.1
+#### LICENTIA 12.12.1
 
 - Added _High Level Enemies_
 - Added _High Level Enemies - Fixed FaceGen_
 - Patched most humans and draugr to scale with the player
   
-## LICENTIA 12.12
+#### LICENTIA 12.12
 
 - Added _Quick Light SE_
 - Added _Quick Light SE - ESL Flagged_
@@ -1314,11 +1334,11 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _Crash Logger SSE_ to 1.13.1
 - Please visit the Discord Server for Locational Damage Changes
 
-## SERVITIUM 4.11
+#### SERVITIUM 4.11
 
 - Incorporated the changes from _Licentia SLEEP_
 
-## Licentia 12.11 (briefly known as Licentia SLEEP)
+#### Licentia 12.11 (briefly known as Licentia SLEEP)
 
 - Added _Go To Bed_
 - Added _Sleep Tight SE_
@@ -1340,13 +1360,13 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Added _Walk - Running Animations_
 - Added _Sneak._ Animations
 
-## LICENTIA 12.10.8
+#### LICENTIA 12.10.8
 
 - Updated _Smooches of Skyrim_ to 1.8.1 and disabled NPC-initiated Smooches
 - Updated _Improved Follower Dialogue - Lydia_ to 4.0.2
 - Fixed undiscovered icons not showing in _Compass Navigation Overhaul_
 
-## LICENTIA 12.10.7
+#### LICENTIA 12.10.7
 
 - Updated _OStim Community Resource_ to 1.17
 - Updated _Dwemer Spectres Special Edition_ to 4.1.2alpha
@@ -1358,7 +1378,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _DynDOLOD Resources SE 3.00_ to Alpha-49
 - Removed _CritterSpawn Congestion Fix_ (now available in _Modder's Patch_)
 
-## SERVITIUM 4.9
+#### SERVITIUM 4.9
 
 - Updated **SLUTS Resume** to Version **3.3 PATREON ONLY**
 - Added _Pamatronic's Deadly Furnitures_
@@ -1375,11 +1395,11 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Extensively tested the Defeat scenarios -- buggy but workable
 - Re-ran _Synthesis_
 
-## LICENTIA 12.10.6
+#### LICENTIA 12.10.6
 
 - Simple recompile so the list can be installed.
   
-## LICENTIA 12.10.5
+#### LICENTIA 12.10.5
 
 - Added _Infinity UI_
 - Added _Compass Navigation Overhaul_ and _CoMAP_ patch
@@ -1387,7 +1407,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Added _Unread Books Glow SSE_
 - Added _Ignoble Beds - A Noble and Upper Class Bed Replacer_
 
-## LICENTIA 12.10.4
+#### LICENTIA 12.10.4
 
 - Added _winedave - Barrels_
 - Added _MFG Fix NG_
@@ -1395,7 +1415,7 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _CritterSpawn Congestion Fix_
 - **MANY** fixes for _Remiel's_ dialogue.
 
-## LICENTIA 12.10.3
+#### LICENTIA 12.10.3
 
 - Added _Honed Metal - Ordinator Skill Boost Disable_
 - Added _Inigo - Triple Triad Patch_
@@ -1405,29 +1425,29 @@ Lastly I finally corrected the darkface on Vilja and a couple of Bruma border gu
 - Updated _Photo Mode_ to 1.4.0
 - Updated _The Wheels of Lull Retexture_ to 1.02
 
-## LICENTIA 12.10.2 and SERVITIUM 4.8.1
+#### LICENTIA 12.10.2 and SERVITIUM 4.8.1
 
 - Added _ZMD's Hand Nails Art Texture Overlays for RaceMenu_ as ESL. (user request)
 - Added _ZMD's Feet and Nails Art Texture Overlays for RaceMenu_ as ESL. (user request)
 - Added _Improved Dialogue Lydia Amorous Adventures Patch_
 - Updated _EEOS - Enemy (R)Evolution of Skyrim_ to version 2.02.
 
-## SERVITIUM 4.8
+#### SERVITIUM 4.8
 
 - Added _Submissive Lola ReSubmission - Runic Collar_
 - Updated _SLUTS Resume_ to 3.2
 - Updated _Pama Prison Alternative_ to 2.0.3
 
-## LICENTIA 12.10.1
+#### LICENTIA 12.10.1
 
 - Reinstalled _The New Gentlemen_ with proper addon support (futa animations)
 
-## SERVITIUM 4.6
+#### SERVITIUM 4.6
 
 - Updated _Submissive Lola, The Resubmission_ to 2.1.4
 - Updated _Coffee's Submissive Lola Task Extension_ to 1.0.9
 
-## SERVITIUM 4.7 - 4.7.1
+#### SERVITIUM 4.7 - 4.7.1
 
 Had a lot of trouble with _SubScribeStar_ these Updates.
 
@@ -1436,13 +1456,13 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Replaced _Baka Motion Pack_ with a _Wabbajack_ source
 - Replaced _BakaFactory's ABC_ with a _Wabbajack_ source
 
-## SERVITIUM 4.5
+#### SERVITIUM 4.5
 
 - Performed the changes from the _Licentia_ Update, below.
 - Updated _BakaFactory ABC SE_ without version change.
 - Removed _Hoth_
 
-## LICENTIA 12.10
+#### LICENTIA 12.10
 
 - Added _T.I.T.S. - Thistlefoot Is Totally Stable_
 - Added _JS Attunement Sphere LOTD Display Patch_
@@ -1454,20 +1474,20 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Removed _Auri Dismount Fix_
 - Removed _Thistlefoot Should Stay Indoors_
   
-## LICENTIA 12.9
+#### LICENTIA 12.9
 
 - Removed _QuickLoot EE_ and 1170 patch
 - Removed _Hoth_
 - Fixed a neckseam on all Bosmer (wood elves)
   
-## LICENTIA 12.8
+#### LICENTIA 12.8
 
 - Added _QuickLoot EE_
 - Added _QuickLoot EE_ patch for 1170
 - Updated _Open Animation Replacer_ to 2.2.2
 - Updated _Ordinator Perks for NPCs_ to 2.5
 
-## SERVITIUM 4.4.3
+#### SERVITIUM 4.4.3
 
 - Reinstalled _Auto Input Switch_
 - Reinstalled _Essential Favorites_
@@ -1480,14 +1500,14 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Enabled _SmoothCam_ 3D Ranged Crosshair
 - Adjusted "Recent Loot" Item Card upward a bit
 
-## LICENTIA 12.7.0.1
+#### LICENTIA 12.7.0.1
 
 - Fixed the revealing keywords on outfits so Male Sloot displays properly.
 - Adjusted the "recent loot" item card upward a bit so as not to overlap the ammunition readout.
 - Enabled the SmoothCam 3D Ranged Crosshair by default because the Default Crosshair is a bit useless for 3rd Person Archery.
 - Ensured that FUTA is disabled by Default.
   
-## LICENTIA 12.7
+#### LICENTIA 12.7
 
 - Added _BD's Armor and Clothing Replacer_
 - Added _Kreise's Skimpy Outfits for HIMBO_
@@ -1509,7 +1529,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Regenerated _BodySlides_
 - Reran _Nemesis_
 
-## LICENTIA 12.6.2
+#### LICENTIA 12.6.2
 
 - Added Boreal Boats
 - Added Tremendous Helm of Yngol
@@ -1522,11 +1542,11 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Updated Blended Roads Redone to 2.1
 - Hopefully a resolution for xLODGen download errors
 
-## LICENTIA 12.6.1
+#### LICENTIA 12.6.1
 
 - Updated _po3's Tweaks_ to 1.9.2 to prevent crashes
   
-## LICENTIA 12.5
+#### LICENTIA 12.5
 
 - Updated _Vanilla Hair Remake_ to 0.11
 - Updated _Xelzaz - Custom Fully Voiced Argonian Telvanni Follower_ to 1.11.2
@@ -1541,7 +1561,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Updated _Scaleform Translation Plus Plus NG_ to 1.8
 - Updated _LOD Model Library for DynDOLOD_ to 1.4.4
 
-## LICENTIA 12.4
+#### LICENTIA 12.4
 
 - Toned down bandit and monster spawns to a more reasonable amount.
 - Added winedave's new parallax Whiterun roof fixes
@@ -1565,7 +1585,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Included _xEdit_ 4.1.5c
 - Re-ran _Nemesis._
 
-## LICENTIA 12.2
+#### LICENTIA 12.2
 
 - Added _Completionist - Skyrim Completion Tracker NG_
 - Removed _Skyrim Priority_ as it appears to be negatively impacting my framerate
@@ -1574,12 +1594,12 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - **Note:** To check _Curator_ status for items, hover over them and look at the description card.
 - Certain other SKSE mods may load properly but have no function. Be aware of bugs
 
-## LICENTIA 12.1.0.1
+#### LICENTIA 12.1.0.1
 
 - Deleted an included _Creation Kit_ `Scripts.zip` file so the list can be installed.
 - Corrected missing textures for _Glorious Doors of Skyrim_
   
-## LICENTIA 12.1
+#### LICENTIA 12.1
 
 - Added _Billyy's Animations for OStim Standalone_
 - Added _BakaFactory's Animations for OStim Standalone_
@@ -1663,7 +1683,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Regenerated LODs with the new _DynDOLOD DLL NG_ (here we go again)
 - Made the _MCM Recording_ autorun.
 
-## LICENTIA 12
+#### LICENTIA 12
 
 - Updated _OStim NG_ to _OStim Standalone_ with all available current mods
 - Updated all available _OStim_ animations to _OStim Standalone_ format
@@ -1701,7 +1721,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Updated _SDA Patch Hub SE_ to 2.9.2
 - Updated _Kaidan Extended All-In-One_ to 1.9.2
   
-## SERVITIUM 3.6
+#### SERVITIUM 3.6
 
 - Added _Anub's Animations_
 - Added _Devious Devices NG_
@@ -1733,7 +1753,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Rearranged and regenerated _Synthesis_ Patches.
 - Deleted redundant downloaded files.
 
-## BLACK 11.10
+#### BLACK 11.10
 
 - Removed _Katana - Journey In Shadow_ pending resolution of a couple issues.
 - Removed _Chooey's Choice Requirements_
@@ -1742,7 +1762,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Resized the _Better Third Person Selection_ widget to better fit the screen.
 - Unhid the _Skyrim Paragliding_ DLL so the mod will function.
    
-## BLACK 11.9.2
+#### BLACK 11.9.2
 
 - Got rid of the "burst of lightning" hand effect from _Spellsiphon._
 - Reactivated some _ENB Light_ lightning effects.
@@ -1751,14 +1771,14 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Hid the player head for first person _OStim_ scenes.
 - Fixed a lighting bug causing the Palace of Kings to be too bright.
   
-## BLACK 11.9.1
+#### BLACK 11.9.1
 
 - Added back _OVirginity Reflowered_ as it's actually a requirement for _ORomance._ Oops.
 - Added back _OTrainers._ I think I just don't understand how the skill caps work.
 - Updated _OStim NG_ to 6.8f (Final, but I thought I had that already...)
 - Updated _OCum Ascended_ to 3.0.0
   
-## BLACK 11.9
+#### BLACK 11.9
 
 - Tweaks to body physics to make them just a touch jigglier.
 - Updated to V.2.0.2 of _Open Animation Replacer._
@@ -1776,79 +1796,79 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Reran _Nemesis_ with TDM patches disabled to prevent divergent horse archery.
 - Tested FPS @ 4K with the _Skyrim Upscaler._ Stuttery, but mostly 60FPS. (I have a 3090.)
   
-## ALL LISTS
+#### ALL LISTS
 
 - Added Charlie's _Alternate Alternate Perspective Letter_
 
-## SERVITIUM 3.2.2
+#### SERVITIUM 3.2.2
 
 - Actual final fixes for missing textures on the _GLAM_ series
 - Actual final fixes for dark faces on the _Hydra Slavegirls_
 
-## SERVITUM 3.3.1.1
+#### SERVITUM 3.3.1.1
 
 - Facegen fixes for GLAM series and _Sisters of Dibella_
 
-## COMMISSION SERVITIUM UNSLOOT RELEASED
+#### COMMISSION SERVITIUM UNSLOOT RELEASED
 
 - Removes slutty outfits in _Servitium_
 - Original _Skyrim_ music.
 - May have bugs which will never be fixed.
 
-## QUESTS, DECK
+#### QUESTS, DECK
 
 - Fix for purple underwear on females.
 
-## SERVITIUM
+#### SERVITIUM
 
 - Added a seamless futa texture.
 
-## SERVITIUM 3.2
+#### SERVITIUM 3.2
 
 - Reverts _Public Whore 1.2.5_ (removed from LL) to 1.2.4 with patch
 - Removed _Better Telekinesis_. No longer functional.
 - Removed _Better Stealing_. No longer functional.
 
-## VENTURE FORTH
+#### VENTURE FORTH
 
 - Added _Larger Penis with Flopping Physics_
 - Updated _SBBF Stylized Beautiful Body for Female_ to 1.12
 - Updated _Scantily Camp Outfit_ to 2.0.10
 - Updated _ImprovedUI_ to 3.16.1
 
-## SERVITIUM NOW ON THE UI FOR WJ!
+#### SERVITIUM NOW ON THE UI FOR WJ!
 
-## PARABELLUM NOW FEATURED ON WJ!
+#### PARABELLUM NOW FEATURED ON WJ!
 
-## BLACK, QUESTS, DECK
+#### BLACK, QUESTS, DECK
 
 - Reverted to _HIMBO v4_ due to disproportionate male pectorals on vanilla outfits.
 
-## BLACK, QUESTS, DECK (minor)
+#### BLACK, QUESTS, DECK (minor)
 
 - Finally a fix for my custom _OStim_ settings not loading properly.
 
-## VENTURE FORTH RELEASED!
+#### VENTURE FORTH RELEASED!
 
-## PARABELLUM, and NUKA 1.3.1
+#### PARABELLUM, and NUKA 1.3.1
 
 - Updated _Workshop Framework_
 
-## SERVITIUM 2.4
+#### SERVITIUM 2.4
 
 - Added _Practical Defeat_
 - Removed _Yamete Kudasai_
 
-## BLACK 11.5.0.1
+#### BLACK 11.5.0.1
 
 - Fixed an issue where the player could not turn in Bounty Quests.
 
-## PARABELLUM, NUKA
+#### PARABELLUM, NUKA
 
 - Updated _Workshop Framework_
 - Updated _Sim Settlements 2_
 
-## BLACK, QUESTS, DECK, SERVITIUM, FERTILITY
+#### BLACK, QUESTS, DECK, SERVITIUM, FERTILITY
 
 - Removed _OBody_ from the public-facing versions due to crashes.
 - To use _OBody_ install one of my MEGA versions.
@@ -1856,18 +1876,18 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Added the remainder of _Xvabio's Armor Retextures_
 - Fire-and-forget _FERTILITY_ version with _Fertility Mode_ added on MEGA.
 
-## LICENTIA DECK RELEASED!
+#### LICENTIA DECK RELEASED!
 
-## SERVITIUM 2.3.3
+#### SERVITIUM 2.3.3
 
 - Recompile so the list will be installable again.
 - Updated _Acheron_
 
-## Licentia FERTILITY now available on MEGA!
+#### Licentia FERTILITY now available on MEGA!
 
 - A commission, this just adds _Fertility Mode_ and the stable patches back to **BLACK** so you don't have to.
   
-## BLACK 11.4.1
+#### BLACK 11.4.1
 
 - Added _Ancient Falmer Armors and Weapons Retexture SE_
 - Added _Ancient Nord Armors and Weapons Retexture SE_
@@ -1891,7 +1911,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Reran _Synthesis_
 - Regenerated LODs.
   
-## Licentia DECK now available!
+#### Licentia DECK now available!
 
 - Based on **BLACK**
 - List custom made for _Steam Deck_ and low-end machines and laptops.
@@ -1899,37 +1919,37 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - SFW profile as default to suit a broader audience.
 - All other content still available.
   
-## SERVITIUM 2.2.3
+#### SERVITIUM 2.2.3
 
 - Updates _Acheron_ to 1.4.1.0 so the list will be installable.
   
-## BLACK 11.4
+#### BLACK 11.4
 
 - Bring in line with previous **QUESTS** updates.
 - Further attempts at installation fixes.
   
-## QUESTS 11.4
+#### QUESTS 11.4
 
 - Added _Fantaze - HIMBO Body Preset Collection_
 - Added _HIMBO V5 Creation Club - Patches and Addons_
 - Added _Modular Armory - HIMBO Bodyslide Patches_
 - Updated _Kaidan Extended Edition AIO_ to 1.8.5
   
-## QUESTS 11.2.1.1
+#### QUESTS 11.2.1.1
 
 - Added _INI Tweaks for RaceMenu_ to try to resolve _OBody_ crashes
 - Updated _Tools of Kagrenac_
 - _Ebony Warrior Woman_ is now actually a woman.
   
-## SERVITIUM 2.3
+#### SERVITIUM 2.3
 
 - Update with changes made since 2.2.1 to **QUESTS.**
   
-## QUESTS 11.2.1
+#### QUESTS 11.2.1
 
 - Recompile with _Kaidan Extended Edition AIO 1.8.4_
   
-## QUESTS 11.2
+#### QUESTS 11.2
 
 - Failed a full update to **1130**
 - Added back _Amorous Adventures CLEAN_ to the **SAFE** Profiles
@@ -1958,22 +1978,22 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Reran Synthesis (only on EXPANSION NEEDS)
 - Deleted files clogging up downloads
 
-## BLACK 11.0.0.1
+#### BLACK 11.0.0.1
 
 - Recompile to attempt to fix installation difficulties.
   
-## SERVITIUM 2.2.2
+#### SERVITIUM 2.2.2
 
 - Compiled with a new version of _SexLab._ **Some install corruption may occur with this version**
 - Recompiled with _Laura's Bondage Shop 3.43 SSE_ so the list would be installable
 - Fixed a link for _Diabloesque Decorations_ (the "zdd" file)
   
-## QUESTS 11.1
+#### QUESTS 11.1
 
 - Return of the **NEEDS** Profile
 - Refer to previous CHANGELOG to see what's included.
   
-## BLACK 11
+#### BLACK 11
 
 - Return of all the Summer Profiles. Check docs on Github.
 - Brought all versions in equivalence for those mods which are shared.
@@ -1994,7 +2014,7 @@ Had a lot of trouble with _SubScribeStar_ these Updates.
 - Updated _Crashlogger AE_ to 1.11.1
 - Requested a custom fix be made for _Ordinator's_ MagicApply spam
 
-## SERVITIUM 2.0
+#### SERVITIUM 2.0
 
 - Return of the **DEAD** Profile.
 - Refer to earlier CHANGELOG to see what's included.
@@ -2007,12 +2027,12 @@ Three ENB Profiles:
 - _GRIM ENB_ for _NAT III_
 
   
-## SERVITIUM 1.2
+#### SERVITIUM 1.2
 
 - Return of the **TOYS** Profile.
 - Refer to earlier CHANGELOG to see what's included.
   
-## SERVITIUM 1.1.1
+#### SERVITIUM 1.1.1
 
 - Added SL Tools
 - Updated Billyy's SLAL Animations to 7.2
@@ -2030,7 +2050,7 @@ Three ENB Profiles:
 - Fixed the link for Skyrim Vixens - LOTD Paintings
 - Deleted some leftover OStim files
 
-## LICENTIA QUESTS 10.9
+#### LICENTIA QUESTS 10.9
 
 - Updated Immersive Armors SSE CBBE BodySlide to 3.0
 - Updated Highly Improved Male Body Overhaul to 5.3
@@ -2039,14 +2059,14 @@ Three ENB Profiles:
 - Updated Landscape Fixes For Grass Mods to 5.2
 - Updated Simplicity of Snow to 0.18
 
-## LICENTIA QUESTS 10.8
+#### LICENTIA QUESTS 10.8
 
 - Updated _Kaidan Extended Edition AIO_ to 1.7.5
 - Updated _New Vominheim SE_ to 2.21
 - Updated _Skyland AIO_ to 4.32
 - Updated _Simplicity of Snow_ to 0.17
 
-## LICENTIA QUESTS 10.7
+#### LICENTIA QUESTS 10.7
 
 - Added _KR2's Kaidan NPC Overhaul_
 - Added _GLENMORIL - NPC Overhaul - Salt and Wind_
@@ -2065,19 +2085,19 @@ Three ENB Profiles:
 - Reinstalled _I'm Talkin Here_ to add _Wheel of Time_ silence
 - Removed _Ultimate Immersion Toggle_
 
-#### NOTE
+######## NOTE
 
 The addition of the NO GLOW moon mod fixes the skies at night from being floodlamp bright.
 
-## LICENTIA BLACK 10.6.2
+#### LICENTIA BLACK 10.6.2
 
 - Brought the list in line with the changes listed below, for those labeled BLACK or ALL.
   
-## LICENTIA QUESTS VERSIONS THROUGH 10.5
+#### LICENTIA QUESTS VERSIONS THROUGH 10.5
 
 Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`. So, here's an AIO.
 
-### ALL
+##### ALL
 
 - Upgraded _Mod Organizer 2_ to v2.5rc1
 - Added _Katana - Journey in the Shadows_
@@ -2102,11 +2122,11 @@ Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`.
 - Fixed an incompatibility in Skyhaven Temple that caused a system freeze.
 - Finally solved the Vampiric Drain problem. Does not work on Undead, Ghosts, Daedra and Automatons until you get the perk for it.
 
-### COMBAT
+##### COMBAT
 
 - Added. In line with other _COMBAT_ versions.
 
-### EXPANSION
+##### EXPANSION
 
 - Profile Added, includes:
 - Added _Collectible Dragonling Eggs_
@@ -2117,7 +2137,7 @@ Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`.
 - Added _Hall of Forgotten LOTD & TCC Patches_ (note that Narrative Loot doesn't have a TCC patch yet)
 - Reran _BodySlides_ for the _DX_ armors
 
-### PYJAMAS
+##### PYJAMAS
 
 - Profile commission by ANONYMOUS
 - Added _COCO 2B Wedding Outfit_
@@ -2146,11 +2166,11 @@ Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`.
 - Removed crafting options (they were trivial)
 - Generated _PYJAMAS BodySlide Output_
 
-### SAFE
+##### SAFE
 
 - Added. In line with previous SAFE versions. Based on plain QUESTS for now.
 
-### FIXES
+##### FIXES
 
 - Attempted a different installation method so forges would stop turning purple after Wabbajack runs.
 - Minor nerfs to _Kitchen Knife_ from _Slenderman_ and _Argonian Blade_ from _JaySus swords_
@@ -2161,7 +2181,7 @@ Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`.
 - Ran _Synthesis_ for all profiles.
 - Ran _Lods_ for all profiles.
   
-## 9.15
+#### 9.15
 
 **NOTE:** If you wish to fix your wonky install without this potentially save-breaking Update, simply open the "ENB Light" mod and un-hide all the files inside.
 
@@ -2173,20 +2193,20 @@ Been a bit distracted lately so haven't been keeping up with the `CHANGELOG.md`.
 - Reinstalled the _Lux_ Suite with better configurations.
 - Patched _Spellsiphon_ to hide that damn ball of electricity that appears when you try to do anything.
   
-## 9.14.1
+#### 9.14.1
 
 - Fixed the weird snowy treasure chests.
 - Fixed weird fires in the Markarth area.
 - Fixed weird eyes on some of the Khajiit Caravaneers.
   
-## 9.14 - BLACK COMPILED FOR THE UI
+#### 9.14 - BLACK COMPILED FOR THE UI
 
 This version is equivalent to baseline BLACK from 9.0 without any of the additional profiles.
 
 - Updated `enbseries` to the latest silent release.
 - Fixed a problem with SOS sliders not showing up.
 - 
-## 9.13 
+#### 9.13 
 
 **CHANGES AND FIXES**
 
@@ -2196,47 +2216,47 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Disabled a stupid powerful cluster of Thalmor around Xelzaz.
 - Fixed the Maids strippers not dancing.
 
-## 9.12.4.2 
+#### 9.12.4.2 
 
 - Fixed TPoses on PITCH.
 
-## 9.12.4.1
+#### 9.12.4.1
 
 - Removed a redundant ESP.
 
-## 9.12.4
+#### 9.12.4
 
 - Fixed a crash after CharGen caused by _Book of UUNP._
 
-## 9.12.2
+#### 9.12.2
 
 - Removed _Spank That Ass_ so the list can be installed again.
 - Relocated a _Hall of Forgotten_ ESP so one of the stairways is no longer blocked.
 
-## 9.12.1.2
+#### 9.12.1.2
 
 - Fixed TPose for non-humanoids on DEAD.
 
-## 9.12.1.1
+#### 9.12.1.1
 
 - Removed some redundant _Lover's Lab_ mods from the downloads directory.
 
-## 9.12.1
+#### 9.12.1
 
 - Fixed some darkfaces in _Dawnguard_ due to a missing ESP in a merge.
 
-## 9.11 - LICENTIA MAX
+#### 9.11 - LICENTIA MAX
 
 - Christened the list _Licentia MAX._ Added the TOYS profile.
 - Converted some large quest mods to ESM to lower the reference max.
 
-## 9.10 - DEAD ADDED
+#### 9.10 - DEAD ADDED
 
 - Returned and updated the DEAD profile.
 - Created a SAFE profile for BLACK
 - Created a SAFE profile for QUESTS
 
-## 9.9 - PITCH ADDED
+#### 9.9 - PITCH ADDED
 
 - Incoporated the old _PITCH_ Profile into the list. Consult previous CHANGELOGs for details.
 - Updated _SexLab Utility Plus_ to v20231003
@@ -2252,7 +2272,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Re-ran _Synthesis_ for the PITCH profile
 - Generated _LODs_ for the PITCH profile
 
-## 9.8 - A FEW ADDITIONS
+#### 9.8 - A FEW ADDITIONS
 
 - Added _Zombies - Mihail's Monsters & Animals AE-SE_
 - Added _Gelatinous Cube and Voriplasms - Mihail's Monsters & Animals AE-SE_
@@ -2265,7 +2285,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Added _JS Bloodstone Chalice SE_
 - Re-ran _Synthesis_ for the New Content.
 
-## 9.7 - MAELSTROM TO THE QUESTS PROFILE
+#### 9.7 - MAELSTROM TO THE QUESTS PROFILE
 
 - Added _Maelstrom_
 - Added _OregonPete's Maelstrom Jocelyn Makeover_
@@ -2274,21 +2294,21 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Corrected a link for the _REALORE FUTA_ texture
 - Re-ran _Synthesis_ for the new content.
 
-## 9.6
+#### 9.6
 
 - Added _LOTD Hall of Forgotten Displays_ for _Beyond Skyrim - Bruma_
 - Added _Curator's Companion Notifications_ for all of the displays in QUESTS
 - Added SLOOT for COMBAT and non-SLOOT for QUESTS.
 - Will not do SLOOT for NEEDs.
 
-## 9.5.2 - BUGFIXES FOR ALL PROFILES
+#### 9.5.2 - BUGFIXES FOR ALL PROFILES
 
 - Downgraded _Improved Camera SE_ v1.0.5 to _Improved Camera SE_ v1.0.3
 - Implemented a fix for Boiled Chitin armor by one of my users. Thanks @BalmundSM!
 - Verified the fires outside of Markarth are fine
 - Changed the link for _REALORE Futa_ to hopefully load for more users
   
-## 9.5 - NEEDS ADDED
+#### 9.5 - NEEDS ADDED
 
 - Added _Frostfall 3.4.1 SE Release_
 - Added _Frostfall Vampire Fix_
@@ -2309,7 +2329,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Added _Truly Hot Flame Atronach_
 - Added _Survival Mode - Disable Permanently_
   
-## 9.4 - COMBAT ADDED
+#### 9.4 - COMBAT ADDED
 
 **OPTIONAL COMBAT PROFILE**
 
@@ -2342,7 +2362,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Added _Attack Speed to Damage Conversion for MCO-ADXP_
 - Went through the **HELL** of re-running _Nemesis_ for all the Profiles.
 
-## 9.3 - FINALLY... QUESTS
+#### 9.3 - FINALLY... QUESTS
 
 **OPTIONAL QUESTS PROFILE**
 
@@ -2443,7 +2463,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Fixed a BFB for Kaidan on **ALL** profiles
 - Corrected a bad link for _zEdit_
   
-## 9.2 - SLOOT RETURNS
+#### 9.2 - SLOOT RETURNS
 
 **MOD ADDITIONS**
 
@@ -2494,7 +2514,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 
 **Consult the `TROUBLESHOOTING.md` document** (elsewhere in this _Github_ Repository) for instructions on how to enable the **Slooty Load Order.**
 
-## 9.1.1 - Integrates Odin into the List
+#### 9.1.1 - Integrates Odin into the List
 
 **MOD ADDITIONS & UPDATES**
 
@@ -2504,7 +2524,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Added _Wyrmstooth - Odin - Patch_
 - Reinstalled the correct version of _Ice Spike Crash Fix_ for _Odin_ **AND** _Vokrii_
 
-## 9.0.1
+#### 9.0.1
 
 **TOOL UPDATES**
 
@@ -2514,7 +2534,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 
 - Re-merged and re-patched NPCs, including _SRCEO_ and _Real Bosses_ values
 
-## 9.0 - THE UPDATED BASELINE
+#### 9.0 - THE UPDATED BASELINE
 
 **MOD ADDITIONS, UPDATES, CHANGES AND REMOVALS**
 
@@ -2607,7 +2627,7 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 - Regenerated _LODs_
 - Rerecorded _MCMs_ **RUN THE DAMN MCM RECORDING!!**
 
-## 8.7 - THE OBODY UPDATE
+#### 8.7 - THE OBODY UPDATE
 
 **MOD UPDATES** 
 
@@ -2624,9 +2644,9 @@ This version is equivalent to baseline BLACK from 9.0 without any of the additio
 
 It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I am reluctant to update to the new _OStim Standalone_ for that reason but will probably do so in the next big release.
   
-## 8.6.1.1 - UI FACING UPDATE
+#### 8.6.1.1 - UI FACING UPDATE
 
-## 8.6.1 - THE KAIDAN EXPANSION
+#### 8.6.1 - THE KAIDAN EXPANSION
 
 - Added _Kaidan - Extended Edition - All In One - 1.2_
 - Added _Serana Dialogue Addon - CC Umbra Mod Patch_
@@ -2657,7 +2677,7 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Updated _PAPER_ to 2.2.4
 - Updated _SPID - NFF - Add Ignore Token to CustomAI Followers_ to 1.0.15
 
-## 8.5.0.2
+#### 8.5.0.2
 
 **MOD ADDITIONS, UPDATES, CHANGES and REMOVALS**
 
@@ -2736,23 +2756,23 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Regenerated LODs in a more compatible way to reduce freezes, infinite load screens and crashes.
 - Re-ran Synthesis.
   
-## 7.4
+#### 7.4
 
-## MOD ADDITIONS, UPDATES, REMOVALS:
+#### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Removed _Naughty Voices_
 - Removed _OPrivacy_
 - Removed _Excitable Subs_
 - Removed _OStim Lovers_
 
-## OUTPUT GENERATIONS
+#### OUTPUT GENERATIONS
 
 - Regenerated LODs with higher gamma to prevent a mismatch.
 - Regenerated Synthesis.
   
-## 7.3
+#### 7.3
 
-## MOD ADDITIONS, UPDATES, REMOVALS:
+#### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Added _Randall's Fia Hug Pack OpenSex Add On_
 - Added _Feet Animation Pack for OStim NG_
@@ -2775,21 +2795,21 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Removed _opleaseletmego_
 - Removed _OBooty_
 
-### BUG SQUASHING, QUALITY OF LIFE
+##### BUG SQUASHING, QUALITY OF LIFE
 
 - Verified correct installation of the _OStim_ suite. One of the animation mods had been replaced with a single INI due to a misconfiguration on my part, this has been corrected.
 - The author of _Immersive Armor HIMBO_ mod is aware of the bug with Mandyn Hlaalu's boiled chitin armor and currently working on a fix.
 - Tested _OBody Standalone_ as a solution for the _OBody_ updating bug ... no dice.
 - The RaceMenu presets menu was a mess. I organized them into folders by gender and race. Check out the Featured presets first. The main Male and Female folders are from official preset "mods" on Nexus. The User Submissions folder has presets from my user presets channel. (They are still very messy.) All sculpts can be found a couple directories above, in the Sculpts folder.
 
-## OUTPUT GENERATION
+#### OUTPUT GENERATION
 
 - Re-ran _Nemesis_.
 - Regenerated _Synthesis_.
   
-## 7.2
+#### 7.2
 
-## MOD ADDITIONS, UPDATES, REMOVALS:
+#### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Added _Vanilla Warpaints Absolution_
 - Added _Beast Race Bodypaints_
@@ -2801,15 +2821,15 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Reinstalled all the _Community Overlays_
 - Replaced _eeekie's Brynjolf_ with _BB's Brynjolf_
 
-### BUG SQUASHING
+##### BUG SQUASHING
 
 - Fixed a bug where certain Triple Triad cards would not display.
 - Fixed a bug with glitchy body textures for certain female argonians.
 - Unpacked a couple script archives to resolve a possible archeology bug.
   
-## 7.1.0.1
+#### 7.1.0.1
 
-### MOD ADDITIONS, UPDATES, REMOVALS
+##### MOD ADDITIONS, UPDATES, REMOVALS
 
 - Added _OStim NPCs - NPC Sex Lives Improved_
 - Added _OStim Lovers_
@@ -2845,9 +2865,9 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Re-ran _Synthesis._
 - Re-recorded MCMs.
   
-## 7.0.1
+#### 7.0.1
 
-### MOD ADDITIONS, UPDATES, REMOVALS
+##### MOD ADDITIONS, UPDATES, REMOVALS
 
 - Added _Comprehensive Attack Speed Patch_
 - Added _I'm Talkin' Here_
@@ -2862,25 +2882,25 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Changed the main menu again
 - Changed the main menu music
 
-### BUG SQUASHING
+##### BUG SQUASHING
 
 - Fixed a neckseam on Remiel
 - Made the raindrops smaller / shorter.
 - Rearranged a couple of rogue masters.
 - Experimented with Predator Vision -- It does not work with Rudy.
 
-### TESTING
+##### TESTING
 
 - Verified that _ORomance_ is functioning on this version.
 - Verified that _OStim_ scenes are functioning on this version.
 - Verified that combat proceeds normally on this version.
 - Verified that the _MCM Recorder_ still functions properly.
 
-### GENERATION
+##### GENERATION
 
 - Reran _Nemesis_
 
-## SLOOT 1.5
+#### SLOOT 1.5
 
 **MOD ADDITIONS, UPDATES, REMOVALS:**
 
@@ -2910,7 +2930,7 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Rearranged a couple of rogue masters.
 - Experimented with _Predator Vision_ -- It does not work with Rudy.
 
-## PITCH 3.2
+#### PITCH 3.2
 
 **MOD ADDITIONS, UPDATES, REMOVALS:**
 
@@ -2931,10 +2951,10 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Reran _Synthesis_ to reflect the changes
 - Regenerated _DynDOLOD_ to reflect the removal of the Cat Shoppes
 
-## 7.0.0.1
+#### 7.0.0.1
 
 - Changed main menu screen to a custom commission from @ArdisFoxx Art.
-## 7.0
+#### 7.0
 
 **GAME VERSION CHANGES:**
 
@@ -3041,13 +3061,13 @@ It appears 3P animations will be permanently paywalled by the _OpenSex_ team. I 
 - Removed _Modular Armory_ (incompatible with BodySlide)
 - Removed redundant mods which are included as a part of _Unofficial Skyrim Modder's Patch_, these include:
 
-## MANY OTHER CHANGES, FIXES AND UPDATES THAT I'M SURE I'VE FORGOTTEN.
+#### MANY OTHER CHANGES, FIXES AND UPDATES THAT I'M SURE I'VE FORGOTTEN.
 
-## 6.16
+#### 6.16
 
 BAD chickens.
 
-## MOD ADDITIONS, UPDATES, REMOVALS:
+#### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Updated _OStim NG - OSA Overhaul and API Next Gen_ to 6.7d
 - Updated _Open Animations Romance and Erotica_ to 1.32
@@ -3065,15 +3085,15 @@ BAD chickens.
 - Reran _Nemesis_
 - No futa for now. SoonTM
 
-## NOTE
+#### NOTE
 
 No futa for now. SoonTM
 
-## 6.15
+#### 6.15
 
 Big new update because there were some mods I wanted to try.
 
-## MOD ADDITIONS, UPDATES, REMOVALS:
+#### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Added _Wet Function Redux_ with _OEndurance Trigger_ and proper 4K textures.
 - Added _OCrime_
@@ -3100,7 +3120,7 @@ Big new update because there were some mods I wanted to try.
 - Added _Grid Transition Crash Fix_
 - Changed the `ico` and `exe` for _Mod Organizer 2_ to suit the modlist.
 
-## BUG SQUASHING:
+#### BUG SQUASHING:
 
 - Corrected the doubled quest bug from _Lustmord Armor._
 - Fixed purple squares on the ground in The Reach.
@@ -3110,13 +3130,13 @@ Big new update because there were some mods I wanted to try.
 - Installed Rudy's Night Eye fix.
 - Fixed a neck gap on some Creation Club pirate outfits.
 
-## 6.14
+#### 6.14
 
 Testing version. Disregard.
 
-## 6.13
+#### 6.13
 
-### MOD ADDITIONS, UPDATES, REMOVALS:
+##### MOD ADDITIONS, UPDATES, REMOVALS:
 
 - Added _Inconsequential Pets_
 - Added _College of Winterhold Quest Start Fixes_
@@ -3127,7 +3147,7 @@ Testing version. Disregard.
 - Updated _Mysticism_ to 2.2.4
 - Updated _Headhunter - Bounties Redone_ to 1.43
 
-### BUG SQUASHING:
+##### BUG SQUASHING:
 
 - Disabled all Goblins in the _Skyrim Immersive Creatures_ MCM. 
 - If you encounter hard freezes in the overworld, check this MCM and disable "Goblins" and "Goblin Wars" and go into a building and wait for 72 hours.
@@ -3136,26 +3156,26 @@ Testing version. Disregard.
 - I have had reports of Serana's _Crimson Blood_ quest not functioning properly. Please submit saves from this quest area.
 - Also... something appears to have happened to the chickens... BEWARE
 
-### TESTING
+##### TESTING
 
 - Verified that ORomance is functioning on this version.
 - Verified that OStim scenes are functioning on this version.
 - Verified that combat proceeds normally on this version.
 - Verified that the MCM Recorder still functions properly.
 
-### GENERATION
+##### GENERATION
 
 - Rebuilt BodySlides
 - Regenerated LODs
 - Reran Nemesis
 
-## 6.12.0.1
+#### 6.12.0.1
 
-### BUG SQUASHING
+##### BUG SQUASHING
 
 - Fix for invalid `META.ini` during install.
 
-## 6.12
+#### 6.12
 
 - Added _Redcap CC Goblings Commentary and Follower Interactions Patch_Added _Fluffworks LotD Patch_
 - Added _PAPER_
@@ -3199,17 +3219,17 @@ Testing version. Disregard.
 - Reran _Nemesis_
 - Regenerated _BodySlides_
 
-## 6.11.2.1
+#### 6.11.2.1
 
 - Fixed a crash with Thalmor Cloaks.
 
-## 6.11.2
+#### 6.11.2
 
 - Updated _Serana Dialogue Addon_ to BETA 4.0.2.0
 - Updated _SDA Patch Hub_ to 2.5
 - Fixed the bright grass at night time
 -
-## 6.11.1
+#### 6.11.1
 
 - Updated _Open Animations Romance and Erotica_ to 1.31
 - Updated _Moon Lovemaking Compendium for OStim NG_ to 1.3
@@ -3217,29 +3237,29 @@ Testing version. Disregard.
 - Added _Survival Mode Patch - Cloaks of Skyrim_
 - Re-ran _Nemesis._
 - 
-## 6.11
+#### 6.11
 
 - Regenerated LODs without grass
 - Fixed a physics problem where the schlong would dangle ever so slightly to the right
 - Corrected the BodySlide data path so textures would show on models
 
-## 6.10.6
+#### 6.10.6
 
 - Patched the race records so all the abilities show up properly
 - 
-## 6.10.5
+#### 6.10.5
 
 - Removed creepy _DynDOLOD_ "Got Your Firstborn" loading screens
 
-## 6.10.4
+#### 6.10.4
 
 - Fixed the missing textures on Kaidan's body
 
-## 6.10.3 
+#### 6.10.3 
 
 - Recompiled with proper _enbseries_
 
-## 6.0 through 6.10.2
+#### 6.0 through 6.10.2
 
 - Added _PI-CHO Hyper ENB for Cathedral Weathers_
 - Added _Valerica - Lust of a Mother_ (with OStim patch)
@@ -3465,37 +3485,37 @@ Testing version. Disregard.
 - Deleted some redundant downloads
 - Hopefully most major bugs quashed in testing!
 
-## 5.6.4.7
+#### 5.6.4.7
 
 - Update to _Improved Camera SE_ to get the list installable again.
 
-## 5.6.4.6
+#### 5.6.4.6
 
 - Capped framerate at 59.0.
 - Enabled FXAA anti-aliasing.
 - Changed some actions (killmovies, crafting) to display in third person (previously all first)
 
-## 5.6.4.5
+#### 5.6.4.5
 
 - Interim testing version. Unreleased.
 
-## 5.6.4.4
+#### 5.6.4.4
 
 - Fix for dark lighting on the ENB HIGH preset.
 
-## 5.6.4.3
+#### 5.6.4.3
 
 - Interim testing version. Unreleased.
 
-## 5.6.4.2
+#### 5.6.4.2
 
 - Another fix for incorrect _enbseries._
 
-## 5.6.4.1
+#### 5.6.4.1
 
 - Fix for incorrect _enbseries_.
 
-## 5.6.4
+#### 5.6.4
 
 - Added _Delta of Venus - Sex Fantasies for OStim NG_
 - Added _OVamp_
@@ -3523,11 +3543,11 @@ Testing version. Disregard.
 - Reconfigured jiggle physics to be more modest. They were too jiggly.
 - Reran _Nemesis_. 
 
-## 5.6.3.1
+#### 5.6.3.1
 
 - Corrected the load order, which had reverted to an alphabetical listing of plugins.
 
-## 5.6.3
+#### 5.6.3
 
 - Added back _Improved Camera SE_
 - Added a Reinstaller for _3BA_ physics
@@ -3545,42 +3565,42 @@ Testing version. Disregard.
 - Removed some custom physics configurations
 - Re-ran _Nemesis_
 
-## 5.6.2
+#### 5.6.2
 
 - Removed _Improved Camera SE_ until it reaches a more long-term revision.
 
-## 5.6.1
+#### 5.6.1
 
 - Added hotfix 2 for _Improved Camera SE_
 
-## 5.6
+#### 5.6
 
 - Added back the _Auri - Convenient Horses Patch_
 - Removed _OWintersun_
 - Verified that clean saves could be loaded.
 - Corrected a wrong _SSEEdit_ path.
 
-## 5.5.6
+#### 5.5.6
 
 - Applied the hotfix for _Improved Camera SE_
 - Corrected all paths.
 
-## 5.5.5
+#### 5.5.5
 
 - Updated _Improved Camera SE_ to PR5
 - Verified the configuration file was correct
 - Regenerated BodySlides.
 
-## 5.5.4
+#### 5.5.4
 
 - Updated _OStim NG_ to 6.5e
 - Fix for invisible rain in some cases.
 - Fix for invisible hands in some cases (Hrongar)
 - Auto mode in OStim still does not work. It's due to the addon packs I use. Please don't report this to the _OStim_ team.
 
-## 5.5.3.1
+#### 5.5.3.1
 
-## 5.5.3
+#### 5.5.3
 
 - Updated _OStim NG - OSA Overhaul and API Next Gen_ to 6.5c
 - Updated _OpenSex Standalone_ to 1.18
@@ -3594,19 +3614,19 @@ Testing version. Disregard.
 - Removed _Masks of the Dovah Sonaak_
 - Reran Nemesis
 
-## 5.5.2.1
+#### 5.5.2.1
 
 - Updated the ENB Series binary so the list could be installed.
 
-## 5.5.2
+#### 5.5.2
 
 - Reran _Nemesis_ with the correct patchers so _Ultimate Dodge_ would work.
 
-## 5.5.1
+#### 5.5.1
 
 - Corrected an IGNORE flag preventing _OBody_ from being installed.
 
-## 5.5 (KAIDAN PROFILE ONLY)
+#### 5.5 (KAIDAN PROFILE ONLY)
 
 - Added _Billyy's Furniture Pack for OStim NG_
 - Added _Bandit Lines Expansion for OBIS SE_
@@ -3649,37 +3669,37 @@ Testing version. Disregard.
 - Regenerated _LODs_
 - Regenerated _Synthesis_
 
-## 5.4.1.1
+#### 5.4.1.1
 
-### ALL PROFILES
+##### ALL PROFILES
 
 - Fixed a missing Persistent flag from _Secret Lives_ that may have caused a crash when using the Voyeur Power.
 - Reinstalled _High Poly Head_ with different options due to incompatibilities with some presets.
 
-### BLACK PROFILE
+##### BLACK PROFILE
 
 - Enabled the _Moon Lovemaking Compendium_
 
-### SAFE PROFILE
+##### SAFE PROFILE
 
 - Added _Leather Bikini for UNP-TBBP_ (textures only)
 - Added _Light Cardio - Underwear Replacer_
 - Added _REALORE MEN'S - Basic_ (nevernude)
 
-## 5.4.1
+#### 5.4.1
 
 - Disabled _KS Hairdos_ (non SMP) on the NEEDS Profile
 - Disabled _Peeno_ on the NEEDS Profile
 
-## 5.4
+#### 5.4
 
-### ALL PROFILES
+##### ALL PROFILES
 
-### BLACK, BLANK, and NEEDS PROFILES
+##### BLACK, BLANK, and NEEDS PROFILES
 
 - Added _Moon Lovemaking Compendium_
 
-### PITCH PROFILE
+##### PITCH PROFILE
 
 - Added _Ryadin Animations SLAL Pack Complete SSE_
 - Added _S.L.U.T.S. Resume_
@@ -3689,9 +3709,9 @@ Testing version. Disregard.
 - Added _RohZiMa's New Animated Poser for Skyrim SE_
 - Updated _Laura's Bondage Shop_ to 3.42
 
-## 5.3b 
+#### 5.3b 
 
-### ONLY THE BLACK PROFILE IS AVAILABLE WITH THIS VERSION
+##### ONLY THE BLACK PROFILE IS AVAILABLE WITH THIS VERSION
 
 - Added _ORomance_
 - Added _ORomance Plus_
@@ -3731,7 +3751,7 @@ Testing version. Disregard.
 - Fixed a crash in Calcelmo's Lab for some users.
 - Re-recorded MCMs.
 
-## 5.2
+#### 5.2
 
 - Added _eFPS - Exterior FPS Boost_
 - Added _eFPS - Anniversary Edition_
@@ -3756,7 +3776,7 @@ Testing version. Disregard.
 - Reran _Nemesis_ on all Profiles
 - Regenerated _Synthesis_ on all Profiles
 
-## 5.1
+#### 5.1
 
 Added requests from my users including:
 
@@ -3764,7 +3784,7 @@ Added requests from my users including:
 - _Better Telekenesis_ to the BLACK Profile
 - _Odin_ and associated patches to the NEEDS Profile
 
-## 5.0
+#### 5.0
 
 Added the TOYS Profile, which is based on the BLANK Profile. It includes:
 
@@ -3782,18 +3802,18 @@ Added the TOYS Profile, which is based on the BLANK Profile. It includes:
 
 The TOYS Series of mods is configured to default and is quite permissive, please feel free to play around with the MCMs.
 
-## 4.5.1
+#### 4.5.1
 
 - Updated _Laura's Bondage Shop SSE_ to 3.41
 
-## 4.5
+#### 4.5
 
 - Updated _Laura's Bondage Shop SSE_ to 3.40
 - Ensured that NPCs from this mod were patched appropriately
 - Reinstalled _CBBE 3BA_ to remove an accidental _Flower Girls_ dependency
 - Verified that the stupid fucking belly bulge is disabled in all the 52 INIs it is enabled in by default
 
-## 4.4
+#### 4.4
 
 - Updated _OpenSex_ to 1.14
 - Updated _CBBE 3BA_ to 2.46
@@ -3803,7 +3823,7 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Verified the correct version of _Experience NG_ was installed (3.1.0)
 - Fixed a bug where dogs would swirl with bats and red mist
 
-## 4.3
+#### 4.3
 
 - Updated _I'm Glad You're Here_ to 3.2.1
 - Updated _Destination Weddings_ to 1.3
@@ -3824,7 +3844,7 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Adjusted resolution to default of 1920x1080.
 - Adjusted upscaling so the screen will no longer cut off on the sides.
 
-## 4.2
+#### 4.2
 
 - Added _Fair Skin Complexion BlackDetailMap.dds Fix_
 - Updated _Serana Dialogue Addon_ to 3.32
@@ -3836,11 +3856,11 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Disabled a crashing Thalmor cloak
 - Made adding _Skyrim Upscaler_ and _RTGI Shaders_ by Marty easier
 
-## 4.1.1.1
+#### 4.1.1.1
 
 - Rebuilt hashes, caches and mod patches to maybe help with install errors.
 
-## 4.1.1
+#### 4.1.1
 
 - Updated `enbseries` to v0.484
 - Enabled the _Devour_ set of animations on the BLANK Profile.
@@ -3849,7 +3869,7 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Duplicated picky behavioral mods for compatibility with multiple profiles.
 - All profiles should work out of the box now.
 
-## 4.1
+#### 4.1
 
 - Replaced _ConsoleUtilSSE_ with _ConsoleUtilSSE NG_
 - Reinstalled _Demoniac_ with more subtle options.
@@ -3859,7 +3879,7 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Verified that Freecam on Start is disabled.
 - Reran Nemesis on all profiles
 
-## 4.0
+#### 4.0
 
 - Version change to reflect the inclusion of _NEEDS_.
 - The _KAIDAN_ Profile is now the new _BLACK_ Profile.
@@ -3879,11 +3899,11 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Reran _Nemesis_.
 - Reran BodySlides.
 
-## 3.10.1
+#### 3.10.1
 
 - Downgraded _PapyrusUtils_ 4.4 to 3.9. Woops.
 
-## 3.10
+#### 3.10
 
 - Rolled the _NEEDS_ profile into the main list as an option.
 - Added _Billyy Group Anims OpenSex Compatibility Patch_
@@ -3900,11 +3920,11 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Fixed a bug with friendly fire for some followers
 - Fixed a bug where Serana's spells might kill the player
 
-## 3.9
+#### 3.9
 
 - Unreleased.
 
-## 3.8.1
+#### 3.8.1
 
 - Created the "Licentia BLANK" profile which removes the following mods:
 - Removed _Sinister Seven_ and all associated patches.
@@ -3912,11 +3932,11 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Removed the two Corgi mods, _Gladys_ and _Merlin_.
 - Removed all of the skin, makeup, overlay and features mods.
 
-## 3.8.0.1
+#### 3.8.0.1
 
 - Restored the `OSA.esm` to the BLACK profile where I forgot to update it.
 - Fixed the path for _Synthesis_ so nobody will get missing mod errors.
-## 3.8
+#### 3.8
 
 - Updated _OSA for OStim_ to 1.2
 - Updated _OStim NG_ to 6.3d
@@ -3928,33 +3948,33 @@ The TOYS Series of mods is configured to default and is quite permissive, please
 - Removed _Realistic Dog Sounds_ so you can hear the Corgis' custom barks
 - Created a guide for DLSS and RayTracing -- these mods are paid so check out the guide in #black-additions to get them working!
 
-## 3.7.3.1
+#### 3.7.3.1
 
 - Included "enb medium" by default to reduce support burdens from people who don't read.
 - Cleaned up the readme and made it less hostile.
 
-## 3.7.3
+#### 3.7.3
 
 - Fix for the guydick that would not stay customized if the user chose to do so.
 - Fix for the floating distorted girldick.
 - _I really scuffed it on the dicks, didn't I_
 
-## 3.7.2
+#### 3.7.2
 
 - Fixed the garbled genitalia on the males of the _KAIDAN_ profile
 - Disabled the underwear on the _KAIDAN_ profile.
 - Left easter eggs to assauge your boredom.
 
-## 3.7.1.1
+#### 3.7.1.1
 
 - Removed the IGNORE flag from the reinstalled armor textures.
 
-## 3.7.1
+#### 3.7.1
 
 - Reinstalled some missing textures that were causing certain armors to be purple.
 - Potential fix for the Dragonsreach crash some users experienced.
 
-## 3.7
+#### 3.7
 
 - Added the available _OStim NG_ updates to _Billyy's Animation Packs._
 - Added _Vanilla Script MicroOptimizations_
@@ -3979,7 +3999,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - IF YOU DO NOT RUN ONE OF THESE RECORDINGS, 1 out of every 10 females WILL BE A FUTANARI (a girl with a penis)
 - Thank you to @iAmMe for his additions guide for the futa stuff! I hate it but I know some people really love it!
 
-## 3.6
+#### 3.6
 
 - Removed _ORomance_ as that seems to be the cause of _OStim_ scenes failing after 50 hours.
 - Enabled the PITCH OUTPUT that was causing problems with _Nemesis_ on the SexLab profile.
@@ -3993,7 +4013,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Perhaps some other fixes I forgot. It has been a frustrating couple of days.
 - Yes I do accept tips.
 
-## 3.5.1
+#### 3.5.1
 
 - Updated _Immersive Armors Retexture CBBE_ to 1.10
 - Replaced the Ringmail armor with a visible version!
@@ -4003,13 +4023,13 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Installed the correct version of _Devious Cidhna_ to fix crash on load with PITCH
 - Disabled a fishing patch that may cause crashes about 5 - 10 minutes in
 
-## 3.5.0.1
+#### 3.5.0.1
 
 - Fixed improper appearances on Auri and Kaidan that may have led to crashes.
 - Fixed a buggy patch that may have stalled Kaidan's wedding quest.
 - Return the ENB HIGH preset to the Stock Game folder.
 
-## 3.4.5
+#### 3.4.5
 
 - Downgraded _Better Third Person Selection_ to 5.5 to prevent system freezes.
 - Decided to experiment with _The Curator's Companion_ on the KAIDAN profile. Don't get too attached.
@@ -4019,7 +4039,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Enabled and placed some mesh fixes for Lux on all profiles properly.
 - Moved a couple of ESPs for more consistent Load Order.
 
-## 3.4.4
+#### 3.4.4
 
 - Enabled the _Skyrim Remastered Ice_ mod on profiles where it was disabled.
 - Removed _My Lovely Lydia_ from KAIDAN due to an incompatibility causing a neck gap.
@@ -4031,11 +4051,11 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Set the default resolution to 1920x1080 because DisplayDownscaling is not a thing.
 - Deleted a couple of redundant downloads.
 
-## 3.4.3.1
+#### 3.4.3.1
 
 - Removed a messed-up RaceMenu UI.
 
-## 3.4.3
+#### 3.4.3
 
 - Added _Song of the Green - Auri Lenka Replacer_ (KAIDAN profile)
 - Added _My Lovely Lydia_ (KAIDAN profile)
@@ -4044,12 +4064,12 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Fixed Lydia's silent voice. (ALL profiles)
 - Fixed HUD inconsistensies. (ALL profiles)
 
-## 3.4.2
+#### 3.4.2
 
 - Added _Immersive Armors Retexture and Mesh Fixes._ Oops.
 - Fixed a darkface bug on Kaidan in the KAIDAN profile. Synthesis seems to have picked up the wrong head data.
 
-## 3.4.1
+#### 3.4.1
 
 - Reconfigured _SSE Engine Fixes_ to handle saves properly. NOT SAVE SAFE!
 - Reconfigured _SSE Display Tweaks_ to rescale for differing resolutions.
@@ -4064,7 +4084,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Added _Norse God - Male Character Preset_ in all variations
 - Added _IchDerMan's Preset Collection_
 
-## 3.3
+#### 3.3
 
 - Added _OBody NG Standalone_ to the profiles without _OStim_
 - Enabled BodySlide presets that would allow the above to work
@@ -4128,7 +4148,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Regenerated BodySlides.
 - Regenerated LODs
 
-## 3.2
+#### 3.2
 
 - Corrected a mistake with _Dave's UFHD Mountains_ by installing the following mods:
 - Added _Majestic Mountains Darkside_ and patch
@@ -4139,15 +4159,15 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Regenerated LODs, adding roads to the map as well
 - NOT SAVE SAFE!
 
-## 3.1
+#### 3.1
 
 - Fix for the disappearing health bars during Helgen's destruction
 - Fix for ultimate dodge acting wacky during the same sequence
 - Fix for mismatched LL links
 
-## 3.0
+#### 3.0
 
-### ATTENTION: The following mods have only been added to the Licentia PITCH Profile.
+##### ATTENTION: The following mods have only been added to the Licentia PITCH Profile.
 
 - Added _SexLab Utility Plus_
 - Added _SexLab Aroused SSE_
@@ -4178,19 +4198,19 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Added _Amorous Adventures Text and Player Dialogue Revision_
 - Ran BodySlides for this stupid shit.
 
-## 2.1.1
+#### 2.1.1
 
 - Re-enabled _Better Third Person Selection_
 - Re-enabled _Papyrus Tweaks NG_
 
-## 2.1
+#### 2.1
 
 - Removed a Riften Prison Guard seduction that can break Static Skill Leveling.
 - Included a fixed script for the Solitude Relic Hunter start.
 
-## 2.0
+#### 2.0
 
-### ATTENTION: The following mods have only been added to the Licentia KAIDAN Profile.
+##### ATTENTION: The following mods have only been added to the Licentia KAIDAN Profile.
 
 - Added _Kaidan Extended Edition 8.2.1_ and associated mods from KAIDANMOD.COM!!
 - Added _Dovahnique's High Poly Kaidan Replacer_
@@ -4210,7 +4230,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Added _Transparent Icicle and Frost Atronach_
 
 
-## 1.8
+#### 1.8
 
 - Added _RaceMenu Undress_
 - Added _RaceMenu Poser_
@@ -4218,17 +4238,17 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Fixed ugly female faces on the SAFE profile.
 - Fix for race conditions.
 
-## 1.7.3
+#### 1.7.3
 
 - Enabled the _Clean Menu_ mod for the SFW profile.
 - Fix for missing textures on a couple of SMIM objects (shack roofs)
 - Fix for mipmaps on _Realistic Grass_
 
-## 1.7.2
+#### 1.7.2
 
 - Removed customizations from the player character that were resulting in crashes on load.
 
-## 1.7.1.1
+#### 1.7.1.1
 
 - Fix for CBBE 3BA body morph sliders not appearing on character creation.
 - Enabled alternate vaginal collision.
@@ -4236,11 +4256,11 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Increased the size of breast collision.
 - Disabled belly bulge on the Yuriana follower, which was applying to everyone for some reason.
 
-## 1.7.1
+#### 1.7.1
 
 - Fix for a crash when you attempt to start from the dragon statue as a dragonborn.
 
-## 1.7
+#### 1.7
 
 - Added _Billyy Invisible Furniture Pack_ (only available via search)
 - Updated _OpenSex_ to 1.10
@@ -4252,7 +4272,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Removed _Yamete_ to encourage Nexus distribution. It should be an easy add if you want it back.
 - Updated and included the SFW profile.
 
-## 1.6
+#### 1.6
 
 - Updated _Serana Dialog Addon Patch Hub_ to 1.8.
 - Added the _VN5NT Male and Female Preset Packs_
@@ -4266,7 +4286,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Removed _Luminosity for A Quality World Map_
 - Regenerated LODs.
 
-## 1.5.2
+#### 1.5.2
 
 - Added _Cloaks of Skyrim Retextured Mesh Update_
 - Updated _HDT-SMP Hair Wigs_ to 1.21
@@ -4290,19 +4310,19 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Updated _Curated Bosses for True HUD_ to 1.2
 - Removed _Legacy of the Dragonborn Cleaned Textures_ (redundant)
 
-## 1.5.1.1
+#### 1.5.1.1
 
 - Sorted the mods by priority TO STOP THE QUESTIONS GATDAMMIT
 - Tweaks to Nordic UI for consistency
 
-## 1.5.1
+#### 1.5.1
 
 - Added _Stackable Stones of Berenziah with Optional Quest Markers_
 - Replaced _JS Dragon Claws SE_ with _JS Dragon Claws AE_
 - Re-enabled _Ren's HD Shrines_
 - Re-enabled _Skyrim Remastered - Glaciers & Ice_
 
-## 1.5
+#### 1.5
 
 - Replaced _REALORE ULTIMA_ with _Demoniac 1.12b_
 - Added _Kaidan - HD Armor Retexture_
@@ -4314,7 +4334,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Removed _Kaidan - Fart Patch_
 - Removed _Kaidan - Slap Da Butt Patch_
 
-## 1.4
+#### 1.4
 
 - Added the _Fluffworks_ series of fluffy critter overhauls and associated patches.
 - Added _A Tragedy in Black - 2K Soul Gems_
@@ -4325,18 +4345,18 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Updated _OpenSex Standalone_ to 1.10
 - Updated _Papyrus Tweaks NG_ to 2.1
 
-## 1.3.2
+#### 1.3.2
 
 - Fixed a handful of darkface bugs on Dawnguard unique NPCs.
 
-## 1.3.1
+#### 1.3.1
 
 - Added _Clean Menu Plus_
 - Configured some UI elements to disappear during adult scenes.
 - Fixed a darkface bug on Ancano that I neglected.
 - Packed a few large mods into BSAs for faster loading.
 
-## 1.3
+#### 1.3
 
 - Updated _CBBE 3BA_ to 2.45
 - Updated to the Nexus version of _Alternate Perspective_
@@ -4348,11 +4368,11 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Reconfigured cloaks so that more of them would have physics
 - Extracted several BSAs and verified asset overwrites
 
-## 1.2
+#### 1.2
 
 - Fixed a bug where saves would start to lag and corrupt.
 
-## 1.1
+#### 1.1
 
 - Added _Sofia Remastered SE 2.0_
 - Added _Sofia Immersive Nakedness Recognition_
@@ -4363,7 +4383,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Updated _Sound Fix for Large Sector Drives_ to 4.0
 - Fixed a bug where Lydia had no voice acting.
 
-## 1.0
+#### 1.0
 
 - Added @I Unpause's excellent comic art as the main menu!
 - Added _Papyrus Tweaks NG_
@@ -4375,7 +4395,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Updated _Additional Clockwork_ to 3.0.4
 - Updated _Enhanced Invisibility_ to 1.3
 
-## 0.17.1
+#### 0.17.1
 
 - Added _Kaidan 2 OpenSex Patch_
 - Added the Bruma patch for _Bears of the North_
@@ -4384,7 +4404,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Fixed a darkfage bug on Henry, the kid from LOTD.
 - Added easter eggs about chickens.
 
-## 0.17
+#### 0.17
 
 - Added the _OpenSex Compatibility Patch_ for better OSA menu navigation.
 - Changed the load order of the _OSuite_ as per recommendations to hopefully fix _OPrivacy_ bugs.
@@ -4401,7 +4421,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Removed all starting novice spells from characters in chargen.
 - Use the resources in the starting room to customize your character.
 
-## 0.15.2
+#### 0.15.2
 
 - Updated _OStim NG_ to 6.2c. This should fix bugs with _Fertility Mode._
 - Updated _OPrivacy_ to 2.1c. This should fix bugs with its scenes as well as the extended romances from _Amorous Adventures._
@@ -4409,19 +4429,19 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Set gold weight to 0. What the hell, man.
 - Configured _Rudy Cathedral Lux_ to be more performance friendly.
 
-## 0.15.1.1
+#### 0.15.1.1
 
 - Fixed some mesh overwrites which were causing purple fires among other issues.
 
-## 0.15.1
+#### 0.15.1
 
 - Updated _enbseries_ without version change
 
-## 0.15
+#### 0.15
 
 - Created an alternate, safe for work profile. There is still nudity on a few female NPCs.
 
-## 0.14
+#### 0.14
 
 - Replaced the ENB with _Rudy for Cathedral - Zangdar's LUX Edit_
 - Added _ENB Light_
@@ -4433,11 +4453,11 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Added _Open World Loot - OBIS Patch_
 
 
-## 0.13.1
+#### 0.13.1
 
 - Updated _enbseries_ to 0.477
 
-## 0.13
+#### 0.13
 
 - Added Skyrim Revamped - Complete Enemy Overhaul
 - Added Skyrim Revamped Reblanaced and Releveled_
@@ -4449,15 +4469,15 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Added a couple of other official LOTD patches.
 - Downgraded _MCM Helper_ to the proper version.
 
-## 0.12.0.1
+#### 0.12.0.1
 
 - Recompiled to correct a fumbled priority sort.
 
-## 0.12.0.1
+#### 0.12.0.1
 
 - Recompiled to correct a hashing mismatch.
 
-## 0.12
+#### 0.12
 
 - Added _OSA for OStim 1.1_
 - Added _OCum Ascended_ and customized MCMs. 
@@ -4475,7 +4495,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Re-Recorded MCMs. Please consult the README.
 - Deleted an outdated _VioLens_ profile.
 
-## 0.11
+#### 0.11
 
 - Added _wSkeever's Underwear for NPCs_.
 - Added BodySlides and texture upscales for the above.
@@ -4493,23 +4513,23 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Re-recorded the Mod Configuration Menus for greater consistency. Please read the readme!
 - Ran BodySlides for proper underwear fit.
 
-## 0.10.2
+#### 0.10.2
 
 - Added _Serana Replacer, High Poly Selina Version_
 - Fixed a lockpicking bug, where broken picks would give skill experience
 - Fixed the entrance to _Bloodchill Manor_ (I hope)
 
-## 0.10.1 
+#### 0.10.1 
 
 - Forwarded a patch to fix a crash in Ancestor's Glade.
 - Corrected some formlists for collectibles from horseback.
 - Included previously omitted _SMIM_ and _Skyrim Caves_ meshes.
 
-## 0.10
+#### 0.10
 
 - Include conflict resolution ESPs previously omitted.
 
-## 0.9
+#### 0.9
 
 - Updated _OCum_ to 1.4b5 and built BodySlides for the meshes (only applies to females)
 - Fixed Haming's darkface in the intro
@@ -4519,7 +4539,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Switched _VioLens_ to separate profile configuration for better compatibility
 - Set resolution for 1920x1080 fullscreen for better compatibility and performance
 
-## 0.8.2
+#### 0.8.2
 
 - Added _Schlongs of Skyrim Light_
 - Swapped _Mature Skin_ for _REALORE SKIN ULTIMA V2 - CBBE 8K_
@@ -4530,7 +4550,7 @@ The following updates are for the **KAIDAN** profile **ONLY**
 - Further INI tweaks
 - Reran _Nemesis_ to fix the "funtime" animations
 
-## 0.1 - 0.8.1.1
+#### 0.1 - 0.8.1.1
 
 _"And the modlist was without form, and void..."_
 

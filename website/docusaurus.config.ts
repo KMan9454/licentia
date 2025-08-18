@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -17,22 +17,21 @@ const config: Config = {
   url: 'https://licentia.quest',
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'akzar-dev', // Usually your GitHub org/user name.
-  projectName: 'licentia', // Usually your repo name.
+  organizationName: 'akzar-dev',
+  projectName: 'licentia',
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    'docusaurus-plugin-image-zoom',
+  ],
 
   presets: [
     [
@@ -40,6 +39,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          sidebarCollapsible: true,
+          breadcrumbs: false,
           routeBasePath: '/',
           editUrl:
             'https://github.com/akzar-dev/licentia/edit/main/website/',
@@ -55,13 +56,22 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/licentia-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     navbar: {
-      style: 'dark',
+      // style: 'dark', # follows the color mode
       title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Licentia NEXT Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -71,22 +81,20 @@ const config: Config = {
           label: 'Installation & Setup',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'updatingSidebar',
+          to: '/how-to-update',
           position: 'left',
-          label: 'Updating',
+          label: 'How to Update',
+        },
+        {
+          to: '/changelog',
+          position: 'left',
+          label: 'Changelog',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'changelogsSidebar',
+          sidebarId: 'faqsSidebar',
           position: 'left',
-          label: 'Changelogs',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'faqSidebar',
-          position: 'left',
-          label: 'FAQ',
+          label: 'FAQs',
         },
         {
           type: 'docSidebar',
@@ -94,44 +102,52 @@ const config: Config = {
           position: 'left',
           label: 'Guides',
         },
+        {
+          href: 'https://github.com/akzar-dev/licentia',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
+      logo: {
+        alt: 'Licentia NEXT Logo',
+        src: 'img/logo.png',
+        height: 48,
+      },
       links: [
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/vermishub',
-            },
-          ],
+          label: 'Discord',
+          href: 'https://discord.gg/vermishub',
         },
         {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/akzar-dev/licentia',
-            },
-            {
-              label: 'Nexus Mods',
-              href: 'https://www.nexusmods.com/skyrimspecialedition/mods/132744',
-            },
-            {
-              label: 'Load Order Library',
-              href: 'https://loadorderlibrary.com/lists/licentia-next',
-            },
-          ],
+          label: 'Nexus Mods',
+          href: 'https://www.nexusmods.com/skyrimspecialedition/mods/132744',
+        },
+        {
+          label: 'Load Order Library',
+          href: 'https://loadorderlibrary.com/lists/licentia-next',
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} akzar and Licentia NEXT team.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/akzar-dev">akzar</a> and Licentia NEXT team`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    zoom: {
+      // selector: '.markdown img',
+      selector: 'img.zoomable',
+      background: {
+        light: 'rgba(255, 255, 255, 0.8)',
+        dark: 'rgba(50, 50, 50, 0.7)'
+      },
+      config: {
+        margin: 80,
+      }
+    }
   } satisfies Preset.ThemeConfig,
 };
 
