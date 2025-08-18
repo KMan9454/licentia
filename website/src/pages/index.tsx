@@ -53,7 +53,7 @@ function Hero() {
         />
 
         <p className={styles.tagline}>
-          Licentia NEXT: Unleash Power, Indulge Desire, Leave Heads Rolling.
+          <i>"Unleash Power, Indulge Desire, Leave Heads Rolling"</i>
         </p>
 
         <div className={styles.badges}>
@@ -64,17 +64,11 @@ function Hero() {
         </div>
 
         <div className={styles.ctaRow}>
-          <a className={clsx('button button--secondary button--lg', styles.cta)}
-            href="/welcome">
+          <a className={clsx('button button--primary button--lg', styles.ctaSolid)} href="/welcome">
             Install
           </a>
-          <a className={clsx('button button--outline button--lg', styles.ctaOutline)}
-            href="/how-to-update">
+          <a className={clsx('button button--primary button--lg', styles.ctaSolid)} href="/how-to-update">
             Update
-          </a>
-          <a className={clsx('button button--link button--lg', styles.ctaLink)}
-            href="/changelog">
-            Changelog
           </a>
         </div>
       </div>
