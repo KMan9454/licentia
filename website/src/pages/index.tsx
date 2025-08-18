@@ -4,7 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import React from 'react';
-import mediumZoom from 'medium-zoom';
 
 /** ------- CONFIG -------- */
 /** Load every image in /static/img/screenshots */
@@ -113,29 +112,20 @@ function Showcase() {
   const [queue, setQueue] = React.useState<string[]>(() => reshuffleNoImmediateRepeat(all, null));
   const [paused, setPaused] = React.useState(false);
 
-  // medium-zoom on images
-  const trackRef = React.useRef<HTMLDivElement | null>(null);
-  React.useEffect(() => {
-    if (!trackRef.current) return;
-    const zoom = mediumZoom(trackRef.current.querySelectorAll('img'), {
-      margin: 24,
-      background: getComputedStyle(document.documentElement)
-        .getPropertyValue('--zoom-backdrop')
-        .trim() || 'rgba(0,0,0,.7)',
-    });
-    return () => zoom.detach();
-  }, []);
+  const scrollerRef = React.useRef<HTMLDivElement | null>(null);
 
-  // reshuffle on every full animation loop
   const onIter = React.useCallback(() => {
     setQueue(prev => reshuffleNoImmediateRepeat(all, prev));
   }, [all]);
 
-  // manual controls
+  // manual controls (scroll the SCROLLER, not the outer)
   const scrollBy = (dir: 'left' | 'right') => {
-    if (!trackRef.current) return;
-    const outer = trackRef.current.parentElement!;
-    outer.scrollBy({ left: (dir === 'left' ? -1 : 1) * outer.clientWidth * 0.6, behavior: 'smooth' });
+    const scroller = scrollerRef.current;
+    if (!scroller) return;
+    scroller.scrollBy({
+      left: (dir === 'left' ? -1 : 1) * scroller.clientWidth * 0.6,
+      behavior: 'smooth',
+    });
   };
 
   const loop = React.useMemo(() => [...queue, ...queue], [queue]);
@@ -149,7 +139,7 @@ function Showcase() {
       <div
         className={styles.marqueeOuter}
         onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setTimeout(() => setPaused(false), 100)}
+        onMouseLeave={() => setPaused(false)}  /* no delay */
       >
         <button
           type="button"
@@ -157,14 +147,15 @@ function Showcase() {
           className={clsx(styles.navBtn, styles.navLeft)}
           onClick={() => scrollBy('left')}
         />
-        <div
-          className={clsx(styles.marqueeTrack, paused && styles.paused)}
-          onAnimationIteration={onIter}
-          ref={trackRef}
-        >
-          {loop.map((src, i) => (
-            <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />
-          ))}
+        <div className={styles.scroller} ref={scrollerRef}>
+          <div
+            className={clsx(styles.marqueeTrack, paused && styles.paused)}
+            onAnimationIteration={onIter}
+          >
+            {loop.map((src, i) => (
+              <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />
+            ))}
+          </div>
         </div>
         <button
           type="button"

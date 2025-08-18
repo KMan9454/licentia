@@ -16,14 +16,14 @@
   transform: scale(1.03);
 }
 
-/* Light theme */
-:root .heroBg {
-  background-image: url('/img/licentia-social-card-bg-light.png');
+/* Dark theme */
+.heroBg {
+  background-image: url('/img/licentia-social-card-bg.png');
 }
 
-/* Dark theme */
-[data-theme='dark'] .heroBg {
-  background-image: url('/img/licentia-social-card-bg.png');
+/* Light theme */
+[data-theme='light'] .heroBg {
+  background-image: url('/img/licentia-social-card-bg-light.png');
 }
 
 .heroOverlay {
@@ -60,7 +60,7 @@ html[data-theme='light'] .heroOverlay {
 }
 
 .tagline {
-  color: var(--ifm-color-primary);
+  color: var(----ifm-font-color-base);
   font-size: 1.05rem;
   opacity: .95;
   margin: .75rem 0 1rem;
@@ -166,45 +166,46 @@ html[data-theme='light'] .heroOverlay {
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
 
-/* allow manual scroll on the outer container */
-.marqueeOuter {
+/* Scrollable inner container */
+.scroller {
+  overflow-x: auto;
+  overflow-y: hidden;
   scroll-behavior: smooth;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
 
-/* track animates left; also wide so it can be scrolled */
+/* Track still animates */
 .marqueeTrack {
   display: flex;
   gap: 12px;
   padding: 8px 0;
   width: max-content;
   animation: marquee 80s linear infinite;
-  /* slower */
 }
 
 .paused {
   animation-play-state: paused;
 }
 
-/* images */
+/* Images: force 16:9, crop (no stretch), and disable selection/drag */
 .marqueeTrack img {
-  aspect-ratio: 16 / 9;
-  /* width derived from height */
-  object-fit: fill;
-  /* fill 16:9 */
   height: 180px;
-  width: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  /* crop to 16:9 */
   border-radius: 10px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .25);
-  object-fit: cover;
   cursor: zoom-in;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
-/* arrow buttons (only visible on hover) */
+/* Arrow buttons pinned to edges, always clickable */
 .navBtn {
   position: absolute;
   top: 0;
   bottom: 0;
-  /* full height */
   width: 64px;
   border: 0;
   background: linear-gradient(to right, rgba(0, 0, 0, .35), transparent);
@@ -227,7 +228,6 @@ html[data-theme='light'] .heroOverlay {
   opacity: 1;
 }
 
-/* optional chevron indicator inside buttons */
 .navBtn::after {
   content: '';
   position: absolute;
@@ -240,26 +240,12 @@ html[data-theme='light'] .heroOverlay {
   border-bottom: 3px solid rgba(255, 255, 255, .85);
 }
 
-/* gold-ish background for zoom overlay (medium-zoom uses this var we read in JS) */
-:root {
-  --zoom-backdrop: rgba(0, 0, 0, .7);
-}
-
-[data-theme='dark'] {
-  --zoom-backdrop: rgba(0, 0, 0, .7);
-}
-
-@media (max-width: 996px) {
+@media (max-width:996px) {
   .marqueeTrack img {
     height: 140px;
   }
-
-  .hero {
-    min-height: 56vh;
-  }
 }
 
-/* very slow, seamless scroll; JS reshuffles on iteration */
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -268,4 +254,6 @@ html[data-theme='light'] .heroOverlay {
   to {
     transform: translateX(-30%);
   }
+
+  /* slow */
 }
