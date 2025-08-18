@@ -4,17 +4,16 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import React from 'react';
+import mediumZoom from 'medium-zoom';
 
 /** ------- CONFIG -------- */
-// how many screenshots exist (s01.png ... sNN.png)
-const SCREENSHOT_COUNT = 35;
-const SHOT_PREFIX = '/img/screenshots/s';
-const SHOT_EXT = '.png';
-
-function buildShots(n: number): string[] {
-  const pad = (i: number) => i.toString().padStart(2, '0');
-  return Array.from({ length: n }, (_, i) => `${SHOT_PREFIX}${pad(i + 1)}${SHOT_EXT}`);
-}
+/** Load every image in /static/img/screenshots */
+const req = require.context(
+  '@site/static/img/screenshots',
+  false,
+  /\.(png|jpe?g|webp)$/i
+);
+const ALL_SHOTS: string[] = req.keys().map((k: string) => req(k).default as string);
 
 function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
@@ -27,9 +26,9 @@ function shuffle<T>(arr: T[]): T[] {
 
 /** Make a new order that does NOT start with the previous last item */
 function reshuffleNoImmediateRepeat(all: string[], prev: string[] | null): string[] {
+  if (!prev) return shuffle(all);
   let next = shuffle(all);
-  if (prev && next.length > 0 && prev[prev.length - 1] === next[0]) {
-    // rotate so the first differs
+  if (prev.length && next.length && prev[prev.length - 1] === next[0]) {
     next.push(next.shift() as string);
   }
   return next;
@@ -110,15 +109,35 @@ function FeatureIcons() {
 }
 
 function Showcase() {
-  const all = React.useMemo(() => buildShots(SCREENSHOT_COUNT), []);
+  const all = React.useMemo(() => ALL_SHOTS, []);
   const [queue, setQueue] = React.useState<string[]>(() => reshuffleNoImmediateRepeat(all, null));
+  const [paused, setPaused] = React.useState(false);
 
-  /** When one full marquee cycle finishes, reshuffle for the next pass. */
+  // medium-zoom on images
+  const trackRef = React.useRef<HTMLDivElement | null>(null);
+  React.useEffect(() => {
+    if (!trackRef.current) return;
+    const zoom = mediumZoom(trackRef.current.querySelectorAll('img'), {
+      margin: 24,
+      background: getComputedStyle(document.documentElement)
+        .getPropertyValue('--zoom-backdrop')
+        .trim() || 'rgba(0,0,0,.7)',
+    });
+    return () => zoom.detach();
+  }, []);
+
+  // reshuffle on every full animation loop
   const onIter = React.useCallback(() => {
     setQueue(prev => reshuffleNoImmediateRepeat(all, prev));
   }, [all]);
 
-  // build a seamless track by duplicating the queue
+  // manual controls
+  const scrollBy = (dir: 'left' | 'right') => {
+    if (!trackRef.current) return;
+    const outer = trackRef.current.parentElement!;
+    outer.scrollBy({ left: (dir === 'left' ? -1 : 1) * outer.clientWidth * 0.6, behavior: 'smooth' });
+  };
+
   const loop = React.useMemo(() => [...queue, ...queue], [queue]);
 
   return (
@@ -126,15 +145,33 @@ function Showcase() {
       <div className="container">
         <h2 className={styles.sectionTitle}>Showcase</h2>
       </div>
-      <div className={styles.marqueeOuter}>
+
+      <div
+        className={styles.marqueeOuter}
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setTimeout(() => setPaused(false), 1200)}
+      >
+        <button
+          type="button"
+          aria-label="Scroll left"
+          className={clsx(styles.navBtn, styles.navLeft)}
+          onClick={() => scrollBy('left')}
+        />
         <div
-          className={styles.marqueeTrack}
+          className={clsx(styles.marqueeTrack, paused && styles.paused)}
           onAnimationIteration={onIter}
+          ref={trackRef}
         >
           {loop.map((src, i) => (
-            <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className={styles.marqueeImg} loading="lazy" />
+            <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />
           ))}
         </div>
+        <button
+          type="button"
+          aria-label="Scroll right"
+          className={clsx(styles.navBtn, styles.navRight)}
+          onClick={() => scrollBy('right')}
+        />
       </div>
     </section>
   );
