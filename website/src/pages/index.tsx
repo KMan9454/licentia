@@ -108,18 +108,31 @@ function FeatureIcons() {
 }
 
 function Showcase() {
-  const all = React.useMemo(() => ALL_SHOTS, []);
-  const [queue, setQueue] = React.useState<string[]>(() =>
-    reshuffleNoImmediateRepeat(all, null),
-  );
-  const [paused, setPaused] = React.useState(false);
+  // Shuffle ONCE for this page load
+  const SHOTS = React.useMemo(() => {
+    const arr = [...ALL_SHOTS];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, []);
+
+  // Repeat count (start with 2 for seamless base case)
+  const [repeat, setRepeat] = React.useState(2);
+
   const scrollerRef = React.useRef<HTMLDivElement | null>(null);
+  const trackRef = React.useRef<HTMLDivElement | null>(null);
 
-  const onIter = React.useCallback(() => {
-    setQueue(prev => reshuffleNoImmediateRepeat(all, prev));
-  }, [all]);
+  // Build the loop according to repeat
+  const loop = React.useMemo(
+    () => Array.from({ length: repeat }).flatMap(() => SHOTS),
+    [repeat, SHOTS]
+  );
 
-  // update CSS var --scrollX (0..1) for the custom hover bar
+  const [paused, setPaused] = React.useState(false);
+
+  // Optional: keep your hover progress var (harmless)
   const handleScroll = React.useCallback(() => {
     const el = scrollerRef.current;
     if (!el) return;
@@ -127,10 +140,42 @@ function Showcase() {
     const ratio = max > 0 ? el.scrollLeft / max : 0;
     el.style.setProperty('--scrollX', String(ratio));
   }, []);
-
   React.useEffect(() => { handleScroll(); }, [handleScroll]);
 
-  const loop = React.useMemo(() => [...queue, ...queue], [queue]);
+  // Measure one-sequence width and viewport width, choose repeat so:
+  //   repeat >= 2  AND  (oneSequenceWidth <= trackWidth / repeat)
+  // Practically: ensure track is >= 2× viewport width
+  const measureAndSetRepeat = React.useCallback(() => {
+    const outer = scrollerRef.current;
+    const track = trackRef.current;
+    if (!outer || !track) return;
+
+    // Current total width with current repeat
+    const total = track.scrollWidth;
+    if (total <= 0) return;
+
+    const one = total / repeat;               // width of one sequence
+    const need = Math.max(2, Math.ceil((outer.clientWidth * 2) / one));
+
+    if (need !== repeat) setRepeat(need);
+  }, [repeat]);
+
+  // Recalculate after mount, after images load (via ResizeObserver), and on resize
+  React.useEffect(() => {
+    measureAndSetRepeat();
+    const ro = new ResizeObserver(() => measureAndSetRepeat());
+    if (trackRef.current) ro.observe(trackRef.current);
+    if (scrollerRef.current) ro.observe(scrollerRef.current);
+    const onResize = () => measureAndSetRepeat();
+    window.addEventListener('resize', onResize);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', onResize);
+    };
+  }, [measureAndSetRepeat]);
+
+  // End distance = one sequence = -100% / repeat
+  const marqueeEnd = `-${100 / repeat}%`;
 
   return (
     <section className={styles.showcase}>
@@ -150,13 +195,11 @@ function Showcase() {
           ref={scrollerRef}
           onScroll={handleScroll}
         >
+          {/* No onAnimationIteration; content stays identical during the loop */}
           <div
+            ref={trackRef}
             className={clsx(styles.marqueeTrack, paused && styles.paused)}
-            onAnimationIteration={() => {
-              onIter();
-              // keep bar in sync when order changes
-              requestAnimationFrame(handleScroll);
-            }}
+            style={{ ['--marqueeEnd' as any]: marqueeEnd }}
           >
             {loop.map((src, i) => (
               <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />

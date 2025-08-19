@@ -237,13 +237,16 @@ html[data-theme='light'] .scroller::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, .3);
 }
 
-/* Track animation (unchanged) */
+/* Track animation (seamless) */
 .marqueeTrack {
   display: flex;
   gap: 12px;
   padding: 8px 0;
   width: max-content;
-  animation: marquee 80s linear infinite;
+  animation: marquee 1s linear infinite;
+  /* duration as you like */
+  will-change: transform;
+  /* smoother on some GPUs */
 }
 
 .paused {
@@ -268,14 +271,13 @@ html[data-theme='light'] .scroller::-webkit-scrollbar-thumb {
   }
 }
 
+/* Use CSS var so distance adapts to repeat count */
 @keyframes marquee {
   from {
     transform: translateX(0);
   }
 
   to {
-    transform: translateX(-30%);
+    transform: translateX(var(--marqueeEnd, -50%));
   }
-
-  /* slow */
 }
