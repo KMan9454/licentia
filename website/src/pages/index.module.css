@@ -59,11 +59,24 @@ html[data-theme='light'] .heroOverlay {
     drop-shadow(0 0 18px rgba(250, 203, 53, .55)) drop-shadow(0 0 36px rgba(250, 203, 53, .35)) drop-shadow(0 6px 24px rgba(0, 0, 0, .35));
 }
 
+/* default (dark) – white text + gold glow */
 .tagline {
-  color: var(----ifm-font-color-base);
+  color: #fff;
   font-size: 1.05rem;
-  opacity: .95;
   margin: .75rem 0 1rem;
+  text-shadow:
+      0 0 14px rgba(250, 203, 53, .65),
+      0 0 32px rgba(250, 203, 53, .45),
+      0 2px 0 rgba(0, 0, 0, .4);
+}
+
+/* light mode – black text + gold glow */
+html[data-theme='light'] .tagline {
+  color: #fff;
+  text-shadow:
+      0 0 14px rgba(250, 203, 53, .65),
+      0 0 32px rgba(250, 203, 53, .45),
+      0 2px 0 rgba(0, 0, 0, .4);
 }
 
 /* badges under the tagline */
@@ -159,23 +172,74 @@ html[data-theme='light'] .heroOverlay {
   padding: 2.25rem 0 3rem;
 }
 
-/* gradient mask keeps edges soft */
+/* Non-scrolling outer (no arrows now) */
 .marqueeOuter {
   position: relative;
   overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
 }
 
-/* Scrollable inner container */
+/* scrollable container */
 .scroller {
+  position: relative;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  scrollbar-gutter: stable;
+  /* avoid layout jump */
+  -webkit-overflow-scrolling: touch;
+  /* iOS momentum */
 }
 
-/* Track still animates */
+/* hide native scrollbars (they may be overlay anyway) */
+.scroller::-webkit-scrollbar {
+  height: 0;
+}
+
+.scroller {
+  scrollbar-width: none;
+}
+
+/* custom hover bar (track + thumb) */
+.scroller::before,
+.scroller::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 4px;
+  height: 6px;
+  border-radius: 999px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+
+.marqueeOuter:hover .scroller::before,
+.marqueeOuter:hover .scroller::after {
+  opacity: 1;
+}
+
+.scroller::before {
+  background: rgba(0, 0, 0, .2);
+}
+
+/* track */
+html[data-theme='light'] .scroller::before {
+  background: rgba(0, 0, 0, .15);
+}
+
+.scroller::after {
+  background: var(--ifm-color-emphasis-300);
+  /* thumb */
+  width: calc((var(--scrollX, 0) * 100%) * 0 + 30%);
+  /* base width ~30% */
+  /* position thumb by translating inside the track */
+  transform: translateX(calc((var(--scrollX, 0)) * (100% - 30%)));
+}
+
+/* animated track; pause on hover */
 .marqueeTrack {
   display: flex;
   gap: 12px;
@@ -188,56 +252,16 @@ html[data-theme='light'] .heroOverlay {
   animation-play-state: paused;
 }
 
-/* Images: force 16:9, crop (no stretch), and disable selection/drag */
+/* images: 16:9, crop, no selection/drag */
 .marqueeTrack img {
   height: 180px;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   object-fit: cover;
-  /* crop to 16:9 */
   border-radius: 10px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .25);
   cursor: zoom-in;
   user-select: none;
   -webkit-user-drag: none;
-}
-
-/* Arrow buttons pinned to edges, always clickable */
-.navBtn {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 64px;
-  border: 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, .35), transparent);
-  opacity: 0;
-  transition: opacity .2s ease;
-  z-index: 2;
-  cursor: pointer;
-}
-
-.navLeft {
-  left: 0;
-}
-
-.navRight {
-  right: 0;
-  transform: scaleX(-1);
-}
-
-.marqueeOuter:hover .navBtn {
-  opacity: 1;
-}
-
-.navBtn::after {
-  content: '';
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  width: .6rem;
-  height: .6rem;
-  transform: translateY(-50%) rotate(-45deg);
-  border-right: 3px solid rgba(255, 255, 255, .85);
-  border-bottom: 3px solid rgba(255, 255, 255, .85);
 }
 
 @media (max-width:996px) {
@@ -254,6 +278,4 @@ html[data-theme='light'] .heroOverlay {
   to {
     transform: translateX(-30%);
   }
-
-  /* slow */
 }

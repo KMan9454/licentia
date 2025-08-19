@@ -109,60 +109,60 @@ function FeatureIcons() {
 
 function Showcase() {
   const all = React.useMemo(() => ALL_SHOTS, []);
-  const [queue, setQueue] = React.useState<string[]>(() => reshuffleNoImmediateRepeat(all, null));
+  const [queue, setQueue] = React.useState<string[]>(() =>
+    reshuffleNoImmediateRepeat(all, null),
+  );
   const [paused, setPaused] = React.useState(false);
-
   const scrollerRef = React.useRef<HTMLDivElement | null>(null);
 
   const onIter = React.useCallback(() => {
     setQueue(prev => reshuffleNoImmediateRepeat(all, prev));
   }, [all]);
 
-  // manual controls (scroll the SCROLLER, not the outer)
-  const scrollBy = (dir: 'left' | 'right') => {
-    const scroller = scrollerRef.current;
-    if (!scroller) return;
-    scroller.scrollBy({
-      left: (dir === 'left' ? -1 : 1) * scroller.clientWidth * 0.6,
-      behavior: 'smooth',
-    });
-  };
+  // update CSS var --scrollX (0..1) for the custom hover bar
+  const handleScroll = React.useCallback(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    const max = el.scrollWidth - el.clientWidth;
+    const ratio = max > 0 ? el.scrollLeft / max : 0;
+    el.style.setProperty('--scrollX', String(ratio));
+  }, []);
+
+  React.useEffect(() => { handleScroll(); }, [handleScroll]);
 
   const loop = React.useMemo(() => [...queue, ...queue], [queue]);
 
   return (
     <section className={styles.showcase}>
       <div className="container">
-        <h2 className={styles.sectionTitle}><img src="/img/index-showcase.png" alt="Showcase" className={styles.headingImg} /></h2>
+        <h2 className={styles.sectionTitle}>
+          <img src="/img/index-showcase.png" alt="Showcase" className={styles.headingImg} />
+        </h2>
       </div>
 
       <div
         className={styles.marqueeOuter}
         onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}  /* no delay */
+        onMouseLeave={() => setPaused(false)}
       >
-        <button
-          type="button"
-          aria-label="Scroll left"
-          className={clsx(styles.navBtn, styles.navLeft)}
-          onClick={() => scrollBy('left')}
-        />
-        <div className={styles.scroller} ref={scrollerRef}>
+        <div
+          className={styles.scroller}
+          ref={scrollerRef}
+          onScroll={handleScroll}
+        >
           <div
             className={clsx(styles.marqueeTrack, paused && styles.paused)}
-            onAnimationIteration={onIter}
+            onAnimationIteration={() => {
+              onIter();
+              // keep bar in sync when order changes
+              requestAnimationFrame(handleScroll);
+            }}
           >
             {loop.map((src, i) => (
               <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />
             ))}
           </div>
         </div>
-        <button
-          type="button"
-          aria-label="Scroll right"
-          className={clsx(styles.navBtn, styles.navRight)}
-          onClick={() => scrollBy('right')}
-        />
       </div>
     </section>
   );
