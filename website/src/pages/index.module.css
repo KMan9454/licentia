@@ -59,24 +59,29 @@ html[data-theme='light'] .heroOverlay {
     drop-shadow(0 0 18px rgba(250, 203, 53, .55)) drop-shadow(0 0 36px rgba(250, 203, 53, .35)) drop-shadow(0 6px 24px rgba(0, 0, 0, .35));
 }
 
-/* default (dark) – white text + gold glow */
+/* Dark mode: bright + gold glow */
 .tagline {
   color: #fff;
   font-size: 1.05rem;
   margin: .75rem 0 1rem;
   text-shadow:
-      0 0 14px rgba(250, 203, 53, .65),
-      0 0 32px rgba(250, 203, 53, .45),
-      0 2px 0 rgba(0, 0, 0, .4);
+    0 0 10px rgba(250, 203, 53, .55),
+    0 0 24px rgba(250, 203, 53, .35),
+    0 2px 0 rgba(0, 0, 0, .35);
 }
 
-/* light mode – black text + gold glow */
+/* Light mode: white text, black outline, gold glow */
 html[data-theme='light'] .tagline {
   color: #fff;
+  /* WebKit/Chromium stroke */
+  -webkit-text-stroke: 0.15px rgba(0, 0, 0, .9);
+  /* Fallback outline via layered shadows */
   text-shadow:
-      0 0 14px rgba(250, 203, 53, .65),
-      0 0 32px rgba(250, 203, 53, .45),
-      0 2px 0 rgba(0, 0, 0, .4);
+    0 0 10px rgba(250, 203, 53, .55),
+    0 0 24px rgba(250, 203, 53, .35),
+    /* faux black outline */
+    0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000,
+    1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 /* badges under the tagline */
@@ -178,21 +183,24 @@ html[data-theme='light'] .tagline {
   overflow: hidden;
 }
 
-/* scrollable container */
+/* Scrollable inner */
 .scroller {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  /* Keep nice edge fade by default */
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+
   scrollbar-gutter: stable;
   /* avoid layout jump */
   -webkit-overflow-scrolling: touch;
-  /* iOS momentum */
+  touch-action: pan-x;
+  /* mobile: horizontal swipes */
 }
 
-/* hide native scrollbars (they may be overlay anyway) */
+/* HIDE native scrollbar by default */
 .scroller::-webkit-scrollbar {
   height: 0;
 }
@@ -201,45 +209,35 @@ html[data-theme='light'] .tagline {
   scrollbar-width: none;
 }
 
-/* custom hover bar (track + thumb) */
-.scroller::before,
-.scroller::after {
-  content: "";
-  position: absolute;
-  left: 8px;
-  right: 8px;
-  bottom: 4px;
-  height: 6px;
-  border-radius: 999px;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity .2s ease;
+/* On hover: SHOW native scrollbar AND remove mask so it’s fully visible & draggable */
+.marqueeOuter:hover .scroller {
+  mask-image: none;
+  -webkit-mask-image: none;
 }
 
-.marqueeOuter:hover .scroller::before,
-.marqueeOuter:hover .scroller::after {
-  opacity: 1;
+.marqueeOuter:hover .scroller::-webkit-scrollbar {
+  height: 10px;
 }
 
-.scroller::before {
-  background: rgba(0, 0, 0, .2);
+.marqueeOuter:hover .scroller {
+  scrollbar-width: thin;
 }
 
-/* track */
-html[data-theme='light'] .scroller::before {
-  background: rgba(0, 0, 0, .15);
+/* Style the bar */
+.scroller::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.scroller::after {
+.scroller::-webkit-scrollbar-thumb {
   background: var(--ifm-color-emphasis-300);
-  /* thumb */
-  width: calc((var(--scrollX, 0) * 100%) * 0 + 30%);
-  /* base width ~30% */
-  /* position thumb by translating inside the track */
-  transform: translateX(calc((var(--scrollX, 0)) * (100% - 30%)));
+  border-radius: 999px;
 }
 
-/* animated track; pause on hover */
+html[data-theme='light'] .scroller::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .3);
+}
+
+/* Track animation (unchanged) */
 .marqueeTrack {
   display: flex;
   gap: 12px;
@@ -252,7 +250,7 @@ html[data-theme='light'] .scroller::before {
   animation-play-state: paused;
 }
 
-/* images: 16:9, crop, no selection/drag */
+/* Images */
 .marqueeTrack img {
   height: 180px;
   aspect-ratio: 16/9;
@@ -278,4 +276,6 @@ html[data-theme='light'] .scroller::before {
   to {
     transform: translateX(-30%);
   }
+
+  /* slow */
 }
