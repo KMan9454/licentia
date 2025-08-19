@@ -8,6 +8,7 @@ const config: Config = {
   title: 'Licentia NEXT',
   tagline: 'Licentia NEXT: Unleash Power, Indulge Desire, Leave Heads Rolling. Skyrim Modlist with LotD, OStim, lots of fun and variety!',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -152,7 +153,19 @@ const config: Config = {
       config: {
         margin: 80,
       }
-    }
+    },
+    algolia: {
+      appId: 'GMPG9FTIQO',
+      apiKey: '7635c157f687d0d0a7bbd93c593a5d59',
+      indexName: 'licentia_next_crawler',
+      contextualSearch: true,
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+    },
   } satisfies Preset.ThemeConfig,
 };
 
