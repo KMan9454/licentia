@@ -1,5 +1,13 @@
 ![Licentia Next Logo](images/Licentia_Next_logo_v1_4k_transparent.png)
 
+<div align="center">
+
+[![Deploy to GitHub Pages](https://github.com/akzar-dev/licentia/actions/workflows/deploy.yml/badge.svg)](https://github.com/akzar-dev/licentia/actions/workflows/deploy.yml)
+
+</div>
+
+---
+
 <p align="center">
   <b>[[<a href="/README.md">Readme</a>]]</b> |
   <a href="/TROUBLESHOOTING.md">Troubleshooting</a> |

@@ -26,7 +26,7 @@ function Hero() {
       <div className={clsx('container', styles.heroInner)}>
         <img
           className={styles.heroLogo}
-          src="/img/licentia-social-card.png"
+          src="/img/licentia-social-card.webp"
           alt={`${siteConfig.title} logo`}
           width={520}
           height={260}
@@ -37,10 +37,11 @@ function Hero() {
         </p>
 
         <div className={styles.badges}>
-          <span className={clsx('badge', styles.badge)}>Wabbajack install</span>
-          <span className={clsx('badge', styles.badge)}>~2000 mods</span>
-          <span className={clsx('badge', styles.badge)}>LotD included</span>
-          <span className={clsx('badge', styles.badge)}>OStim ready</span>
+          <span className={clsx('badge', styles.badge)}>Skyrim AE</span>
+          <span className={clsx('badge', styles.badge)}>Wabbajack</span>
+          <span className={clsx('badge', styles.badge)}>~1500 mods</span>
+          <span className={clsx('badge', styles.badge)}>LotD</span>
+          <span className={clsx('badge', styles.badge)}>OStim</span>
         </div>
 
         <div className={styles.ctaRow}>
@@ -61,27 +62,64 @@ function FeatureIcons() {
   return (
     <section className={styles.iconsSection}>
       <div className="container">
-        <h2 className={styles.sectionTitle}><img src="/img/index-features.png" alt="Features" className={styles.headingImg} /></h2>
+        <h2 className={styles.sectionTitle}>
+          <img
+            src="/img/pages/index-features.png"
+            alt="Features"
+            className={styles.headingImg}
+          />
+        </h2>
         <div className={styles.iconRow}>
+          {/* Combat */}
           <div className={styles.iconCard}>
             <span className={styles.iconGlyph} aria-hidden>⚔️</span>
             <div className={styles.iconTitle}>Combat</div>
-            <div className={styles.iconText}>Timing, stamina, smarter AI.</div>
+            <p className={styles.iconIntro}>Physics-based and gory:</p>
+            <ul className={styles.iconList}>
+              <li>Precision</li>
+              <li>CGO + AGO</li>
+              <li>Dismemberment Framework</li>
+              <li>Sanguine Symphony</li>
+            </ul>
           </div>
+
+          {/* Exploration */}
           <div className={styles.iconCard}>
-            <span className={styles.iconGlyph} aria-hidden>🧭</span>
-            <div className={styles.iconTitle}>Exploration</div>
-            <div className={styles.iconText}>New quests, dungeons, encounters.</div>
+            <span className={styles.iconGlyph} aria-hidden>🖼️</span>
+            <div className={styles.iconTitle}>Graphics</div>
+            <p className={styles.iconIntro}>Improved and performance friendly:</p>
+            <ul className={styles.iconList}>
+              <li>Rudy ENB</li>
+              <li>NAT 3 weathers</li>
+              <li>Reworked meshes and textures</li>
+              <li>Landscape fixes, Grass cache</li>
+            </ul>
           </div>
+
+          {/* Variety */}
           <div className={styles.iconCard}>
             <span className={styles.iconGlyph} aria-hidden>🧩</span>
             <div className={styles.iconTitle}>Variety</div>
-            <div className={styles.iconText}>LotD, collections, curated content.</div>
+            <p className={styles.iconIntro}>Tons of new content:</p>
+            <ul className={styles.iconList}>
+              <li>Legacy of the Dragonborn</li>
+              <li>Huge quest mods</li>
+              <li>New (and improved vanilla) followers</li>
+              <li>New perk trees and leveling system</li>
+            </ul>
           </div>
+
+          {/* Adult systems */}
           <div className={styles.iconCard}>
             <span className={styles.iconGlyph} aria-hidden>🔞</span>
             <div className={styles.iconTitle}>Adult systems</div>
-            <div className={styles.iconText}>Toggleable NSFW integrations.</div>
+            <p className={styles.iconIntro}>The full suite:</p>
+            <ul className={styles.iconList}>
+              <li>OStim based NSFW</li>
+              <li>Physics and OBody</li>
+              <li>Amorous Adventures</li>
+              <li>ORomance and more</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -149,7 +187,7 @@ function Showcase() {
     <section className={styles.showcase}>
       <div className="container">
         <h2 className={styles.sectionTitle}>
-          <img src="/img/index-showcase.png" alt="Showcase" className={styles.headingImg} />
+          <img src="/img/pages/index-showcase.png" alt="Showcase" className={styles.headingImg} />
         </h2>
       </div>
 

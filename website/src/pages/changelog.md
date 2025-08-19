@@ -5,7 +5,7 @@ description: "Licentia NEXT - Changelog"
 image: /img/changelog.png
 ---
 
-# ![Changelod](/img/changelog.png)
+# ![Changelod](/img/pages/changelog.png)
 
 ---
 :::info
@@ -639,7 +639,7 @@ The versioning system works the following way:
 - Re-ran Nemesis
 
 ---
-# ![Old Changelod](/img/old-changelog.png)
+# ![Old Changelod](/img/pages/old-changelog.png)
 ---
 
 :::info

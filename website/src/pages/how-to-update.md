@@ -6,7 +6,7 @@ description: "Licentia NEXT - How to update"
 image: /img/how-to-update.png
 ---
 
-# ![How to update](/img/how-to-update.png)
+# ![How to update](/img/pages/how-to-update.png)
 
 ---
 

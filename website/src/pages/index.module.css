@@ -18,12 +18,12 @@
 
 /* Dark theme */
 .heroBg {
-  background-image: url('/img/licentia-social-card-bg.png');
+  background-image: url('/img/pages/licentia-social-card-bg.webp');
 }
 
 /* Light theme */
 [data-theme='light'] .heroBg {
-  background-image: url('/img/licentia-social-card-bg-light.png');
+  background-image: url('/img/pages/licentia-social-card-bg-light.webp');
 }
 
 .heroOverlay {
@@ -74,7 +74,7 @@ html[data-theme='light'] .heroOverlay {
 html[data-theme='light'] .tagline {
   color: #fff;
   /* WebKit/Chromium stroke */
-  -webkit-text-stroke: 0.15px rgba(0, 0, 0, .9);
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, .9);
   /* Fallback outline via layered shadows */
   text-shadow:
     0 0 10px rgba(250, 203, 53, .55),
@@ -148,6 +148,11 @@ html[data-theme='light'] .tagline {
   border-radius: 12px;
   padding: 1rem .75rem;
   text-align: center;
+  text-align: center;
+  /* keep titles/intro centered */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
 }
 
@@ -170,6 +175,70 @@ html[data-theme='light'] .tagline {
   .iconRow {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* Same list width across all feature cards */
+:root {
+  --feature-list-width: 28rem;
+  /* desktop */
+}
+
+/* left‑aligned list, but as a centered block with fixed width */
+.iconList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem auto 0;
+  width: var(--feature-list-width);
+  max-width: 100%;
+  /* don’t overflow on narrow cards */
+  text-align: left;
+  /* items align left */
+}
+
+.iconList li {
+  position: relative;
+  padding-left: 1.2rem;
+  /* space for custom bullet */
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* golden bullet */
+.iconList li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  color: #facb35;
+  /* your gold */
+  font-size: 0.9rem;
+}
+
+/* Slightly tighten the intro → list gap */
+.iconIntro {
+  margin: 0.35rem 0 0;
+}
+
+/* Responsiveness: shrink the shared width at breakpoints */
+@media (max-width: 1200px) {
+  :root {
+    --feature-list-width: 24rem;
+  }
+}
+
+@media (max-width: 996px) {
+  :root {
+    --feature-list-width: 20rem;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --feature-list-width: 100%;
+  }
+
+  /* full width on small screens */
 }
 
 /* -------- SHOWCASE (Marquee) -------- */
@@ -249,3 +318,4 @@ html[data-theme='light'] .tagline {
     animation: none !important;
   }
 }
+
