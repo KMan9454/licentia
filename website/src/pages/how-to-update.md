@@ -1,9 +1,9 @@
 ---
-title: "How to update"
+title: "How to update 🔄"
 hide_title: true
 hide_table_of_contents: true
-description: "Licentia NEXT - How to update"
-image: /img/how-to-update.png
+description: "Instructions on how to update Licentia NEXT Skyrim modlist"
+image: /img/pages/how-to-update-social.png
 ---
 
 # ![How to update](/img/pages/how-to-update.png)

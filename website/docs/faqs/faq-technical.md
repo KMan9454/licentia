@@ -1,10 +1,10 @@
 ---
 sidebar_position: 2
-title: "Technical FAQ"
+title: "Technical FAQ 🛠️"
 hide_title: true
 slug: "/faq-technical"
-description: "Licentia NEXT - Technical FAQ"
-image: ./img/faq-technical.png
+description: "Technical FAQ for Licentia NEXT Skyrim modlist"
+image: ./img/faq-technical-social.png
 ---
 
 # ![Technical FAQ](./img/faq-technical.png)

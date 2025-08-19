@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
-title: "Bodyslide Guide"
+title: "Bodyslide Guide 👚"
 hide_title: true
 slug: /bodyslide-guide
-description: "Licentia NEXT - Bodyslide Guide"
-image: ./img/bodyslide-guide.png
+description: "How to build Outfits in Bodyslide for Licentia NEXT Skyrim modlist"
+image: ./img/bodyslide-guide-social.png
 ---
 
 # ![Bodyslide Guide](./img/bodyslide-guide.png)
 
 ---
 
-# :womans_clothes: How to build Outfits in Bodyslide for Licentia NEXT
+# 👚 How to build Outfits in Bodyslide for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -40,7 +40,7 @@ Since version `13.4.1` **OBody has returned** to Licentia NEXT, allowing random 
 
 This guide is primarily intended for **re-running** BodySlide as it is provided with the list *OR* **adding new outfit mods** to your NEXT installation.
 
-If you want to remove OBody from your installation, there is a [small tutorial](#recycle-removing-obody-from-your-installation) at the bottom of this guide following the same process with your selected preset instead of `Zeroed Sliders`.
+If you want to remove OBody from your installation, there is a [small tutorial](bodyslide-guide#%EF%B8%8F-removing-obody-from-your-installation) at the bottom of this guide following the same process with your selected preset instead of `Zeroed Sliders`.
 :::
 ---
 
@@ -52,7 +52,7 @@ There will be a list of options available, select `Create Empty Mod`.
 <img 
     src={require('./img/bodyslide_guide/1_empty_mod.png').default}
     alt="Create Empty Mods"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -67,7 +67,7 @@ Upon updating the mod will be deactivated and moved to the bottom of the last se
 <img 
     src={require('./img/bodyslide_guide/2_create_mod.png').default}
     alt="Name Custom Mod"
-    style={{ width:'auto', height:200 }}
+    style={{ width:'auto', maxHeight:200 }}
     className="zoomable"
 />
 
@@ -82,7 +82,7 @@ Once you have created your Output mod head over to the Top Right of MO2 to the l
 <img 
     src={require('./img/bodyslide_guide/3_run_bodyslide.png').default}
     alt="Run Bodyslide"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -106,7 +106,7 @@ On the top right of the interface there will be two search bars for Filter Group
 <img 
     src={require('./img/bodyslide_guide/4_choose_groups.png').default}
     alt="Select Groups"
-    style={{ width:'auto', height:200 }}
+    style={{ width:'auto', maxHeight:200 }}
     className="zoomable"
 />
 
@@ -123,12 +123,12 @@ A list will open with various groups to choose outfits for. For **Female** selec
 <img 
     src={require('./img/bodyslide_guide/4a_group_sample.png').default}
     alt="Group Examples 1"
-    style={{ width:'auto', height:600 }}
+    style={{ width:'auto', maxHeight:600 }}
     className="zoomable"
 /> <img 
     src={require('./img/bodyslide_guide/4a_group_sample2.png').default}
     alt="Group Examples 2"
-    style={{ width:'auto', height:600 }}
+    style={{ width:'auto', maxHeight:600 }}
     className="zoomable"
 />
 
@@ -145,7 +145,7 @@ However, the group Unassigned is excluded from this search as previously detaile
     <img 
         src={require('./img/bodyslide_guide/4c_unassigned.png').default}
         alt="Unassigned Example"
-        style={{ width:'auto', height:900 }}
+        style={{ width:'auto', maxHeight:900 }}
         className="zoomable"
     />
 </details>
@@ -165,7 +165,7 @@ For example here are the default Female Presets available in Licentia NEXT, with
 <img 
     src={require('./img/bodyslide_guide/4b_preset_sample.png').default}
     alt="Preset Examples"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -181,7 +181,7 @@ Tick the checkbox for the previewed outfit path, and tick `Build Morphs`.
 <img 
     src={require('./img/bodyslide_guide/5_batch_build.png').default}
     alt="Batch Build"
-    style={{ width:'auto', height:100 }}
+    style={{ width:'auto', maxHeight:100 }}
     className="zoomable"
 />
 
@@ -203,7 +203,7 @@ Tick your Output Mod to enable it, and you will have successfully built Bodyslid
 If you have any further questions or problems, stop by the **Licentia Next** Category in [Vermi's Hub Discord Server](https://discord.gg/vermishub) and we can help you work them out!
 :::
 
-## :recycle: Removing OBody from your Installation
+## ♻️ Removing OBody from your Installation
 
 If you want to **remove OBody** from your installation for whatever reason you will need to follow the subsequent steps for "building out" OBody.
 1. Disable OBody in MO2. Open the `BODIES` Separator or search for `OBody` at the bottom and untick `OBody Next Generation` and `- ORefit JSON Master List`. Additionally under the `Body Meshes (and physics)` separator there is two patch files `3BA with OBody Collision Physics Fix` and it's OSmp patch, disable both of these.

@@ -1,10 +1,10 @@
 ---
 sidebar_position: 6
-title: "Post-Installation"
+title: "Post-Installation 3️⃣"
 hide_title: true
 slug: /post-installation
-description: "Licentia NEXT - Post-installation"
-image: ./img/6-post-installation.png
+description: "Post-installation instructions for Licentia NEXT Skyrim modlist"
+image: ./img/6-post-installation-social.png
 ---
 
 # ![Post-Installation](./img/6-post-installation.png)
@@ -23,7 +23,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
     <img 
         src={require('./img/6-post-installation/6_1_1_mo2_start.png').default}
         alt="MO2 start"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     />
 
@@ -32,7 +32,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_1_1_no_mod_organizer.png').default}
             alt="No MO2"
-            style={{ width:'auto', height:300 }}
+            style={{ width:'auto', maxHeight:300 }}
             className="zoomable"
         />
     Go back to [Installation](installation#download-and-install-the-list) and keep re-installing _Licentia NEXT_ until you see that `ModOrganizer.exe` file appeared in your Licentia NEXT's folder.
@@ -46,7 +46,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
     <img 
         src={require('./img/6-post-installation/6_1_3_mo2_run_the_game.png').default}
         alt="MO2 run"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -55,7 +55,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_1_3_mo2_change_resolution.png').default}
             alt="MO2 ini editor"
-            style={{ width:'auto', height:150 }}
+            style={{ width:'auto', maxHeight:150 }}
             className="zoomable"
         />
 
@@ -63,7 +63,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_1_3_mo2_change_resolution_skyrimprefs.png').default}
             alt="MO2 skyrimperfs"
-            style={{ width:'auto', height:300 }}
+            style={{ width:'auto', maxHeight:300 }}
             className="zoomable"
         />
 
@@ -76,7 +76,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
     <img 
         src={require('./img/6-post-installation/6_1_4_flappy_dragon.png').default}
         alt="Flappy Dragon"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
     Don't worry, _you didn't just download half a terabyte of Flappy Dragon_!
@@ -108,7 +108,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_2_3_greetings_message.png').default}
             alt="Greetings message from automation script"
-            style={{ width:'auto', height:300 }}
+            style={{ width:'auto', maxHeight:300 }}
             className="zoomable"
         />
 
@@ -123,7 +123,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_2_3_mods_config_messages.png').default}
             alt="Mod configuration in progress"
-            style={{ width:'auto', height:250 }}
+            style={{ width:'auto', maxHeight:250 }}
             className="zoomable"
         />
 
@@ -131,7 +131,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_2_3_our_config_messages.png').default}
             alt="Auto-configuration progress"
-            style={{ width:'auto', height:250 }}
+            style={{ width:'auto', maxHeight:250 }}
             className="zoomable"
         />
 
@@ -139,7 +139,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_2_3_auto_config_finished.png').default}
             alt="Finished message from automation script"
-            style={{ width:'auto', height:300 }}
+            style={{ width:'auto', maxHeight:300 }}
             className="zoomable"
         />
 
@@ -149,7 +149,7 @@ Assuming you've **completed** the [Installation](/installation) part, let's cont
         <img 
             src={require('./img/6-post-installation/6_2_3_final_gift.png').default}
             alt="Divine blessing"
-            style={{ width:'auto', height:300 }}
+            style={{ width:'auto', maxHeight:300 }}
             className="zoomable"
         />
 

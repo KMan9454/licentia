@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
-title: "Synthesis Guide"
+title: "Synthesis Guide ♻️"
 hide_title: true
 slug: /synthesis-guide
-description: "Licentia NEXT - Synthesis Guide"
-image: ./img/synthesis-guide.png
+description: "How to re-run Synthesis for Licentia NEXT Skyrim modlist"
+image: ./img/synthesis-guide-social.png
 ---
 
 # ![Synthesis Guide](./img/synthesis-guide.png)
 
 ---
 
-# :recycle: How to re-run Synthesis for Licentia NEXT
+# ♻️ How to re-run Synthesis for Licentia NEXT
 
 :::note
 **WHY YOU MIGHT NEED THIS?**
@@ -41,7 +41,7 @@ These are the general steps to **re-running Synthesis** for **Licentia NEXT**:
     <img 
         src={require('./img/synthesis_guide/1_1_disabling_synthesis_output_mo2.png').default}
         alt="Disabling LN synthesis output in MO2"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -49,7 +49,7 @@ These are the general steps to **re-running Synthesis** for **Licentia NEXT**:
     <img 
         src={require('./img/synthesis_guide/1_2_disabling_plugins_mo2.png').default}
         alt="Disabling plugins in MO2"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -65,7 +65,7 @@ In `MO2`, in top right corner of the window, click on the dropdown menu and sele
     <img 
         src={require('./img/synthesis_guide/2_running_synthesis_in_mo2.png').default}
         alt="Opening Synthesis in MO2"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -78,17 +78,17 @@ When `Synthesis` is launched, check out the left pane with patches. They should 
     <img 
         src={require('./img/synthesis_guide/3_1_synthesis0.png').default}
         alt="Synthesis 0 patch list"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     /> <img 
         src={require('./img/synthesis_guide/3_2_synthesis1.png').default}
         alt="Synthesis 1 patch list"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     /> <img 
         src={require('./img/synthesis_guide/3_3_synthesis2.png').default}
         alt="Synthesis 2 patch list"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     />
 
@@ -119,7 +119,7 @@ Failing to do that will break consistency of the patches!
     <img 
         src={require('./img/synthesis_guide/5_1_creating_empty_mod_in_mo2.png').default}
         alt="Create Empty Mod"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -137,7 +137,7 @@ Failing to do that will break consistency of the patches!
     <img 
         src={require('./img/synthesis_guide/5_2_overwrite.png').default}
         alt="Overwrite folder"
-        style={{ width:'auto', height:120 }}
+        style={{ width:'auto', maxHeight:120 }}
         className="zoomable"
     />
 
@@ -157,6 +157,6 @@ The final picture should look like this *(only the names of plugins matter here,
     <img 
         src={require('./img/synthesis_guide/6_final.png').default}
         alt="Final MO2 setup"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     />

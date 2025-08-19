@@ -209,7 +209,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Skyrim modlist: Licentia NEXT — power, variety, adult systems, and smooth onboarding.">
+      description="Unleash Power, Indulge Desire, Leave Heads Rolling - Licentia NEXT NSFW Skyrim modlist">
       <Hero />
       <main>
         <FeatureIcons />

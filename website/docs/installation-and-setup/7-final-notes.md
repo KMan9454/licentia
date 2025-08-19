@@ -1,10 +1,10 @@
 ---
 sidebar_position: 7
-title: "Final Notes"
+title: "Final Notes 📝"
 hide_title: true
 slug: /final-notes
-description: "Licentia NEXT - Final Notes"
-image: ./img/7-final-notes.png
+description: "A list of small advices before starting a playthrough of Licentia NEXT Skyrim modlist"
+image: ./img/7-final-notes-social.png
 ---
 
 # ![Final notes](./img/7-final-notes.png)

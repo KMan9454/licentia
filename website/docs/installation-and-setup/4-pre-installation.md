@@ -1,10 +1,10 @@
 ---
 sidebar_position: 4
-title: "Pre-Installation"
+title: "Pre-Installation 1️⃣"
 hide_title: true
 slug: /pre-installation
-description: "Licentia NEXT - Pre-installation"
-image: ./img/4-pre-installation.png
+description: "Pre-installation instructions for Licentia NEXT Skyrim modlist"
+image: ./img/4-pre-installation-social.png
 ---
 
 # ![Pre-Installation](./img/4-pre-installation.png)

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-title: "Modlist user agreement"
+title: "Modlist user agreement 🤝"
 hide_title: true
 hide_table_of_contents: true
 slug: /modlist-user-agreement
-description: "Licentia NEXT - Modlist user agreement"
-image: ./img/2-modlist-user-agreement.png
+description: "An agreement between Licentia NEXT Skyrim modlist users and authors"
+image: ./img/2-modlist-user-agreement-social.png
 ---
 
 # ![Modlist user agreement](./img/2-modlist-user-agreement.png)

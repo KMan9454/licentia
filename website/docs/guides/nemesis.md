@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: "Nemesis Guide"
+title: "Nemesis Guide 👯‍♀️"
 hide_title: true
 slug: /nemesis-guide
-description: "Licentia NEXT - Nemesis Guide"
-image: ./img/nemesis-guide.png
+description: "How to re-run Nemesis for Licentia NEXT Skyrim modlist"
+image: ./img/nemesis-guide-social.png
 ---
 
 # ![Nemesis Guide](./img/nemesis-guide.png)
@@ -50,7 +50,7 @@ It can be run without it, but it's **highly recommended** to patch it.
     <img 
         src={require('./img/nemesis_guide/1_1_run_LAA.png').default}
         alt="Running LAA"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -58,7 +58,7 @@ It can be run without it, but it's **highly recommended** to patch it.
     <img 
         src={require('./img/nemesis_guide/1_2_LAA_add_file.png').default}
         alt="Adding file to LAA"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
     
@@ -67,7 +67,7 @@ It can be run without it, but it's **highly recommended** to patch it.
     <img 
         src={require('./img/nemesis_guide/1_3_LAA_select_nemesis_exe.png').default}
         alt="Selecting nemesis exe for LAA"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -75,7 +75,7 @@ It can be run without it, but it's **highly recommended** to patch it.
     <img 
         src={require('./img/nemesis_guide/1_4_LAA_add_flag_to_nemesis.png').default}
         alt="Setting LAA flag"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
 
@@ -83,7 +83,7 @@ It can be run without it, but it's **highly recommended** to patch it.
     <img 
         src={require('./img/nemesis_guide/1_5_LAA_flag_added.png').default}
         alt="Checking LAA flag"
-        style={{ width:'auto', height:150 }}
+        style={{ width:'auto', maxHeight:150 }}
         className="zoomable"
     />
 
@@ -102,7 +102,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
 <img 
     src={require('./img/nemesis_guide/2_1_run_nemesis_from_mo2.png').default}
     alt="Opening Nemesis in MO2"
-    style={{ width:'auto', height:150 }}
+    style={{ width:'auto', maxHeight:150 }}
     className="zoomable"
 />
 
@@ -129,7 +129,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/3_1_select_patches.png').default}
         alt="Selecting Nemesis patches"
-        style={{ width:'auto', height:350 }}
+        style={{ width:'auto', maxHeight:350 }}
         className="zoomable"
     />
 
@@ -141,7 +141,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/3_2_update_engine.png').default}
         alt="Updating Nemesis Engine"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
 
@@ -150,7 +150,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/3_2_update_engine_done.png').default}
         alt="Updating Nemesis Engine done"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
 
@@ -167,7 +167,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/4_1_launch_engine.png').default}
         alt="Launching Nemesis Engine"
-        style={{ width:'auto', height:250 }}
+        style={{ width:'auto', maxHeight:250 }}
         className="zoomable"
     />
 
@@ -175,7 +175,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/4_1_engine_running.png').default}
         alt="Nemesis Engine running"
-        style={{ width:'auto', height:220 }}
+        style={{ width:'auto', maxHeight:220 }}
         className="zoomable"
     />
 
@@ -196,7 +196,7 @@ Open your `MO2`, in top right corner of the window, click on the dropdown menu a
     <img 
         src={require('./img/nemesis_guide/4_1_engine_done.png').default}
         alt="Nemesis Engine done"
-        style={{ width:'auto', height:220 }}
+        style={{ width:'auto', maxHeight:220 }}
         className="zoomable"
     />
 
@@ -225,7 +225,7 @@ There are still options to fix this however!
     <img 
         src={require('./img/nemesis_guide/5_1_fnis_in_plugins.png').default}
         alt="Wild FNIS.esp"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 
@@ -235,7 +235,7 @@ There are still options to fix this however!
         <img 
             src={require('./img/nemesis_guide/5_1_fnis_open_origin.png').default}
             alt="FNIS.esp open origin"
-            style={{ width:'auto', height:100 }}
+            style={{ width:'auto', maxHeight:100 }}
             className="zoomable"
         />
 
@@ -243,7 +243,7 @@ There are still options to fix this however!
         <img 
             src={require('./img/nemesis_guide/5_1_fnis_delete.png').default}
             alt="Deleting FNIS.esp"
-            style={{ width:'auto', height:200 }}
+            style={{ width:'auto', maxHeight:200 }}
             className="zoomable"
         />
 

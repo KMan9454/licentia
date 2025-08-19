@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
-title: "System Requirements"
+title: "System Requirements 🖥️"
 hide_title: true
 hide_table_of_contents: true
 slug: /system-requirements
-description: "Licentia NEXT - System Requirements"
-image: ./img/3-system-requirements.png
+description: "A list of system requirements for Licentia NEXT Skyrim modlist"
+image: ./img/3-system-requirements-social.png
 ---
 
 # ![System Requirements](./img/3-system-requirements.png)

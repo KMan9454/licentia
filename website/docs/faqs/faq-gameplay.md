@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: "Gameplay FAQ"
+title: "Gameplay FAQ 🎮"
 hide_title: true
 slug: "/faq-gameplay"
-description: "Licentia NEXT - Gameplay FAQ"
-image: ./img/faq-gameplay.png
+description: "Gameplay FAQ for Licentia NEXT Skyrim modlist"
+image: ./img/faq-gameplay-social.png
 ---
 
 # ![Gameplay FAQ](./img/faq-gameplay.png)

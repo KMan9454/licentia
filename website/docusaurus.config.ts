@@ -55,7 +55,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/licentia-social-card.jpg',
+    image: 'img/licentia-social-card.webp',
     colorMode: {
       // defaultMode: 'dark',
       respectPrefersColorScheme: true,

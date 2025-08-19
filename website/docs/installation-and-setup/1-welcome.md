@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-title: "Welcome"
+title: "Welcome! 👋"
 hide_title: true
 hide_table_of_contents: true
 slug: /welcome
-description: "Licentia NEXT - Welcome"
-image: ./img/1-welcome.png
+description: "An introduction to Licentia NEXT Skyrim modlist"
+image: ./img/1-welcome-social.png
 ---
 
 # ![Welcome](./img/1-welcome.png)

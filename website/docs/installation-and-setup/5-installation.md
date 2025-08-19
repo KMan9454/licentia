@@ -1,10 +1,10 @@
 ---
 sidebar_position: 5
-title: "Installation"
+title: "Installation 2️⃣"
 hide_title: true
 slug: /installation
-description: "Licentia NEXT - Installation"
-image: ./img/5-installation.png
+description: "Installation instructions for Licentia NEXT Skyrim modlist"
+image: ./img/5-installation-social.png
 ---
 
 # ![Installation](./img/5-installation.png)
@@ -35,7 +35,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_1_2_launcher_popup.png').default}
         alt="Launcher popup"
-        style={{ width:'auto', height:120 }}
+        style={{ width:'auto', maxHeight:120 }}
         className="zoomable"
     />
    Click `OK` and then `PLAY` in Skyrim Launcher.
@@ -44,7 +44,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_1_3_ae_content_ingame_popup.png').default}
         alt="AE popup"
-        style={{ width:'auto', height:200 }}
+        style={{ width:'auto', maxHeight:200 }}
         className="zoomable"
     />
 
@@ -94,7 +94,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_3_3_wabbajack_main_ui_gear.png').default}
         alt="WJ gear"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -103,7 +103,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_3_3_wabbajack_nexus_BEFORE_login.png').default}
         alt="WJ before login"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -113,7 +113,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_3_3_wabbajack_nexus_AFTER_login.png').default}
         alt="WJ after login"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -126,7 +126,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_1_wabbajack_main_ui_browse.png').default}
         alt="WJ browse"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -135,7 +135,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_2_wabbajack_filters_and_download.png').default}
         alt="WJ filters and download list"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
  
@@ -144,7 +144,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_3_wabbajack_click_dowload_install.png').default}
         alt="WJ press download install"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
     
@@ -155,7 +155,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_4_wabbajack_initial_blank_installation.png').default}
         alt="WJ blank install"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -168,7 +168,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_5_wabbajack_start_installation.png').default}
         alt="WJ start install"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -186,7 +186,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_5_wabbajack_error_example.png').default}
         alt="WJ start install"
-        style={{ width:'auto', height:300 }}
+        style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
     />
 
@@ -217,7 +217,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
     <img 
         src={require('./img/5-installation/5_4_6_wabbajack_installation_complete.png').default}
         alt="WJ done install"
-        style={{ width:'auto', height:100 }}
+        style={{ width:'auto', maxHeight:100 }}
         className="zoomable"
     />
 

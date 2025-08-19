@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: "Controller Guide"
+title: "Controller Guide 🎮"
 hide_title: true
 slug: /controller-guide
-description: "Licentia NEXT - Controller Guide"
-image: ./img/controller-guide.png
+description: "How to set up a controller for Licentia NEXT Skyrim modlist"
+image: ./img/controller-guide-social.png
 ---
 
 # ![Controller Guide](./img/controller-guide.png)
@@ -38,7 +38,7 @@ These are the general steps to set up a **controller** for **Licentia NEXT**:
 <img 
     src={require('./img/controller_guide/1_enable_controller_mods.png').default}
     alt="List of controller mods"
-    style={{ width:'auto', height:200 }}
+    style={{ width:'auto', maxHeight:200 }}
     className="zoomable"
 />
 
@@ -66,7 +66,7 @@ In standard Skyrim's **settings menu**, enable controller like this:
 <img 
     src={require('./img/controller_guide/2_enable_controller.png').default}
     alt="Controller enabled in settings"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -78,7 +78,7 @@ Verify that **Sneak** is set to `B` *(it should be, but just in case)*. This is 
 <img 
     src={require('./img/controller_guide/3_set_controls.png').default}
     alt="Sneak is set to B"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -90,7 +90,7 @@ Open `Mod Configuration` (MCM) menu, find `CGO`, it's settings should look like 
 <img 
     src={require('./img/controller_guide/4_setup_CGO.png').default}
     alt="CGO settings"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -118,7 +118,7 @@ Anyway, your settings **should look like this**:
 <img 
     src={require('./img/controller_guide/5_setup_The_Ultimate_Dodge_Mod.png').default}
     alt="TUDM settings"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 
@@ -130,7 +130,7 @@ Let's setup `Serio's Cycle Hotkeys` mod:
     <img 
         src={require('./img/controller_guide/6_setup_Serios_Cycle_Hotkeys.png').default}
         alt="SCH settings"
-        style={{ width:'auto', height:200 }}
+        style={{ width:'auto', maxHeight:200 }}
         className="zoomable"
     />
 
@@ -144,7 +144,7 @@ A note about **Target Lock** - that setting is located inside `True Directional 
 <img 
     src={require('./img/controller_guide/7_setup_True_Directional_Movement.png').default}
     alt="TDM settings"
-    style={{ width:'auto', height:300 }}
+    style={{ width:'auto', maxHeight:300 }}
     className="zoomable"
 />
 :::

@@ -1,8 +1,8 @@
 ---
-title: "Changelog"
+title: "Changelog 📑"
 hide_title: true
-description: "Licentia NEXT - Changelog"
-image: /img/changelog.png
+description: "History of Licentia NEXT Skyrim modlist releases"
+image: /img/pages/changelog-social.png
 ---
 
 # ![Changelod](/img/pages/changelog.png)
