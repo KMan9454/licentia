@@ -203,12 +203,14 @@ html[data-theme='light'] .tagline {
   will-change: transform;
 }
 
-.paused {
-  animation-play-state: paused;
+/* Pause when the user is hovering the showcase */
+.marqueeOuter:hover .marqueeTrack {
+  animation-play-state: paused !important;
 }
 
+/* Pause whenever medium-zoom overlay is open */
 :global(body:has(.medium-zoom-overlay)) :local(.marqueeTrack) {
-  animation-play-state: paused;
+  animation-play-state: paused !important;
 }
 
 @keyframes marquee {

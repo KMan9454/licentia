@@ -142,9 +142,6 @@ function Showcase() {
     };
   }, [ensureRepeat]);
 
-  // Pause while hovering the showcase
-  const [paused, setPaused] = React.useState(false);
-
   // Move exactly 1 sequence per animation loop (seamless)
   const marqueeEnd = `-${100 / repeat}%`;
 
@@ -156,18 +153,9 @@ function Showcase() {
         </h2>
       </div>
 
-      <div
-        className={styles.marqueeOuter}
-        onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-      >
+      <div className={styles.marqueeOuter}>
         <div className={styles.scroller} ref={scrollerRef}>
-          {/* IMPORTANT: no onAnimationIteration and no onScroll */}
-          <div
-            ref={trackRef}
-            className={clsx(styles.marqueeTrack, paused && styles.paused)}
-            style={{ ['--marqueeEnd' as any]: marqueeEnd }}
-          >
+          <div ref={trackRef} className={styles.marqueeTrack} style={{ ['--marqueeEnd' as any]: marqueeEnd }}>
             {loop.map((src, i) => (
               <img key={`${src}-${i}`} src={src} alt={`screenshot ${i + 1}`} className="zoomable" />
             ))}
