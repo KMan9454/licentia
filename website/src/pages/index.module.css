@@ -177,80 +177,50 @@ html[data-theme='light'] .tagline {
   padding: 2.25rem 0 3rem;
 }
 
-/* Non-scrolling outer (no arrows now) */
+/* Non-scrolling outer */
 .marqueeOuter {
   position: relative;
   overflow: hidden;
 }
 
-/* Scrollable inner */
+/* Inner now non-scrollable; keep soft edges */
 .scroller {
   position: relative;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
-  /* Keep nice edge fade by default */
+  overflow: hidden;
   mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-
   scrollbar-gutter: stable;
-  /* avoid layout jump */
-  -webkit-overflow-scrolling: touch;
-  touch-action: pan-x;
-  /* mobile: horizontal swipes */
+  /* harmless; can keep or remove */
 }
 
-/* HIDE native scrollbar by default */
-.scroller::-webkit-scrollbar {
-  height: 0;
-}
-
-.scroller {
-  scrollbar-width: none;
-}
-
-/* On hover: SHOW native scrollbar AND remove mask so it’s fully visible & draggable */
-.marqueeOuter:hover .scroller {
-  mask-image: none;
-  -webkit-mask-image: none;
-}
-
-.marqueeOuter:hover .scroller::-webkit-scrollbar {
-  height: 10px;
-}
-
-.marqueeOuter:hover .scroller {
-  scrollbar-width: thin;
-}
-
-/* Style the bar */
-.scroller::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.scroller::-webkit-scrollbar-thumb {
-  background: var(--ifm-color-emphasis-300);
-  border-radius: 999px;
-}
-
-html[data-theme='light'] .scroller::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, .3);
-}
-
-/* Track animation (seamless) */
+/* Track animates continuously; pause on hover or zoom overlay */
 .marqueeTrack {
   display: flex;
   gap: 12px;
   padding: 8px 0;
   width: max-content;
-  animation: marquee 1s linear infinite;
-  /* duration as you like */
+  animation: marquee 80s linear infinite;
   will-change: transform;
-  /* smoother on some GPUs */
 }
 
 .paused {
   animation-play-state: paused;
+}
+
+:global(body:has(.medium-zoom-overlay)) :local(.marqueeTrack) {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(var(--marqueeEnd, -50%));
+  }
+
+  /* distance = one sequence */
 }
 
 /* Images */
@@ -265,19 +235,15 @@ html[data-theme='light'] .scroller::-webkit-scrollbar-thumb {
   -webkit-user-drag: none;
 }
 
-@media (max-width:996px) {
+@media (max-width: 996px) {
   .marqueeTrack img {
     height: 140px;
   }
 }
 
-/* Use CSS var so distance adapts to repeat count */
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(var(--marqueeEnd, -50%));
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none !important;
   }
 }

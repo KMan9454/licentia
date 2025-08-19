@@ -14,25 +14,7 @@ const req = require.context(
 );
 const ALL_SHOTS: string[] = req.keys().map((k: string) => req(k).default as string);
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-/** Make a new order that does NOT start with the previous last item */
-function reshuffleNoImmediateRepeat(all: string[], prev: string[] | null): string[] {
-  if (!prev) return shuffle(all);
-  let next = shuffle(all);
-  if (prev.length && next.length && prev[prev.length - 1] === next[0]) {
-    next.push(next.shift() as string);
-  }
-  return next;
-}
-
+/** Main Hero function */
 function Hero() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -74,7 +56,7 @@ function Hero() {
   );
 }
 
-/** Tiny icon row instead of image columns */
+/** Tiny icon row for Features */
 function FeatureIcons() {
   return (
     <section className={styles.iconsSection}>
@@ -110,71 +92,60 @@ function FeatureIcons() {
 function Showcase() {
   // Shuffle ONCE for this page load
   const SHOTS = React.useMemo(() => {
-    const arr = [...ALL_SHOTS];
-    for (let i = arr.length - 1; i > 0; i--) {
+    const a = [...ALL_SHOTS];
+    for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+      [a[i], a[j]] = [a[j], a[i]];
     }
-    return arr;
+    return a;
   }, []);
 
-  // Repeat count (start with 2 for seamless base case)
+  // Repeat enough times so the track is always wider than the viewport
   const [repeat, setRepeat] = React.useState(2);
-
   const scrollerRef = React.useRef<HTMLDivElement | null>(null);
   const trackRef = React.useRef<HTMLDivElement | null>(null);
 
-  // Build the loop according to repeat
+  // Build the repeated list (no mid-loop reshuffle)
   const loop = React.useMemo(
     () => Array.from({ length: repeat }).flatMap(() => SHOTS),
-    [repeat, SHOTS]
+    [SHOTS, repeat]
   );
 
-  const [paused, setPaused] = React.useState(false);
-
-  // Optional: keep your hover progress var (harmless)
-  const handleScroll = React.useCallback(() => {
-    const el = scrollerRef.current;
-    if (!el) return;
-    const max = el.scrollWidth - el.clientWidth;
-    const ratio = max > 0 ? el.scrollLeft / max : 0;
-    el.style.setProperty('--scrollX', String(ratio));
-  }, []);
-  React.useEffect(() => { handleScroll(); }, [handleScroll]);
-
-  // Measure one-sequence width and viewport width, choose repeat so:
-  //   repeat >= 2  AND  (oneSequenceWidth <= trackWidth / repeat)
-  // Practically: ensure track is >= 2× viewport width
-  const measureAndSetRepeat = React.useCallback(() => {
-    const outer = scrollerRef.current;
+  // Measure widths and ensure the track is at least 2× the viewport
+  const ensureRepeat = React.useCallback(() => {
+    const scroller = scrollerRef.current;
     const track = trackRef.current;
-    if (!outer || !track) return;
+    if (!scroller || !track) return;
 
-    // Current total width with current repeat
-    const total = track.scrollWidth;
-    if (total <= 0) return;
+    const total = track.scrollWidth || 0; // width of current repeats
+    if (!total) return;
+    const one = total / repeat;           // width of one sequence
 
-    const one = total / repeat;               // width of one sequence
-    const need = Math.max(2, Math.ceil((outer.clientWidth * 2) / one));
-
-    if (need !== repeat) setRepeat(need);
+    const needed = Math.max(2, Math.ceil((scroller.clientWidth * 2) / one));
+    if (needed !== repeat) setRepeat(needed);
   }, [repeat]);
 
-  // Recalculate after mount, after images load (via ResizeObserver), and on resize
   React.useEffect(() => {
-    measureAndSetRepeat();
-    const ro = new ResizeObserver(() => measureAndSetRepeat());
+    const id = requestAnimationFrame(ensureRepeat);
+    return () => cancelAnimationFrame(id);
+  }, [ensureRepeat, loop.length]);
+
+  React.useEffect(() => {
+    const ro = new ResizeObserver(() => ensureRepeat());
     if (trackRef.current) ro.observe(trackRef.current);
     if (scrollerRef.current) ro.observe(scrollerRef.current);
-    const onResize = () => measureAndSetRepeat();
+    const onResize = () => ensureRepeat();
     window.addEventListener('resize', onResize);
     return () => {
       ro.disconnect();
       window.removeEventListener('resize', onResize);
     };
-  }, [measureAndSetRepeat]);
+  }, [ensureRepeat]);
 
-  // End distance = one sequence = -100% / repeat
+  // Pause while hovering the showcase
+  const [paused, setPaused] = React.useState(false);
+
+  // Move exactly 1 sequence per animation loop (seamless)
   const marqueeEnd = `-${100 / repeat}%`;
 
   return (
@@ -190,12 +161,8 @@ function Showcase() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-        <div
-          className={styles.scroller}
-          ref={scrollerRef}
-          onScroll={handleScroll}
-        >
-          {/* No onAnimationIteration; content stays identical during the loop */}
+        <div className={styles.scroller} ref={scrollerRef}>
+          {/* IMPORTANT: no onAnimationIteration and no onScroll */}
           <div
             ref={trackRef}
             className={clsx(styles.marqueeTrack, paused && styles.paused)}
