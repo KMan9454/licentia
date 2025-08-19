@@ -102,6 +102,12 @@ const config: Config = {
           label: 'Guides',
         },
         {
+          href: 'https://ko-fi.com/akzar',
+          position: 'right',
+          className: 'header-kofi-link',
+          'aria-label': 'Support me on Ko-fi',
+        },
+        {
           href: 'https://github.com/akzar-dev/licentia',
           position: 'right',
           className: 'header-github-link',

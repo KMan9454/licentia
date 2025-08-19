@@ -208,3 +208,25 @@ h2 {
 .header-github-link:hover::before {
   background-color: var(--ifm-navbar-link-hover-color);
 }
+
+/* =========================
+   KO-FI LINK ICON
+   (for header)
+   ========================= */
+
+.header-kofi-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-image: url("https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a01229bf8a18f97a3c1_favion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.header-kofi-link:hover::before {
+  transform: scale(1.1);
+  /* little zoom effect on hover */
+}
