@@ -48,7 +48,7 @@
    SEMANTIC COLORS (LIGHT)
    ========================= */
 :root {
-  /* Keep your existing primary scale from before */
+  /* Keeps our existing primary scale from before */
 
   /* Success / Info / Warning / Danger */
   --ifm-color-success: #2e7d32;
@@ -87,7 +87,7 @@
   --ifm-color-info-contrast-foreground: #e0e9ff;
 
   --ifm-color-warning: #facb35;
-  /* your gold as warning accent */
+  /* our gold as warning accent */
   --ifm-color-warning-contrast-background: #2e2405;
   --ifm-color-warning-contrast-foreground: #ffe9a3;
 
@@ -158,7 +158,7 @@
 }
 
 /* =========================
-   HEADING IMAGES STYLE
+   H1/H2 HEADING IMAGES STYLE
    (Markdown headings)
    ========================= */
 
@@ -270,4 +270,15 @@ h2 {
   --docsearch-key-gradient: linear-gradient(-26.5deg,
       var(--ifm-color-emphasis-200) 0%,
       var(--ifm-color-emphasis-100) 100%);
+}
+
+/* =========================
+   ZOOM Styling
+   ========================= */
+
+/* Make medium-zoom’s overlay & enlarged image sit above everything */
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 10000 !important;
+  /* higher than navbar/sidebar/backdrop */
 }

@@ -83,7 +83,7 @@ function FeatureIcons() {
             </ul>
           </div>
 
-          {/* Exploration */}
+          {/* Graphics */}
           <div className={styles.iconCard}>
             <span className={styles.iconGlyph} aria-hidden>🖼️</span>
             <div className={styles.iconTitle}>Graphics</div>

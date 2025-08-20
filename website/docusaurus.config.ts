@@ -55,9 +55,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/licentia-social-card.webp',
     colorMode: {
+      // when commented out, follows the user's system color scheme
       // defaultMode: 'dark',
       respectPrefersColorScheme: true,
     },
@@ -67,7 +67,8 @@ const config: Config = {
       },
     },
     navbar: {
-      // style: 'dark', # follows the color mode
+      // when commented out, follows the global color mode
+      // style: 'dark',
       title: '',
       logo: {
         alt: 'Licentia NEXT Logo',
@@ -117,6 +118,7 @@ const config: Config = {
       ],
     },
     footer: {
+      // when commented out, follows the global color mode
       // style: 'dark',
       logo: {
         alt: 'Licentia NEXT Logo',
@@ -137,21 +139,20 @@ const config: Config = {
           href: 'https://loadorderlibrary.com/lists/licentia-next',
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/akzar-dev">akzar</a> and Licentia NEXT team`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/akzar-dev">akzar</a> and Licentia team`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
     zoom: {
-      // selector: '.markdown img',
       selector: 'img.zoomable',
       background: {
         light: 'rgba(255, 255, 255, 0.8)',
         dark: 'rgba(50, 50, 50, 0.7)'
       },
       config: {
-        margin: 80,
+        margin: 12,
       }
     },
     algolia: {
