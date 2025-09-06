@@ -1,39 +1,46 @@
 [
-    {
-        "title": "Licentia NEXT",
-        "description": "All I wanna be is a badass comic book hottie who fucks and cuts heads.",
-        "author": "akzar and Licentia team",
-        "maintainers": [
-            "github/akzar-dev"
-        ],
-        "game": "skyrimspecialedition",
-        "official": false,
-        "tags": [
-            "Power Fantasy",
-            "Vokriinator",
-            "CGO",
-            "Creation Club",
-            "LotD",
-            "OStim"
-        ],
-        "nsfw": true,
-        "image_contains_title": true,
-        "force_down": true,
-        "links": {
-            "image": "https://raw.githubusercontent.com/akzar-dev/licentia/main/images/Licentia_Next_logo_v1_4k_transparent.png",
-            "readme": "https://github.com/akzar-dev/licentia/blob/main/README.md",
-            "download": "https://authored-files.wabbajack.org/Licentia%20NEXT.wabbajack_e08f9c4e-91f8-4f78-8f32-ca0bc09e4968",
-            "machineURL": "licentia_next",
-            "discordURL": "https://discord.gg/hRCYPMpX7J"
-        },
-        "download_metadata": {
-            "Hash": "wOToJE0rB0A=",
-            "Size": 848441346,
-            "NumberOfArchives": 1549,
-            "SizeOfArchives": 187323372454,
-            "NumberOfInstalledFiles": 360986,
-            "SizeOfInstalledFiles": 310010929819
-        },
-        "version": "13.3.2"
-    }
+  {
+    "title": "Licentia NEXT",
+    "description": "Licentia NEXT: Unleash Power, Indulge Desire, Leave Heads Rolling. LotD, OStim, lots of fun and variety!",
+    "author": "akzar and Licentia team",
+    "maintainers": [
+      "github/akzar-dev"
+    ],
+    "game": "skyrimspecialedition",
+    "official": false,
+    "tags": [
+      "Power Fantasy",
+      "Vokriinator",
+      "CGO",
+      "Creation Club",
+      "LotD",
+      "OStim"
+    ],
+    "nsfw": true,
+    "utility_list": false,
+    "image_contains_title": true,
+    "DisplayVersionOnlyInInstallerView": false,
+    "force_down": false,
+    "links": {
+      "image": "https://raw.githubusercontent.com/akzar-dev/licentia/main/images/Licentia_Next_logo_v1_4k_transparent.png",
+      "readme": "https://github.com/akzar-dev/licentia/blob/main/README.md",
+      "download": "https://authored-files.wabbajack.org/Licentia NEXT.wabbajack_e9b6a967-2ab2-4802-a4d5-f4c56936aab4",
+      "machineURL": "licentia_next",
+      "discordURL": "https://discord.gg/vermishub",
+      "websiteURL": ""
+    },
+    "download_metadata": {
+      "Hash": "ZU2QR+jy0bk=",
+      "Size": 669785238,
+      "NumberOfArchives": 1729,
+      "SizeOfArchives": 194007269012,
+      "NumberOfInstalledFiles": 420242,
+      "SizeOfInstalledFiles": 314928223688,
+      "TotalSize": 508935492700
+    },
+    "version": "13.5.3",
+    "dateCreated": "1970-01-01T00:00:00Z",
+    "dateUpdated": "2025-08-10T15:01:31.16521Z",
+    "repositoryName": ""
+  }
 ]

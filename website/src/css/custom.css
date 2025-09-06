@@ -1,0 +1,284 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Licentia theme colors */
+/* ---------- Light theme (site default) ---------- */
+:root {
+  /* Primary scale tuned for contrast on white */
+  --ifm-color-primary: #ce9e05;
+  /* primary (darker gold for legibility) */
+  --ifm-color-primary-dark: #927004;
+  /* step darker */
+  --ifm-color-primary-darker: #745903;
+  /* darker */
+  --ifm-color-primary-darkest: #523f02;
+  /* darkest */
+
+  --ifm-color-primary-light: #f6bd06;
+  /* step lighter */
+  --ifm-color-primary-lighter: #f9c317;
+  /* lighter */
+  --ifm-color-primary-lightest: #facb35;
+  /* lightest (our brand gold) */
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- Dark theme ---------- */
+[data-theme='dark'] {
+  /* Keep our brand gold as the primary; build scale around it */
+  --ifm-color-primary: #facb35;
+  /* primary (brand gold) */
+  --ifm-color-primary-dark: #ecb506;
+  --ifm-color-primary-darker: #ce9e05;
+  --ifm-color-primary-darkest: #ab8304;
+
+  --ifm-color-primary-light: #fbd55d;
+  --ifm-color-primary-lighter: #fbda71;
+  --ifm-color-primary-lightest: #fce28f;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
+}
+
+/* =========================
+   SEMANTIC COLORS (LIGHT)
+   ========================= */
+:root {
+  /* Keeps our existing primary scale from before */
+
+  /* Success / Info / Warning / Danger */
+  --ifm-color-success: #2e7d32;
+  /* deep green */
+  --ifm-color-success-contrast-background: #e6f4ea;
+  /* bg for alerts/badges */
+  --ifm-color-success-contrast-foreground: #1e4620;
+
+  --ifm-color-info: #2962ff;
+  /* cobalt */
+  --ifm-color-info-contrast-background: #e8f0ff;
+  --ifm-color-info-contrast-foreground: #103185;
+
+  --ifm-color-warning: #f29f05;
+  /* warm amber (harmonizes with gold) */
+  --ifm-color-warning-contrast-background: #fff4e0;
+  --ifm-color-warning-contrast-foreground: #7a4b00;
+
+  --ifm-color-danger: #d32f2f;
+  /* red */
+  --ifm-color-danger-contrast-background: #fdeaea;
+  --ifm-color-danger-contrast-foreground: #7a1f1f;
+}
+
+/* =========================
+   SEMANTIC COLORS (DARK)
+   ========================= */
+[data-theme='dark'] {
+  --ifm-color-success: #6bd68a;
+  /* brighter for dark bg */
+  --ifm-color-success-contrast-background: #123321;
+  --ifm-color-success-contrast-foreground: #c6f3d4;
+
+  --ifm-color-info: #7aa8ff;
+  --ifm-color-info-contrast-background: #0f1c3d;
+  --ifm-color-info-contrast-foreground: #e0e9ff;
+
+  --ifm-color-warning: #facb35;
+  /* our gold as warning accent */
+  --ifm-color-warning-contrast-background: #2e2405;
+  --ifm-color-warning-contrast-foreground: #ffe9a3;
+
+  --ifm-color-danger: #ff6b6b;
+  --ifm-color-danger-contrast-background: #2a0f12;
+  --ifm-color-danger-contrast-foreground: #ffd1d1;
+}
+
+/* Optional: make code highlight backgrounds match theme a bit better */
+:root {
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
+}
+
+/* =========================
+   COLLAPSIBLE SECTIONS
+   (Markdown details/summary)
+   ========================= */
+
+/* Container */
+.theme-doc-markdown details {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  margin: 1rem 0;
+  transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+/* Header row */
+.theme-doc-markdown details>summary {
+  /* left padding for our chevron */
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+/* Body */
+.theme-doc-markdown details>*:not(summary) {
+  padding: 0 1rem 1rem 1rem;
+}
+
+/* Hover/active accents */
+.theme-doc-markdown details:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+[data-theme='dark'] .theme-doc-markdown details:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+}
+
+/* Focus ring for a11y */
+.theme-doc-markdown details>summary:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  border-radius: 8px;
+}
+
+/* Nested details spacing */
+.theme-doc-markdown details details {
+  margin: .5rem 0;
+  border-radius: 8px;
+}
+
+/* =========================
+   H1/H2 HEADING IMAGES STYLE
+   (Markdown headings)
+   ========================= */
+
+/* Common rules for image headings */
+h1>img,
+h2>img {
+  display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* Different caps */
+h1>img {
+  max-height: 120px;
+}
+
+h2>img {
+  max-height: 80px;
+}
+
+/* =========================
+   H1/H2 GENERAL HEADING ALIGNMENT
+   ========================= */
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* =========================
+   GITHUB LINK ICON
+   (for header)
+   ========================= */
+
+.header-github-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.header-github-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+/* =========================
+   KO-FI LINK ICON
+   (for header)
+   ========================= */
+
+.header-kofi-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-image: url("https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a01229bf8a18f97a3c1_favion.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.header-kofi-link:hover::before {
+  transform: scale(1.1);
+  /* little zoom effect on hover */
+}
+
+/* =========================
+   DOCSEARCH Styling
+   ========================= */
+[data-theme='light'] .DocSearch {
+  /* --docsearch-primary-color: var(--ifm-color-primary); */
+  /* --docsearch-text-color: var(--ifm-font-color-base); */
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(94, 100, 112, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-color-secondary);
+  --docsearch-searchbox-focus-background: var(--ifm-color-white);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-white);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-color-white);
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(47, 55, 69, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-background-color);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-searchbox-focus-background: var(--ifm-color-black);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-background-surface-color);
+  --docsearch-key-gradient: linear-gradient(-26.5deg,
+      var(--ifm-color-emphasis-200) 0%,
+      var(--ifm-color-emphasis-100) 100%);
+}
+
+/* =========================
+   ZOOM Styling
+   ========================= */
+
+/* Make medium-zoom’s overlay & enlarged image sit above everything */
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 10000 !important;
+  /* higher than navbar/sidebar/backdrop */
+}

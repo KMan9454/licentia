@@ -1,0 +1,321 @@
+/* -------- HERO -------- */
+.hero {
+  position: relative;
+  min-height: 62vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background: center/cover no-repeat;
+  filter: blur(4px);
+  transform: scale(1.03);
+}
+
+/* Dark theme */
+.heroBg {
+  background-image: url('/img/pages/licentia-social-card-bg.webp');
+}
+
+/* Light theme */
+[data-theme='light'] .heroBg {
+  background-image: url('/img/pages/licentia-social-card-bg-light.webp');
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 60% at 50% 40%, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, .55) 100%);
+}
+
+/* Light theme: lighter/whitish veil instead of dark */
+html[data-theme='light'] .heroOverlay {
+  background:
+    radial-gradient(60% 60% at 50% 40%, rgba(255, 255, 255, .35) 0%, rgba(255, 255, 255, .15) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, .05) 100%);
+}
+
+.heroInner {
+  position: relative;
+  text-align: center;
+  padding: 3.25rem 1rem 2.5rem;
+  z-index: 1;
+}
+
+.heroLogo {
+  max-width: min(90%, 560px);
+  height: auto;
+  margin-inline: auto;
+  display: block;
+
+  /* GOLD GLOW */
+  filter:
+    drop-shadow(0 0 18px rgba(250, 203, 53, .55)) drop-shadow(0 0 36px rgba(250, 203, 53, .35)) drop-shadow(0 6px 24px rgba(0, 0, 0, .35));
+}
+
+/* Dark mode: bright + gold glow */
+.tagline {
+  color: #fff;
+  font-size: 1.05rem;
+  margin: .75rem 0 1rem;
+  text-shadow:
+    0 0 10px rgba(250, 203, 53, .55),
+    0 0 24px rgba(250, 203, 53, .35),
+    0 2px 0 rgba(0, 0, 0, .35);
+}
+
+/* Light mode: white text, black outline, gold glow */
+html[data-theme='light'] .tagline {
+  color: #fff;
+  /* WebKit/Chromium stroke */
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, .9);
+  /* Fallback outline via layered shadows */
+  text-shadow:
+    0 0 10px rgba(250, 203, 53, .55),
+    0 0 24px rgba(250, 203, 53, .35),
+    /* faux black outline */
+    0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000,
+    1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+/* badges under the tagline */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem .6rem;
+  margin-bottom: 1.1rem;
+}
+
+.badge {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+}
+
+/* CTA buttons */
+.ctaRow {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta,
+.ctaSolid {
+  min-width: 180px;
+  max-width: 180px;
+}
+
+/* subtle gold glow on hover */
+.cta:hover,
+.ctaSolid:hover {
+  box-shadow:
+    0 0 12px rgba(250, 203, 53, .35),
+    0 0 24px rgba(250, 203, 53, .25);
+  transform: translateY(-1px);
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+/* -------- ICON FEATURES STRIP -------- */
+.iconsSection {
+  padding: 2.25rem 0 1.5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.iconRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.iconCard {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1rem .75rem;
+  text-align: center;
+  text-align: center;
+  /* keep titles/intro centered */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+.iconGlyph {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: .25rem;
+}
+
+.iconTitle {
+  font-weight: 700;
+}
+
+.iconText {
+  opacity: .85;
+  font-size: .95rem;
+}
+
+@media (max-width: 996px) {
+  .iconRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Same list width across all feature cards */
+:root {
+  --feature-list-width: 28rem;
+  /* desktop */
+}
+
+/* left‑aligned list, but as a centered block with fixed width */
+.iconList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem auto 0;
+  width: var(--feature-list-width);
+  max-width: 100%;
+  /* don’t overflow on narrow cards */
+  text-align: left;
+  /* items align left */
+}
+
+.iconList li {
+  position: relative;
+  padding-left: 1.2rem;
+  /* space for custom bullet */
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* golden bullet */
+.iconList li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  color: #facb35;
+  /* our gold */
+  font-size: 0.9rem;
+}
+
+/* Slightly tighten the intro → list gap */
+.iconIntro {
+  margin: 0.35rem 0 0;
+}
+
+/* Responsiveness: shrink the shared width at breakpoints */
+@media (max-width: 1200px) {
+  :root {
+    --feature-list-width: 24rem;
+  }
+}
+
+@media (max-width: 996px) {
+  :root {
+    --feature-list-width: 20rem;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --feature-list-width: 100%;
+  }
+
+  /* full width on small screens */
+}
+
+/* -------- SHOWCASE (Marquee) -------- */
+.showcase {
+  padding: 2.25rem 0 3rem;
+}
+
+/* Non-scrolling outer */
+.marqueeOuter {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Inner now non-scrollable; keep soft edges */
+.scroller {
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  scrollbar-gutter: stable;
+  /* harmless; can keep or remove */
+}
+
+/* Track animates continuously; pause on hover or zoom overlay */
+.marqueeTrack {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  width: max-content;
+  animation: marquee 80s linear infinite;
+  will-change: transform;
+}
+
+/* Pause when the user is hovering the showcase */
+.marqueeOuter:hover .marqueeTrack {
+  animation-play-state: paused !important;
+}
+
+/* Pause whenever medium-zoom overlay is open */
+:global(body:has(.medium-zoom-overlay)) :local(.marqueeTrack) {
+  animation-play-state: paused !important;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(var(--marqueeEnd, -50%));
+  }
+
+  /* distance = one sequence */
+}
+
+/* Images */
+.marqueeTrack img {
+  height: 180px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .25);
+  cursor: zoom-in;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (max-width: 996px) {
+  .marqueeTrack img {
+    height: 140px;
+  }
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none !important;
+  }
+}
+
