@@ -68,7 +68,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
 
 1. **Create a directory for Wabbajack.** Create a directory at the root of one of your Solid State drives (such as `D:\Wabbajack`) where you'd like to install _Wabbajack_ later on.
 
-2. **Create a directories for Licentia NEXT and Licentia Downloads.** Now, do the same for Licentia &mdash; e.g. `D:\Licentia NEXT and D:\Licentia Downloads.`
+2. **Create directories for Licentia NEXT and Licentia Downloads.** Now, do the same for Licentia &mdash; e.g. `D:\Licentia NEXT and D:\Licentia Downloads.`
 
 3. **Make AV exceptions.**
     :::warning
