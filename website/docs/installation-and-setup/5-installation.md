@@ -166,7 +166,7 @@ Assuming you've **completed** the [Pre-installation](/pre-installation) part, le
 5. In this window, select the install directory we created for Licentia **(1)**, select the downloads directory we created  **(2)** _(you can change where downloads would be stored if you want, i.e. on another, slower drive)_, and hit `Install` button **(3)**:
 
     <img 
-        src={require('./img/5-installation/5_4_5_wabbajack_start_installation.png').default}
+        src={require('./img/5-installation/5_4_5a_wabbajack_start_installation.png').default}
         alt="WJ start install"
         style={{ width:'auto', maxHeight:300 }}
         className="zoomable"
